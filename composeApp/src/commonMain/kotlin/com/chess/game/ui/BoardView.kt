@@ -60,21 +60,8 @@ fun BoardView(
     var currentPieceTurn by remember { mutableStateOf<Piece?>(null) }
     var turnColor by remember { mutableStateOf(BoardColors.lightSquare) }
 
-    var isNavigateTrue by remember {mutableStateOf(false)}
-    var isBackNavigate by remember {mutableStateOf(false)}
-    var isNextNavigate by remember {mutableStateOf(false)}
-
     var squareStatusColor by remember { mutableStateOf(BoardColors.lightSquare) }
 
-    /*
-        LaunchedEffect(isBackNavigate){
-            if(currentMoveIndex > 0){
-            }
-        }
-        LaunchedEffect(isNextNavigate){
-
-        }
-        */
 
     Column {
         for (y in 0 until 8) {
@@ -144,8 +131,8 @@ fun BoardView(
                             )
                         }
 
-                        if (currentMoves.isNotEmpty() && !isBackNavigate) {
-                            currentMoves.forEach { (move, isThreat) ->
+                        if (currentMoves.isNotEmpty()) {
+                            currentMoves.forEach { (move, isTreated) ->
                                 if (move.y == y && move.x == x) {
                                     Box(
                                         modifier = Modifier
@@ -171,22 +158,25 @@ fun BoardView(
                                                 board[move.y][move.x] = selectedPiece
 
 
+                                                listOfMoves.add(
+                                                    currentMoveIndex,
+                                                    Move(
+                                                        selectedPiece!!,
+                                                        Position(lastPieceClick.y, lastPieceClick.x),//from
+                                                        Position(move.y, move.x),//to
+                                                        isTreated
+                                                    )
+                                                )
+
                                                 ++currentMoveIndex
                                                 if (selectedPiece!!.p_color == PieceColor.WHITE){
                                                     ++moveCnt
                                                 }
 
-                                                val newMove = "$moves ${getMoveName(selectedPiece!!, chessBoardY, chessBoardX + x, chessBoardX + lastPieceClick.x, isThreat, moveCnt)}"
+                                                val newMove = "$moves ${getMoveName(selectedPiece!!, chessBoardY, chessBoardX + x, chessBoardX + lastPieceClick.x, isTreated, moveCnt)}"
                                                 onMoveChange("$currentMoveIndex")
                                                 //onMoveChange(newMove)
 
-                                                listOfMoves.add(
-                                                    Move(
-                                                        selectedPiece!!,
-                                                        Position(lastPieceClick.y, lastPieceClick.x),//from
-                                                        Position(move.y, move.x)//to
-                                                    )
-                                                )
 
                                                 selectedPiece = null
                                                 currentMoves = emptyList()
@@ -221,13 +211,38 @@ fun BoardView(
             Button(
                 modifier = Modifier.padding(10.dp, 0.dp),
                 onClick = {
-                    --currentMoveIndex
-                    if(currentMoveIndex > 0){
-                        isBackNavigate = true
-                        board[previousPosition.y][previousPosition.x] = selectedPiece
-                        board[currentPosition.y][currentPosition.x] = null
-                    }else if (currentMoveIndex <= 0){
-                        isBackNavigate = false
+                    if(currentMoveIndex >= 1){
+                        --currentMoveIndex
+
+                        var prePiece = listOfMoves[currentMoveIndex].piece
+                        var preFrom = listOfMoves[currentMoveIndex].from
+                        var preTo = listOfMoves[currentMoveIndex].to
+                        val isTreated = listOfMoves[currentMoveIndex].isTreated
+
+                        board[preFrom.y][preFrom.x] =  prePiece
+                        board[preTo.y][preTo.x] = null
+
+                        if(isTreated){
+                           val lastTreatedPieceIndex =  currentMoveIndex - 1
+
+                            prePiece = listOfMoves[lastTreatedPieceIndex].piece
+                            preFrom = listOfMoves[lastTreatedPieceIndex].from
+                            preTo = listOfMoves[lastTreatedPieceIndex].to
+
+                            board[preFrom.y][preFrom.x] = null
+                            board[preTo.y][preTo.x] = prePiece
+                        }
+
+
+                        currentPieceTurn = prePiece
+                        currentMoves = emptyList()
+
+                        turnColor = if (prePiece.p_color == PieceColor.WHITE) {
+                            BoardColors.lightSquare
+                        } else {
+                            Color.Black
+                        }
+
                     }
                 },
 

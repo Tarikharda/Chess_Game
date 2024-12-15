@@ -180,6 +180,7 @@ data class Move(
     val piece: Piece,
     val from: Position,
     val to: Position,
+    var isTreated: Boolean = false
 )
 
 fun getMoveName(piece : Piece , y : Int , x : Char, preX : Char , isThreat : Boolean , cnt : Int) : String{

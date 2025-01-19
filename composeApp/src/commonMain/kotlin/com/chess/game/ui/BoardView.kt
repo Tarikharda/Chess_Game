@@ -16,6 +16,7 @@ import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -62,6 +63,10 @@ fun BoardView(
 
     var squareStatusColor by remember { mutableStateOf(BoardColors.lightSquare) }
 
+    var yState by remember { mutableStateOf(0) }
+    var xState by remember { mutableStateOf(0) }
+
+    var prePiece by remember { mutableStateOf<Piece?>(null) }
 
     Column {
         for (y in 0 until 8) {
@@ -78,15 +83,18 @@ fun BoardView(
                     val chessBoardY = 8 - y
                     val chessBoardX = 'a'
 
-                    val currentPiece = board[y][x]
+                    yState = y
+                    xState = x
+
+                    val currentPiece = board[yState][xState]
                     if (currentPieceTurn == null) currentPieceTurn = Piece("", PieceType.KING, PieceColor.WHITE)
 
-                    if ((selectedPiece != null) && (lastPieceClick.y == y && lastPieceClick.x == x)) {
+                    if ((selectedPiece != null) && (lastPieceClick.y == yState && lastPieceClick.x == xState)) {
                         squareStatusColor = BoardColors.hintMoveColor
-                    } else if (previousPosition.y == y && previousPosition.x == x) {
-                        squareStatusColor = BoardColors.preMoveColor
-                    } else if (currentPosition.y == y && currentPosition.x == x) {
-                        squareStatusColor = BoardColors.preMoveColor
+                    } else if (previousPosition.y == yState && previousPosition.x == xState) {
+                        squareStatusColor = BoardColors.moveTraceColor
+                    } else if (currentPosition.y == yState && currentPosition.x == xState) {
+                        squareStatusColor = BoardColors.moveTraceColor
                     } else {
                         squareStatusColor = color
                     }
@@ -214,30 +222,31 @@ fun BoardView(
                     if(currentMoveIndex >= 1){
                         --currentMoveIndex
 
-                        var prePiece = listOfMoves[currentMoveIndex].piece
-                        var preFrom = listOfMoves[currentMoveIndex].from
-                        var preTo = listOfMoves[currentMoveIndex].to
+                        prePiece = listOfMoves[currentMoveIndex].piece
+                        currentPosition = listOfMoves[currentMoveIndex].from
+                        previousPosition = listOfMoves[currentMoveIndex].to
                         val isTreated = listOfMoves[currentMoveIndex].isTreated
 
-                        board[preFrom.y][preFrom.x] =  prePiece
-                        board[preTo.y][preTo.x] = null
+                        board[currentPosition.y][currentPosition.x] =  prePiece
+                        board[previousPosition.y][previousPosition.x] = null
 
                         if(isTreated){
                            val lastTreatedPieceIndex =  currentMoveIndex - 1
 
                             prePiece = listOfMoves[lastTreatedPieceIndex].piece
-                            preFrom = listOfMoves[lastTreatedPieceIndex].from
-                            preTo = listOfMoves[lastTreatedPieceIndex].to
 
-                            board[preFrom.y][preFrom.x] = null
-                            board[preTo.y][preTo.x] = prePiece
+                            currentPosition = listOfMoves[lastTreatedPieceIndex].from
+                            previousPosition = listOfMoves[lastTreatedPieceIndex].to
+
+                            board[currentPosition.y][currentPosition.x] = null
+                            board[previousPosition.y][previousPosition.x] = prePiece
                         }
 
 
                         currentPieceTurn = prePiece
                         currentMoves = emptyList()
 
-                        turnColor = if (prePiece.p_color == PieceColor.WHITE) {
+                        turnColor = if (prePiece!!.p_color == PieceColor.WHITE) {
                             BoardColors.lightSquare
                         } else {
                             Color.Black

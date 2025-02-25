@@ -67,6 +67,7 @@ fun BoardView(
     var xState by remember { mutableStateOf(0) }
 
     var prePiece by remember { mutableStateOf<Piece?>(null) }
+    var nextPiece by remember { mutableStateOf<Piece?>(null) }
 
     Column {
         for (y in 0 until 8) {
@@ -223,8 +224,10 @@ fun BoardView(
                         --currentMoveIndex
 
                         prePiece = listOfMoves[currentMoveIndex].piece
+
                         currentPosition = listOfMoves[currentMoveIndex].from
                         previousPosition = listOfMoves[currentMoveIndex].to
+
                         val isTreated = listOfMoves[currentMoveIndex].isTreated
 
                         board[currentPosition.y][currentPosition.x] =  prePiece
@@ -266,6 +269,41 @@ fun BoardView(
             Button(
                 modifier = Modifier.padding(10.dp, 0.dp),
                 onClick = {
+                    if(currentMoveIndex < listOfMoves.size){
+                        ++currentMoveIndex
+
+                        nextPiece = listOfMoves[currentMoveIndex].piece
+
+                        currentPosition = listOfMoves[currentMoveIndex].to
+                        previousPosition = listOfMoves[currentMoveIndex].from
+
+                        val isTreated = listOfMoves[currentMoveIndex].isTreated
+
+                        board[currentPosition.y][currentPosition.x] = nextPiece
+                        board[previousPosition.y][previousPosition.x] = null
+
+                       if(isTreated){
+                          val lastTreatedPieceIndex =  currentMoveIndex + 1
+
+                          nextPiece = listOfMoves[lastTreatedPieceIndex].piece
+
+                          previousPosition = listOfMoves[lastTreatedPieceIndex].from
+                          currentPosition = listOfMoves[lastTreatedPieceIndex].to
+
+                          board[currentPosition.y][currentPosition.x] = nextPiece
+                          board[previousPosition.y][previousPosition.x] = null
+                      }
+
+
+                      currentPieceTurn = nextPiece
+                      currentMoves = emptyList()
+
+                      turnColor = if (prePiece!!.p_color == PieceColor.WHITE) {
+                          BoardColors.lightSquare
+                      } else {
+                          Color.Black
+                      }
+                   }
                 },
                 colors = ButtonDefaults.buttonColors(
                     backgroundColor = /*if !(currentMoveIndex < listOfMoves.size - 1) Color.LightGray else */Color.Gray,

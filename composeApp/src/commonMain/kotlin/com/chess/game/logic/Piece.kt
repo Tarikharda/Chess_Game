@@ -85,8 +85,20 @@ data class Position(val y: Int, val x: Int)
 fun p_movement(current_p: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
     var listOfPositions: ArrayList<Pair<Position , Boolean>> = ArrayList()
     val pChar = current_p.p_id.toCharArray()
-    if (pChar[1] == 'P') {
-        listOfPositions = pawnMove(current_p, currentPosition, board)
+
+    listOfPositions =
+        when (pChar[1]) {
+        'P' -> pawnMove(current_p, currentPosition, board)
+        'K'-> kingMove(current_p, currentPosition, board)
+//        'Q'-> queenMove(current_p, currentPosition, board)
+//        'R'-> rookMove(current_p, currentPosition, board)
+//        'N'-> knightMove(current_p, currentPosition, board)
+//        'B'-> bishopMove(current_p, currentPosition, board)
+        null -> throw IllegalStateException("The Piece Type not valid")
+
+        else -> {
+            return ArrayList()
+        }
     }
     return listOfPositions
 }
@@ -95,7 +107,10 @@ private fun pawnMove(pawn: Piece, currentPosition: Position, board: MutableList<
     var listOfPositions: ArrayList<Pair<Position , Boolean>> = ArrayList()
     val b_defaultPosition = currentPosition.y == 1
     val w_defaultPosition = currentPosition.y == 6
+
     if (pawn.p_color is PieceColor.WHITE) {
+
+        //White
         if(currentPosition.y >= 1){
             if (board[currentPosition.y - 1][currentPosition.x] == null) {
                 listOfPositions.add(Pair(Position(currentPosition.y - 1, currentPosition.x) , false))
@@ -107,6 +122,7 @@ private fun pawnMove(pawn: Piece, currentPosition: Position, board: MutableList<
         }
 
     } else {
+        //Black
         if(currentPosition.y <= 6 ){
             if (board[currentPosition.y + 1][currentPosition.x] == null) {
                 listOfPositions.add(Pair(Position(currentPosition.y + 1, currentPosition.x) , false))
@@ -160,20 +176,99 @@ private fun pawnThreats(piece: Piece, currentPosition: Position, board: MutableL
     return listOfPositions
 }
 
-private fun kingMove(pawn: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
+private fun kingMove(king: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
 
-    var listOfPositions: ArrayList<Pair<Position , Boolean>> = ArrayList()
+    var listOfPositions: ArrayList<Pair<Position, Boolean>> = ArrayList()
+
     val b_defaultPosition = currentPosition.y == 0
     val w_defaultPosition = currentPosition.y == 7
-    if (pawn.p_color is PieceColor.WHITE) {
-        if(currentPosition.y >= 0){
 
+    var listOfMovesCases: ArrayList<Position> = ArrayList()
+
+    if (king.p_color is PieceColor.BLACK) {
+
+        listOfMovesCases.add(Position(currentPosition.y, currentPosition.x + 1))
+        listOfMovesCases.add(Position(currentPosition.y, currentPosition.x - 1))
+        listOfMovesCases.add(Position(currentPosition.y + 1, currentPosition.x))
+        listOfMovesCases.add( Position( currentPosition.y + 1, currentPosition.x + 1))
+        listOfMovesCases.add( Position( currentPosition.y + 1, currentPosition.x - 1))
+
+        if (!b_defaultPosition) {
+            listOfMovesCases.add(Position(currentPosition.y - 1, currentPosition.x))
+            listOfMovesCases.add(Position(currentPosition.y - 1, currentPosition.x + 1))
+            listOfMovesCases.add(Position(currentPosition.y - 1, currentPosition.x - 1))
         }
 
     } else {
+
+        listOfMovesCases.add(Position(currentPosition.y, currentPosition.x + 1))
+        listOfMovesCases.add(Position(currentPosition.y, currentPosition.x - 1))
+        listOfMovesCases.add(Position(currentPosition.y - 1, currentPosition.x))
+        listOfMovesCases.add( Position( currentPosition.y - 1, currentPosition.x + 1))
+        listOfMovesCases.add( Position( currentPosition.y - 1, currentPosition.x - 1))
+
+        if (!w_defaultPosition) {
+            listOfMovesCases.add(Position(currentPosition.y + 1, currentPosition.x))
+            listOfMovesCases.add(Position(currentPosition.y + 1, currentPosition.x + 1))
+            listOfMovesCases.add(Position(currentPosition.y + 1, currentPosition.x - 1))
+        }
+
     }
+
+
+    var list: ArrayList<Piece?> = ArrayList()
+
+    for (position in listOfMovesCases) {
+        list.add(board[position.y][position.x])
+    }
+
+
+    for (i in 0 until list.size) {
+        if (list[i] == null) {
+            listOfPositions.add(Pair(listOfMovesCases[i], false))
+        }else if (list[i] != null && king.p_color != list[i]!!.p_color){
+            listOfPositions.add(Pair(listOfMovesCases[i], true))
+        }
+    }
+
+
     return listOfPositions
 }
+
+
+private fun kingthreads(){
+
+}
+//
+//private fun knightMove(pawn: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
+//
+//}
+//private fun knightThreads(){
+//
+//}
+//
+//private fun rookMove(pawn: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
+//
+//}
+//
+//private fun rookThreads(){
+//
+//}
+//
+//private fun queenMove(pawn: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
+//
+//}
+//private fun queenThreads(){
+//
+//}
+//
+//private fun bishopMove(pawn: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
+//
+//}
+//
+//private fun bishopThreads(){
+//
+//}
 
 
 data class Move(

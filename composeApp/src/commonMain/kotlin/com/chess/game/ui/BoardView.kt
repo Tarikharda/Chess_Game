@@ -319,8 +319,13 @@ fun BoardView(
 @Composable
 fun MovesView(move: String) {
     Text(
-        move,
-        modifier = Modifier
-            .padding(10.dp)
+        sayHelloToUser("Tarik")
+//        move,
+//        modifier = Modifier
+//            .padding(10.dp)
     )
 }
+
+expect fun calculateChessMoves(position: String): String
+
+expect fun sayHelloToUser(name: String): String

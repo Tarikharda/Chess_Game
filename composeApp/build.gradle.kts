@@ -72,6 +72,15 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+
+    sourceSets["main"].jniLibs.srcDirs("${project.rootDir}/composeApp/src/nativeMain/kotlin/jni")
+    externalNativeBuild {
+        cmake {
+//            path = file("${project.rootDir}/androidMain/cpp/CMakeLists.txt")
+            path = file("src/androidMain/cpp/CMakeLists.txt")
+
+        }
+    }
 }
 
 dependencies {

@@ -1,21 +1,16 @@
 package com.chess.game.ui
 
-
-actual fun calculateChessMoves(position: String): String {
-    return JniChessHelper.calculateMoves(position)
-}
-
 actual fun sayHelloToUser(name: String): String {
-    return JniChessHelper.sayHelloToUser(name)
+    return JniChessHelper.sayHelloToUser(name);
+
 }
 
-// JNI Wrapper
+
+//JNI Wrapper
 private object JniChessHelper {
     init {
-        System.loadLibrary("chess-engine")
+        System.loadLibrary("chessGame")
     }
-
-    external fun calculateMoves(position: String):String
-
-    external fun sayHelloToUser(name: String):String
+    // this who have reference in cpp code so i can using jni helper for it
+    external fun sayHelloToUser(name : String):String
 }

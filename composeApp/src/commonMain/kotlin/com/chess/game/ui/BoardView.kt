@@ -326,6 +326,5 @@ fun MovesView(move: String) {
     )
 }
 
-expect fun calculateChessMoves(position: String): String
-
+//like an abstract function that have source no (Android/Native/IOS) Model (it called actual function)
 expect fun sayHelloToUser(name: String): String

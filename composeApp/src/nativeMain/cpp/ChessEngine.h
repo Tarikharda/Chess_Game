@@ -4,6 +4,6 @@
 #include <string>
 #include <vector>
 
-std::vector<std::string> calculateMoves(const std::string& position);
+std::string sayHelloToUser(const std::string& name);
 
 #endif // CHESSENGINE_H);

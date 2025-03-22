@@ -1,0 +1,27 @@
+syntax = "proto2";
+
+package test;
+
+option java_package = "protocBufGenerated";
+option java_outer_classname = "PieceOuter";
+option java_multiple_files = true;
+
+
+
+message Piece {
+  required string p_id = 1;
+  enum p_type {
+    PAWN = 0;
+    KNIGHT = 1;
+    ROOK = 2;
+    BISHOP = 3;
+    KING = 4;
+    QUEEN = 5;
+  }
+
+  enum  p_color {
+    WHITE = 0;
+    BLACK = 1;
+  }
+}
+

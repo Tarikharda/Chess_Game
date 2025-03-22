@@ -7,6 +7,22 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    id("com.google.protobuf") version "0.9.4"
+}
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.21.12"
+    }
+    generateProtoTasks {
+        all().configureEach {
+            plugins {
+                create("kotlin") {
+                    option("lite")
+                }
+            }
+        }
+    }
 }
 
 kotlin {

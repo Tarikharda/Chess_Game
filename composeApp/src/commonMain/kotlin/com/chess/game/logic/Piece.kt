@@ -41,11 +41,19 @@ sealed class PieceType(val value: Int) {
     object ROOK : PieceType(5)
     object QUEEN : PieceType(9)
     object KING : PieceType(0)
+
+    override fun toString(): String {
+        return this::class.simpleName ?:"Unknown"
+    }
 }
 
 sealed class PieceColor {
     object WHITE : PieceColor()
     object BLACK : PieceColor()
+
+    override fun toString(): String {
+        return this::class.simpleName ?: "Unknown"
+    }
 }
 
 private fun p_fromId(p_id: String): Pair<PieceType, PieceColor> {
@@ -291,4 +299,9 @@ fun getMoveName(piece : Piece , y : Int , x : Char, preX : Char , isThreat : Boo
         null -> throw IllegalStateException("The Piece Type not valid")
     }
 }
+
+//cpp functions
+expect fun cpp_pawnMove(pawn: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>>
+
+expect fun convertPieceModelToNative(piece: Piece):String
 

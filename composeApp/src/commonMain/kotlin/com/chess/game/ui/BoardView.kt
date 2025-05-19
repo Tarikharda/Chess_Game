@@ -24,10 +24,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import co.touchlab.kermit.Logger
 import com.chess.game.logic.Move
+import com.chess.game.logic.Move1
 import com.chess.game.logic.Piece
 import com.chess.game.logic.PieceColor
 import com.chess.game.logic.PieceType
@@ -52,10 +56,10 @@ fun BoardView(
     var previousPosition by remember { mutableStateOf(Position(-1, -1)) }
     var currentPosition by remember { mutableStateOf(Position(-1, -1)) }
 
-    var currentMoves by remember { mutableStateOf<List<Pair<Position, Boolean>>>(emptyList()) }
+    var currentMoves by remember { mutableStateOf<List<Move1>>(emptyList()) }
     var moveCnt by remember { mutableStateOf(0) }
     var currentMoveIndex by remember { mutableStateOf(0) }
-    var listOfMoves by remember { mutableStateOf<ArrayList<Move>>(arrayListOf()) }
+    var listOfMoves by remember { mutableStateOf<ArrayList<Move1>>(arrayListOf()) }
 
 
     var currentPieceTurn by remember { mutableStateOf<Piece?>(null) }
@@ -75,9 +79,9 @@ fun BoardView(
                 for (x in 0 until 8) {
                     val blackColor = y % 2 == x % 2
                     var color = if (blackColor) {
-                        BoardColors.darkSquare
+                        BoardColors.brownDarkSquare
                     } else {
-                        BoardColors.lightSquare
+                        BoardColors.brownLightSquare
                     }
 
                     //numbers
@@ -87,10 +91,12 @@ fun BoardView(
                     yState = y
                     xState = x
 
+
                     val currentPiece = board[yState][xState]
                     if (currentPieceTurn == null) currentPieceTurn = Piece("", PieceType.KING, PieceColor.WHITE)
 
-                    if ((selectedPiece != null) && (lastPieceClick.y == yState && lastPieceClick.x == xState)) {
+                    if ((selectedPiece != null) &&
+                            (lastPieceClick.y == yState && lastPieceClick.x == xState)) {
                         squareStatusColor = BoardColors.hintMoveColor
                     } else if (previousPosition.y == yState && previousPosition.x == xState) {
                         squareStatusColor = BoardColors.moveTraceColor
@@ -110,7 +116,7 @@ fun BoardView(
                         if (x == 0) Text(
                             "$chessBoardY",
                             modifier = Modifier.padding(3.dp),
-                            color = Color.Black,
+                            color = Color.White,
                             fontSize = 10.sp
                         )
                         if (y == 7) Text(
@@ -118,7 +124,7 @@ fun BoardView(
                             modifier = Modifier
                                 .align(Alignment.BottomEnd)
                                 .padding(3.dp),
-                            color = Color.Black,
+                            color = Color.White,
                             fontSize = 10.sp
                         )
 
@@ -130,67 +136,75 @@ fun BoardView(
                                     .size(40.dp)
                                     .align(Alignment.Center)
                                     .clickable {
+
                                         lastPieceClick = Position(y, x)
                                         currentMoves = emptyList()
                                         selectedPiece = piece
                                         if (currentPieceTurn!!.p_color == piece.p_color) {
-                                            currentMoves = p_movement(piece, Position(y, x), board)
+                                            if(listOfMoves.isEmpty()){
+                                                currentMoves = p_movement(piece, Position(y, x), board , null)
+                                            }else{
+                                                currentMoves = p_movement(piece, Position(y, x), board , listOfMoves[currentMoveIndex - 1])
+                                            }
                                         }
                                     }
                             )
                         }
 
                         if (currentMoves.isNotEmpty()) {
-                            currentMoves.forEach { (move, isTreated) ->
-                                if (move.y == y && move.x == x) {
-                                    Box(
-                                        modifier = Modifier
-                                            .size(20.dp)
-                                            .clip(CircleShape)
-                                            .background(BoardColors.hintMoveColor)
-                                            .align(Alignment.Center)
-                                            .clickable {
+                            currentMoves.forEach { move ->
+                                if(move.to.y == y && move.to.x == x){
 
-                                                previousPosition = Position( lastPieceClick.y , lastPieceClick.x)
-                                                currentPosition = Position(move.y, move.x)
+                                Box(
+                                    modifier = Modifier
+                                        .size(20.dp)
+                                        .clip(CircleShape)
+                                        .background(BoardColors.hintMoveColor)
+                                        .align(Alignment.Center)
+                                        .clickable {
 
-                                                if (currentPieceTurn!!.p_color == PieceColor.WHITE) {
-                                                    currentPieceTurn = Piece("", PieceType.KING, PieceColor.BLACK)
-                                                    turnColor = Color.Black
-                                                } else {
-                                                    currentPieceTurn = Piece("", PieceType.KING, PieceColor.WHITE)
-                                                    turnColor = BoardColors.lightSquare
-                                                }
+                                            Logger.i("Move: "+move)
 
+                                            Logger.i("currentMoveSize : " +currentMoves.size)
 
-                                                board[lastPieceClick.y][lastPieceClick.x] = null
-                                                board[move.y][move.x] = selectedPiece
+                                            previousPosition = Position( lastPieceClick.y , lastPieceClick.x)
+                                            currentPosition = Position(move.to.y, move.to.x)
 
-
-                                                listOfMoves.add(
-                                                    currentMoveIndex,
-                                                    Move(
-                                                        selectedPiece!!,
-                                                        Position(lastPieceClick.y, lastPieceClick.x),//from
-                                                        Position(move.y, move.x),//to
-                                                        isTreated
-                                                    )
-                                                )
-
-                                                ++currentMoveIndex
-                                                if (selectedPiece!!.p_color == PieceColor.WHITE){
-                                                    ++moveCnt
-                                                }
-
-                                                val newMove = "$moves ${getMoveName(selectedPiece!!, chessBoardY, chessBoardX + x, chessBoardX + lastPieceClick.x, isTreated, moveCnt)}"
-                                                onMoveChange("$currentMoveIndex")
-                                                //onMoveChange(newMove)
-
-
-                                                selectedPiece = null
-                                                currentMoves = emptyList()
+                                            if (currentPieceTurn!!.p_color == PieceColor.WHITE) {
+                                                currentPieceTurn = Piece("", PieceType.KING, PieceColor.BLACK)
+                                                turnColor = Color.Black
+                                            } else {
+                                                currentPieceTurn = Piece("", PieceType.KING, PieceColor.WHITE)
+                                                turnColor = BoardColors.lightSquare
                                             }
-                                    )
+
+
+                                            board[lastPieceClick.y][lastPieceClick.x] = null
+                                            if(move.captureSquare != null){
+                                                board[move.captureSquare.y][move.captureSquare.x] = null
+                                            }
+                                            board[move.to.y][move.to.x] = selectedPiece
+
+
+                                            listOfMoves.add(
+                                                currentMoveIndex,
+                                                Move1( selectedPiece!!, Position(lastPieceClick.y, lastPieceClick.x), Position(move.to.y, move.to.x), move.isCapture , move.captureSquare )
+                                            )
+
+                                            ++currentMoveIndex
+                                            if (selectedPiece!!.p_color == PieceColor.WHITE){
+                                                ++moveCnt
+                                            }
+
+                                            val newMove = "$moves ${getMoveName(selectedPiece!!, chessBoardY, chessBoardX + x, chessBoardX + lastPieceClick.x, move.isCapture, moveCnt)}"
+                                            onMoveChange("$currentMoveIndex")
+                                            //onMoveChange(newMove)
+
+
+                                            selectedPiece = null
+                                            currentMoves = emptyList()
+                                        }
+                                )
                                 }
                             }
                         }
@@ -228,7 +242,7 @@ fun BoardView(
                         currentPosition = listOfMoves[currentMoveIndex].from
                         previousPosition = listOfMoves[currentMoveIndex].to
 
-                        val isTreated = listOfMoves[currentMoveIndex].isTreated
+                        val isTreated = listOfMoves[currentMoveIndex].isCapture
 
                         board[currentPosition.y][currentPosition.x] =  prePiece
                         board[previousPosition.y][previousPosition.x] = null
@@ -277,7 +291,7 @@ fun BoardView(
                         currentPosition = listOfMoves[currentMoveIndex].to
                         previousPosition = listOfMoves[currentMoveIndex].from
 
-                        val isTreated = listOfMoves[currentMoveIndex].isTreated
+                        val isTreated = listOfMoves[currentMoveIndex].isCapture
 
                         board[currentPosition.y][currentPosition.x] = nextPiece
                         board[previousPosition.y][previousPosition.x] = null

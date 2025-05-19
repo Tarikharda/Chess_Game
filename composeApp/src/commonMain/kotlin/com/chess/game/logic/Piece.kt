@@ -2,6 +2,7 @@ package com.chess.game.logic
 
 import chessgame.composeapp.generated.resources.*
 import org.jetbrains.compose.resources.DrawableResource
+import kotlin.math.abs
 
 data class Piece(
     var p_id: String,
@@ -21,12 +22,12 @@ data class Piece(
 
         fun p_image(p_type: PieceType?, p_color: PieceColor): DrawableResource {
             return when (p_type) {
-                PieceType.PAWN -> if (p_color is PieceColor.WHITE) Res.drawable.w_pawn else Res.drawable.b_pawn
-                PieceType.KNIGHT -> if (p_color is PieceColor.WHITE) Res.drawable.w_knight else Res.drawable.b_knight
-                PieceType.BISHOP -> if (p_color is PieceColor.WHITE) Res.drawable.w_bishop else Res.drawable.b_bishop
-                PieceType.ROOK -> if (p_color is PieceColor.WHITE) Res.drawable.w_rook else Res.drawable.b_rook
-                PieceType.QUEEN -> if (p_color is PieceColor.WHITE) Res.drawable.w_queen else Res.drawable.b_queen
-                PieceType.KING -> if (p_color is PieceColor.WHITE) Res.drawable.w_king else Res.drawable.b_king
+                PieceType.PAWN -> if (p_color is PieceColor.WHITE) Res.drawable.w_pawn_1x else Res.drawable.b_pawn_1x
+                PieceType.KNIGHT -> if (p_color is PieceColor.WHITE) Res.drawable.w_knight_1x else Res.drawable.b_knight_1x
+                PieceType.BISHOP -> if (p_color is PieceColor.WHITE) Res.drawable.w_bishop_1x else Res.drawable.b_bishop_1x
+                PieceType.ROOK -> if (p_color is PieceColor.WHITE) Res.drawable.w_rook_1x else Res.drawable.b_rook_1x
+                PieceType.QUEEN -> if (p_color is PieceColor.WHITE) Res.drawable.w_queen_1x else Res.drawable.b_queen_1x
+                PieceType.KING -> if (p_color is PieceColor.WHITE) Res.drawable.w_king_1x else Res.drawable.b_king_1x
                 null -> throw IllegalStateException("The Piece Type not valid")
             }
         }
@@ -82,14 +83,14 @@ var WHITE_INITIAL_POSITION = mutableListOf(
 
 data class Position(val y: Int, val x: Int)
 
-fun p_movement(current_p: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
-    var listOfPositions: ArrayList<Pair<Position , Boolean>> = ArrayList()
+fun p_movement(current_p: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>> , lastMove : Move1?): List<Move1> {
+    var listOfPositions: List<Move1> = ArrayList()
     val pChar = current_p.p_id.toCharArray()
 
     listOfPositions =
         when (pChar[1]) {
-        'P' -> pawnMove(current_p, currentPosition, board)
-        'K'-> kingMove(current_p, currentPosition, board)
+        'P' -> pawnMove(current_p, currentPosition, board , lastMove)
+//        'K'-> kingMove(current_p, currentPosition, board)
 //        'Q'-> queenMove(current_p, currentPosition, board)
 //        'R'-> rookMove(current_p, currentPosition, board)
 //        'N'-> knightMove(current_p, currentPosition, board)
@@ -103,9 +104,104 @@ fun p_movement(current_p: Piece, currentPosition: Position, board: MutableList<M
     return listOfPositions
 }
 
-private fun pawnMove(pawn: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
-    var listOfPositions: ArrayList<Pair<Position , Boolean>> = ArrayList()
-    return listOfPositions
+private fun pawnMove( pawn: Piece, currentP: Position, board: List<List<Piece?>>, lastMove: Move1?): List<Move1> {
+
+    val moves = mutableListOf<Move1>()
+
+
+    val direction  = if(pawn.p_color == PieceColor.WHITE) -1 else +1
+    val startRaw = if (pawn.p_color == PieceColor.WHITE) 6 else 1
+
+    moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x) , false))
+
+    if(board[currentP.y + direction][currentP.x] ==  null){
+        if(currentP.y == startRaw && board[currentP.y + (direction*2)][currentP.x] ==  null){
+            moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x) , false))
+            moves.add(Move1(pawn , currentP ,Position(currentP.y+(direction*2) , currentP.x) , false))
+        }else{
+            moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x) , false))
+        }
+    }
+    
+    if(currentP.x in 1..6){
+        val rightB = board[currentP.y+direction][currentP.x + 1]
+        val leftB = board[currentP.y+direction][currentP.x - 1]
+
+        if(rightB != null && rightB.p_color != pawn.p_color){
+            moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x + 1) , true))
+        }
+        if(leftB != null && leftB.p_color != pawn.p_color){
+            moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x - 1) , true))
+        }
+
+        if(lastMove != null){
+            if(lastMove.to.y == currentP.y  && lastMove.to.x == currentP.x+1){
+                if(lastMove.piece.p_color == PieceColor.BLACK){
+                    if(lastMove.to.y - lastMove.from.y == 2) {
+                        moves.add(Move1(pawn , currentP ,Position(currentP.y-1,currentP.x+1) , true ,Position(lastMove.to.y , lastMove.to.x)))
+                    }
+                }
+            }
+        }
+
+
+    }else if(currentP.x == 0){
+        val rightB = board[currentP.y+direction][currentP.x + 1]
+        if(rightB != null && rightB.p_color != pawn.p_color) {
+            moves.add(Move1(pawn , currentP ,Position(currentP.y + direction, currentP.x + 1), true))
+        }
+    }else if (currentP.x == 7){
+        val leftB = board[currentP.y+direction][currentP.x - 1]
+        if( leftB != null && leftB.p_color != pawn.p_color){
+            moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x - 1) , true))
+        }
+    }
+
+
+
+    return moves
+}
+
+private fun pawnMove2(pawn: Piece, currentP: Position, board: List<List<Piece?>>, lastMove: Move1?): List<Move1> {
+    val moves = mutableListOf<Move1>()
+    val dir = if (pawn.p_color == PieceColor.WHITE) -1 else +1
+    val start = if (pawn.p_color == PieceColor.WHITE) 6 else 1
+
+    // single & double push
+    if (board[currentP.y + dir][currentP.x] == null) {
+        moves += Move1(pawn, currentP, Position(currentP.y + dir, currentP.x), isCapture = false)
+        if (currentP.y == start
+            && board[currentP.y + dir*2][currentP.x] == null) {
+            moves += Move1(pawn, currentP, Position(currentP.y + dir*2, currentP.x), isCapture = false)
+        }
+    }
+
+    // captures & en-passant
+    for (dx in listOf(-1, +1)) {
+        val y1 = currentP.y + dir
+        val x1 = currentP.x + dx
+
+        if (x1 in 0..7) {
+            val targetPiece = board[y1][x1]
+            // normal capture
+            if (targetPiece != null && targetPiece.p_color != pawn.p_color) {
+                moves += Move1(pawn, currentP, Position(y1, x1), isCapture = true, captureSquare = Position(y1, x1))
+            }
+            // en passant
+            else if (lastMove != null
+                && lastMove.piece.p_type == PieceType.PAWN
+                && lastMove.piece.p_color != pawn.p_color
+                && lastMove.from.y == (if (pawn.p_color == PieceColor.WHITE) 1 else 6)
+                && lastMove.to.y == currentP.y
+                && lastMove.to.x == x1
+                && abs(lastMove.from.y - lastMove.to.y) == 2) {
+                moves += Move1(pawn, currentP, Position(y1, x1), isCapture = true, captureSquare = Position(currentP.y, x1))
+            }
+        }
+        
+    }
+
+    return moves
 }
 
 private fun kingMove(king: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
@@ -120,6 +216,13 @@ data class Move(
     val from: Position,
     val to: Position,
     var isTreated: Boolean = false
+)
+data class Move1(
+    val piece : Piece,
+    val from: Position,
+    val to: Position,
+    val isCapture: Boolean,
+    val captureSquare: Position? = null
 )
 
 fun getMoveName(piece : Piece , y : Int , x : Char, preX : Char , isThreat : Boolean , cnt : Int) : String{

@@ -112,9 +112,7 @@ private fun pawnMove( pawn: Piece, currentP: Position, board: List<List<Piece?>>
     val direction  = if(pawn.p_color == PieceColor.WHITE) -1 else +1
     val startRaw = if (pawn.p_color == PieceColor.WHITE) 6 else 1
 
-    moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x) , false))
-
-    if(board[currentP.y + direction][currentP.x] ==  null){
+    if(board[currentP.y + direction][currentP.x] == null){
         if(currentP.y == startRaw && board[currentP.y + (direction*2)][currentP.x] ==  null){
             moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x) , false))
             moves.add(Move1(pawn , currentP ,Position(currentP.y+(direction*2) , currentP.x) , false))
@@ -122,7 +120,9 @@ private fun pawnMove( pawn: Piece, currentP: Position, board: List<List<Piece?>>
             moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x) , false))
         }
     }
-    
+    //TODO :
+    //  - should fix back button when list is empty
+
     if(currentP.x in 1..6){
         val rightB = board[currentP.y+direction][currentP.x + 1]
         val leftB = board[currentP.y+direction][currentP.x - 1]
@@ -134,12 +134,13 @@ private fun pawnMove( pawn: Piece, currentP: Position, board: List<List<Piece?>>
             moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x - 1) , true))
         }
 
+        //TODO : here where should handle en passent move
         if(lastMove != null){
-            if(lastMove.to.y == currentP.y  && lastMove.to.x == currentP.x+1){
-                if(lastMove.piece.p_color == PieceColor.BLACK){
-                    if(lastMove.to.y - lastMove.from.y == 2) {
-                        moves.add(Move1(pawn , currentP ,Position(currentP.y-1,currentP.x+1) , true ,Position(lastMove.to.y , lastMove.to.x)))
-                    }
+            if(lastMove.to.y == currentP.y  && lastMove.piece.p_color != pawn.p_color){
+                if (lastMove.to.x == currentP.x+1){
+                   moves.add(Move1(pawn , currentP ,Position(currentP.y+direction,currentP.x+1) , true , Position(lastMove.to.y , lastMove.to.x)))
+                }else if (lastMove.to.x == currentP.x-1){
+                   moves.add(Move1(pawn , currentP ,Position(currentP.y+direction,currentP.x-1) , true , Position(lastMove.to.y , lastMove.to.x)))
                 }
             }
         }

@@ -71,7 +71,7 @@ fun BoardView(
     var xState by remember { mutableStateOf(0) }
 
     var prePiece by remember { mutableStateOf<Piece?>(null) }
-    var nextPiece by remember { mutableStateOf<Piece?>(null) }
+    //var nextPiece by remember { mutableStateOf<Piece?>(null) }
 
     Column {
         for (y in 0 until 8) {
@@ -158,7 +158,6 @@ fun BoardView(
                         if (currentMoves.isNotEmpty()) {
                             currentMoves.forEach { move ->
                                 if(move.to.y == y && move.to.x == x){
-                                    //TODO : should check why this condition should be while i have on move just one item each time
                                     Box(
                                         modifier = Modifier
                                             .size(20.dp)
@@ -167,9 +166,8 @@ fun BoardView(
                                             .align(Alignment.Center)
                                             .clickable {
 
-                                                Logger.i("Move: "+move)
-
-                                                Logger.i("currentMoveSize : " +currentMoves.size)
+                                                //Logger.i("Move: "+move)
+                                                //Logger.i("currentMoveSize : " +currentMoves.size)
 
                                                 previousPosition = Position( lastPieceClick.y , lastPieceClick.x)
                                                 currentPosition = Position(move.to.y, move.to.x)
@@ -201,8 +199,10 @@ fun BoardView(
                                                 }
 
                                                 val newMove = "$moves ${getMoveName(selectedPiece!!, chessBoardY, chessBoardX + x, chessBoardX + lastPieceClick.x, move.isCapture, moveCnt)}"
-                                                onMoveChange("$currentMoveIndex")
-                                                //onMoveChange(newMove)
+                                                Logger.i("CurrentMoveIndex : " + currentMoveIndex)
+
+                                                //onMoveChange("CurrentMoveIndex : $currentMoveIndex")
+                                                onMoveChange(newMove)
 
 
                                                 selectedPiece = null
@@ -241,6 +241,8 @@ fun BoardView(
                     if(currentMoveIndex >= 1){
                         --currentMoveIndex
 
+                        Logger.i("Back Trace : currentMoveIndex "  + currentMoveIndex)
+
                         prePiece = listOfMoves[currentMoveIndex].piece
 
                         currentPosition = listOfMoves[currentMoveIndex].from
@@ -252,20 +254,19 @@ fun BoardView(
                         board[previousPosition.y][previousPosition.x] = null
 
                         if(isTreated){
-                           val lastTreatedPieceIndex =  currentMoveIndex - 1
+                            val lastTreatedPieceIndex =  currentMoveIndex - 1
 
-                            prePiece = listOfMoves[lastTreatedPieceIndex].piece
+                            val caputredPiece = listOfMoves[lastTreatedPieceIndex].piece
 
                             currentPosition = listOfMoves[lastTreatedPieceIndex].from
                             previousPosition = listOfMoves[lastTreatedPieceIndex].to
 
                             board[currentPosition.y][currentPosition.x] = null
-                            board[previousPosition.y][previousPosition.x] = prePiece
+                            board[previousPosition.y][previousPosition.x] = caputredPiece
                         }
 
 
                         currentPieceTurn = prePiece
-                        currentMoves = emptyList()
 
                         turnColor = if (prePiece!!.p_color == PieceColor.WHITE) {
                             BoardColors.lightSquare
@@ -273,6 +274,7 @@ fun BoardView(
                             Color.Black
                         }
 
+                        currentMoves = emptyList()
                     }
                 },
 
@@ -288,9 +290,8 @@ fun BoardView(
                 modifier = Modifier.padding(10.dp, 0.dp),
                 onClick = {
                     if(currentMoveIndex < listOfMoves.size){
-                        ++currentMoveIndex
 
-                        nextPiece = listOfMoves[currentMoveIndex].piece
+                        var nextPiece = listOfMoves[currentMoveIndex].piece
 
                         currentPosition = listOfMoves[currentMoveIndex].to
                         previousPosition = listOfMoves[currentMoveIndex].from
@@ -303,24 +304,27 @@ fun BoardView(
                        if(isTreated){
                           val lastTreatedPieceIndex =  currentMoveIndex + 1
 
-                          nextPiece = listOfMoves[lastTreatedPieceIndex].piece
+                          val capturedNextPiece = listOfMoves[lastTreatedPieceIndex].piece
 
                           previousPosition = listOfMoves[lastTreatedPieceIndex].from
                           currentPosition = listOfMoves[lastTreatedPieceIndex].to
 
-                          board[currentPosition.y][currentPosition.x] = nextPiece
                           board[previousPosition.y][previousPosition.x] = null
+                          board[currentPosition.y][currentPosition.x] = capturedNextPiece
                       }
 
 
                       currentPieceTurn = nextPiece
                       currentMoves = emptyList()
 
-                      turnColor = if (prePiece!!.p_color == PieceColor.WHITE) {
+                      turnColor = if (nextPiece!!.p_color == PieceColor.WHITE) {
                           BoardColors.lightSquare
                       } else {
                           Color.Black
                       }
+                      ++currentMoveIndex
+
+                      Logger.i("Next Trace : currentMoveIndex "  + currentMoveIndex)
                    }
                 },
                 colors = ButtonDefaults.buttonColors(

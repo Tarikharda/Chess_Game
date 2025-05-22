@@ -120,8 +120,6 @@ private fun pawnMove( pawn: Piece, currentP: Position, board: List<List<Piece?>>
             moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x) , false))
         }
     }
-    //TODO :
-    //  - should fix back button when list is empty
 
     if(currentP.x in 1..6){
         val rightB = board[currentP.y+direction][currentP.x + 1]
@@ -134,13 +132,15 @@ private fun pawnMove( pawn: Piece, currentP: Position, board: List<List<Piece?>>
             moves.add(Move1(pawn , currentP ,Position(currentP.y+direction , currentP.x - 1) , true))
         }
 
-        //TODO : here where should handle en passent move
         if(lastMove != null){
-            if(lastMove.to.y == currentP.y  && lastMove.piece.p_color != pawn.p_color){
-                if (lastMove.to.x == currentP.x+1){
-                   moves.add(Move1(pawn , currentP ,Position(currentP.y+direction,currentP.x+1) , true , Position(lastMove.to.y , lastMove.to.x)))
-                }else if (lastMove.to.x == currentP.x-1){
-                   moves.add(Move1(pawn , currentP ,Position(currentP.y+direction,currentP.x-1) , true , Position(lastMove.to.y , lastMove.to.x)))
+            val lastPieceColor = lastMove.piece.p_color
+            if((lastPieceColor == PieceColor.WHITE && lastMove.to.y == 4) || (lastPieceColor == PieceColor.BLACK && lastMove.to.y == 3)){
+                if(lastMove.to.y == currentP.y  && lastMove.piece.p_color != pawn.p_color){
+                    if (lastMove.to.x == currentP.x+1){
+                        moves.add(Move1(pawn , currentP ,Position(currentP.y+direction,currentP.x+1) , true , Position(lastMove.to.y , lastMove.to.x)))
+                    }else if (lastMove.to.x == currentP.x-1){
+                        moves.add(Move1(pawn , currentP ,Position(currentP.y+direction,currentP.x-1) , true , Position(lastMove.to.y , lastMove.to.x)))
+                    }
                 }
             }
         }
@@ -163,47 +163,6 @@ private fun pawnMove( pawn: Piece, currentP: Position, board: List<List<Piece?>>
     return moves
 }
 
-private fun pawnMove2(pawn: Piece, currentP: Position, board: List<List<Piece?>>, lastMove: Move1?): List<Move1> {
-    val moves = mutableListOf<Move1>()
-    val dir = if (pawn.p_color == PieceColor.WHITE) -1 else +1
-    val start = if (pawn.p_color == PieceColor.WHITE) 6 else 1
-
-    // single & double push
-    if (board[currentP.y + dir][currentP.x] == null) {
-        moves += Move1(pawn, currentP, Position(currentP.y + dir, currentP.x), isCapture = false)
-        if (currentP.y == start
-            && board[currentP.y + dir*2][currentP.x] == null) {
-            moves += Move1(pawn, currentP, Position(currentP.y + dir*2, currentP.x), isCapture = false)
-        }
-    }
-
-    // captures & en-passant
-    for (dx in listOf(-1, +1)) {
-        val y1 = currentP.y + dir
-        val x1 = currentP.x + dx
-
-        if (x1 in 0..7) {
-            val targetPiece = board[y1][x1]
-            // normal capture
-            if (targetPiece != null && targetPiece.p_color != pawn.p_color) {
-                moves += Move1(pawn, currentP, Position(y1, x1), isCapture = true, captureSquare = Position(y1, x1))
-            }
-            // en passant
-            else if (lastMove != null
-                && lastMove.piece.p_type == PieceType.PAWN
-                && lastMove.piece.p_color != pawn.p_color
-                && lastMove.from.y == (if (pawn.p_color == PieceColor.WHITE) 1 else 6)
-                && lastMove.to.y == currentP.y
-                && lastMove.to.x == x1
-                && abs(lastMove.from.y - lastMove.to.y) == 2) {
-                moves += Move1(pawn, currentP, Position(y1, x1), isCapture = true, captureSquare = Position(currentP.y, x1))
-            }
-        }
-        
-    }
-
-    return moves
-}
 
 private fun kingMove(king: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
 
@@ -218,12 +177,13 @@ data class Move(
     val to: Position,
     var isTreated: Boolean = false
 )
+
 data class Move1(
     val piece : Piece,
     val from: Position,
     val to: Position,
     val isCapture: Boolean,
-    val captureSquare: Position? = null
+    val captureSquare: Position? = null // en passen
 )
 
 fun getMoveName(piece : Piece , y : Int , x : Char, preX : Char , isThreat : Boolean , cnt : Int) : String{

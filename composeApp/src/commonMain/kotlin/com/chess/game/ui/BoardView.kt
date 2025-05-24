@@ -30,6 +30,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import chessgame.composeapp.generated.resources.Res
+import chessgame.composeapp.generated.resources.reset
 import co.touchlab.kermit.Logger
 import com.chess.game.logic.Move
 import com.chess.game.logic.Move1
@@ -42,7 +44,6 @@ import com.chess.game.logic.getMoveName
 import com.chess.game.logic.p_movement
 import com.chess.game.values.BoardColors
 import org.jetbrains.compose.resources.painterResource
-
 
 @Composable
 fun BoardView(
@@ -241,10 +242,11 @@ fun BoardView(
 
         Row(
             modifier = Modifier
-                .fillMaxWidth()
-                .align(Alignment.Center),
-            horizontalArrangement = Arrangement.Center
+                .fillMaxWidth(),
+             horizontalArrangement = Arrangement.Center
         ) {
+
+
             Button(
                 modifier = Modifier.padding(10.dp, 0.dp),
                 onClick = {
@@ -274,6 +276,7 @@ fun BoardView(
 
                             board[currentPosition.y][currentPosition.x] = null
                             board[previousPosition.y][previousPosition.x] = caputredPiece
+
                         }
 
 
@@ -339,7 +342,53 @@ fun BoardView(
                 Text("Next")
             }
         }
+
+        Image(
+            painterResource(Res.drawable.reset),
+            contentDescription = "",
+            modifier = Modifier
+                .size(39.dp)
+                .clickable {
+
+                    var resetedBoard = mutableListOf(
+                        mutableListOf("BR0", "BN2", "BB3", "BQ4", "BK5", "BB6", "BN7", "BR8").map { Piece.p_typeFromId(it) }.toMutableList(),
+                        mutableListOf("BP0", "BP2", "BP3", "BP4", "BP5", "BP6", "BP7", "BP8").map { Piece.p_typeFromId(it) }.toMutableList(),
+                        mutableListOf(null, null, null, null, null, null, null, null).map { Piece.p_typeFromId(it) }.toMutableList(),
+                        mutableListOf(null, null, null, null, null, null, null, null).map { Piece.p_typeFromId(it) }.toMutableList(),
+                        mutableListOf(null, null, null, null, null, null, null, null).map { Piece.p_typeFromId(it) }.toMutableList(),
+                        mutableListOf(null, null, null, null, null, null, null, null).map { Piece.p_typeFromId(it) }.toMutableList(),
+                        mutableListOf("WP0", "WP2", "WP3", "WP4", "WP5", "WP6", "WP7", "WP8").map { Piece.p_typeFromId(it) }.toMutableList(),
+                        mutableListOf("WR0", "WN2", "WB3", "WQ4", "WK5", "WB6", "WN7", "WR8").map { Piece.p_typeFromId(it) }.toMutableList()
+                    )
+                    board = resetedBoard
+
+                    selectedPiece = null
+                    lastPieceClick  = Position(-1, -1)
+                    previousPosition = Position(-1, -1)
+                    currentPosition = Position(-1, -1)
+
+                    currentMoves = emptyList()
+                    moveCnt = 0
+
+                    currentMoveIndex  = 0
+                    currentBackNextIndex = 0
+
+                    listOfMoves = arrayListOf()
+
+
+                    turnColor =  BoardColors.lightSquare
+                    pieceTurnColor = PieceColor.WHITE
+
+                    squareStatusColor = BoardColors.lightSquare
+
+                    yState = 0
+                    xState = 0
+
+                    onMoveChange("")
+                }
+        )
     }
+
 }
 
 @Composable

@@ -1,0 +1,21246 @@
+cscope 15 $HOME/Documents/itsme/Chess_Game -q 0000000781 0000128994
+	@.gradle/8.9/dependencies-accessors/b175657e6cd800fb5a121bd3de2b220dacd9f278/sources/org/gradle/accessors/dm/LibrariesForLibs.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gg¿dË
+.
+	gacûssÜs
+.
+	gdm
+;
+
+3 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gNÚNuÎApi
+;
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gMšim®Ex‹º®ModuËD•’d’cy
+;
+
+5 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g¶ugš
+.
+	gu£
+.
+	gPlugšD•’d’cy
+;
+
+6 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gEx‹º®ModuËD•’d’cyBundË
+;
+
+7 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gMubËV”siÚCÚ¡¿št
+;
+
+8 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g´ovid”
+.
+	gProvid”
+;
+
+9 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gmod–
+.
+	gObjeùFaùÜy
+;
+
+10 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g´ovid”
+.
+	gProvid”FaùÜy
+;
+
+11 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gAb¡¿ùEx‹º®D•’d’cyFaùÜy
+;
+
+12 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gDeçuÉV”siÚC©®og
+;
+
+13 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gM­
+;
+
+14 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g©Œibu‹s
+.
+	gImmubËA‰ribu‹sFaùÜy
+;
+
+15 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gd¦
+.
+	gC­ab™yNÙ©iÚP¬£r
+;
+
+16 
+impÜt
+ 
+	gjavax
+.
+	gšjeù
+.
+	gInjeù
+;
+
+21 @
+NÚNuÎApi
+
+
+22 
+public
+ cÏs 
+	cLib¿r›sFÜLibs
+ 
+ex‹nds
+ 
+	mAb¡¿ùEx‹º®D•’d’cyFaùÜy
+ {
+
+24 
+´iv©e
+ 
+fš®
+ 
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+	mowÃr
+ = 
+this
+;
+
+25 
+´iv©e
+ 
+fš®
+ 
+AndroidxLib¿ryAcûssÜs
+ 
+	mÏccFÜAndroidxLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxLib¿ryAcûssÜs(
+owÃr
+);
+
+26 
+´iv©e
+ 
+fš®
+ 
+KÙlšLib¿ryAcûssÜs
+ 
+	mÏccFÜKÙlšLib¿ryAcûssÜs
+ = 
+Ãw
+ KÙlšLib¿ryAcûssÜs(
+owÃr
+);
+
+27 
+´iv©e
+ 
+fš®
+ 
+V”siÚAcûssÜs
+ 
+	mvaccFÜV”siÚAcûssÜs
+ = 
+Ãw
+ V”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+28 
+´iv©e
+ 
+fš®
+ 
+BundËAcûssÜs
+ 
+	mbaccFÜBundËAcûssÜs
+ = 
+Ãw
+ BundËAcûssÜs(
+objeùs
+, 
+´ovid”s
+, 
+cÚfig
+, 
+©Œibu‹sFaùÜy
+, 
+ÿ·b™yNÙ©iÚP¬£r
+);
+
+29 
+´iv©e
+ 
+fš®
+ 
+PlugšAcûssÜs
+ 
+	m·ccFÜPlugšAcûssÜs
+ = 
+Ãw
+ PlugšAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+31 @
+Injeù
+
+
+32 
+public
+ 
+	$Lib¿r›sFÜLibs
+(
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+, 
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+ObjeùFaùÜy
+ 
+objeùs
+, 
+ImmubËA‰ribu‹sFaùÜy
+ 
+©Œibu‹sFaùÜy
+, 
+C­ab™yNÙ©iÚP¬£r
+ 
+ÿ·b™yNÙ©iÚP¬£r
+) {
+
+33 
+	`su³r
+(
+cÚfig
+, 
+´ovid”s
+, 
+objeùs
+, 
+©Œibu‹sFaùÜy
+, 
+ÿ·b™yNÙ©iÚP¬£r
+);
+
+42 
+public
+ 
+Provid”
+<
+Mšim®Ex‹º®ModuËD•’d’cy
+> 
+	$g‘Jun™
+() {
+
+43  
+	`ü—‹
+("junit");
+
+44 
+	}
+}
+
+49 
+public
+ 
+AndroidxLib¿ryAcûssÜs
+ 
+	$g‘Androidx
+() {
+
+50  
+ÏccFÜAndroidxLib¿ryAcûssÜs
+;
+
+51 
+	}
+}
+
+56 
+public
+ 
+KÙlšLib¿ryAcûssÜs
+ 
+	$g‘KÙlš
+() {
+
+57  
+ÏccFÜKÙlšLib¿ryAcûssÜs
+;
+
+58 
+	}
+}
+
+63 
+public
+ 
+V”siÚAcûssÜs
+ 
+	$g‘V”siÚs
+() {
+
+64  
+vaccFÜV”siÚAcûssÜs
+;
+
+65 
+	}
+}
+
+70 
+public
+ 
+BundËAcûssÜs
+ 
+	$g‘BundËs
+() {
+
+71  
+baccFÜBundËAcûssÜs
+;
+
+72 
+	}
+}
+
+77 
+public
+ 
+PlugšAcûssÜs
+ 
+	$g‘Plugšs
+() {
+
+78  
+·ccFÜPlugšAcûssÜs
+;
+
+79 
+	}
+}
+
+81 
+public
+ şas 
+	cAndroidxLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+82 
+´iv©e
+ 
+fš®
+ 
+AndroidxAùiv™yLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxAùiv™yLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxAùiv™yLib¿ryAcûssÜs(
+owÃr
+);
+
+83 
+´iv©e
+ 
+fš®
+ 
+AndroidxCÜeLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxCÜeLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxCÜeLib¿ryAcûssÜs(
+owÃr
+);
+
+84 
+´iv©e
+ 
+fš®
+ 
+AndroidxE¥»ssoLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxE¥»ssoLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxE¥»ssoLib¿ryAcûssÜs(
+owÃr
+);
+
+85 
+´iv©e
+ 
+fš®
+ 
+AndroidxLiãcyşeLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxLiãcyşeLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxLiãcyşeLib¿ryAcûssÜs(
+owÃr
+);
+
+86 
+´iv©e
+ 
+fš®
+ 
+AndroidxTe¡Lib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxTe¡Lib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxTe¡Lib¿ryAcûssÜs(
+owÃr
+);
+
+88 
+public
+ 
+AndroidxLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+96 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Aµcom·t
+() {
+
+97  
+ü—‹
+("androidx.appcompat");
+
+106 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘CÚ¡¿šayout
+() {
+
+107  
+ü—‹
+("androidx.constraintlayout");
+
+116 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘M©”Ÿl
+() {
+
+117  
+ü—‹
+("androidx.material");
+
+123 
+public
+ 
+AndroidxAùiv™yLib¿ryAcûssÜs
+ 
+g‘Aùiv™y
+() {
+
+124  
+	gÏccFÜAndroidxAùiv™yLib¿ryAcûssÜs
+;
+
+130 
+public
+ 
+AndroidxCÜeLib¿ryAcûssÜs
+ 
+g‘CÜe
+() {
+
+131  
+	gÏccFÜAndroidxCÜeLib¿ryAcûssÜs
+;
+
+137 
+public
+ 
+AndroidxE¥»ssoLib¿ryAcûssÜs
+ 
+g‘E¥»sso
+() {
+
+138  
+	gÏccFÜAndroidxE¥»ssoLib¿ryAcûssÜs
+;
+
+144 
+public
+ 
+AndroidxLiãcyşeLib¿ryAcûssÜs
+ 
+g‘Liãcyşe
+() {
+
+145  
+	gÏccFÜAndroidxLiãcyşeLib¿ryAcûssÜs
+;
+
+151 
+public
+ 
+AndroidxTe¡Lib¿ryAcûssÜs
+ 
+g‘Te¡
+() {
+
+152  
+	gÏccFÜAndroidxTe¡Lib¿ryAcûssÜs
+;
+
+157 
+public
+ şas 
+	cAndroidxAùiv™yLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+159 
+public
+ 
+AndroidxAùiv™yLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+167 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Compo£
+() {
+
+168  
+ü—‹
+("androidx.activity.compose");
+
+173 
+public
+ şas 
+	cAndroidxCÜeLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+175 
+public
+ 
+AndroidxCÜeLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+183 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Ktx
+() {
+
+184  
+ü—‹
+("androidx.core.ktx");
+
+189 
+public
+ şas 
+	cAndroidxE¥»ssoLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+191 
+public
+ 
+AndroidxE¥»ssoLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+199 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘CÜe
+() {
+
+200  
+ü—‹
+("androidx.espresso.core");
+
+205 
+public
+ şas 
+	cAndroidxLiãcyşeLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+206 
+´iv©e
+ 
+fš®
+ 
+AndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs(
+owÃr
+);
+
+208 
+public
+ 
+AndroidxLiãcyşeLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+216 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘V›wmod–
+() {
+
+217  
+ü—‹
+("androidx.lifecycle.viewmodel");
+
+223 
+public
+ 
+AndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+ 
+g‘RuÁime
+() {
+
+224  
+	gÏccFÜAndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+;
+
+229 
+public
+ şas 
+	cAndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+231 
+public
+ 
+AndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+239 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Compo£
+() {
+
+240  
+ü—‹
+("androidx.lifecycle.runtime.compose");
+
+245 
+public
+ şas 
+	cAndroidxTe¡Lib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+247 
+public
+ 
+AndroidxTe¡Lib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+255 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Jun™
+() {
+
+256  
+ü—‹
+("androidx.test.junit");
+
+261 
+public
+ şas 
+	cKÙlšLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+262 
+´iv©e
+ 
+fš®
+ 
+KÙlšTe¡Lib¿ryAcûssÜs
+ 
+	gÏccFÜKÙlšTe¡Lib¿ryAcûssÜs
+ = 
+Ãw
+ KÙlšTe¡Lib¿ryAcûssÜs(
+owÃr
+);
+
+264 
+public
+ 
+KÙlšLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+269 
+public
+ 
+KÙlšTe¡Lib¿ryAcûssÜs
+ 
+g‘Te¡
+() {
+
+270  
+	gÏccFÜKÙlšTe¡Lib¿ryAcûssÜs
+;
+
+275 
+public
+ şas 
+	cKÙlšTe¡Lib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+SubD•’d’cyFaùÜy
+ 
+im¶em’ts
+ 
+	gD•’d’cyNÙ©iÚSuµl›r
+ {
+
+277 
+public
+ 
+KÙlšTe¡Lib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+285 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+asProvid”
+() {
+
+286  
+ü—‹
+("kotlin.test");
+
+295 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Jun™
+() {
+
+296  
+ü—‹
+("kotlin.test.junit");
+
+301 
+public
+ şas 
+	cV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+303 
+´iv©e
+ 
+fš®
+ 
+AndroidV”siÚAcûssÜs
+ 
+	gvaccFÜAndroidV”siÚAcûssÜs
+ = 
+Ãw
+ AndroidV”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+304 
+´iv©e
+ 
+fš®
+ 
+AndroidxV”siÚAcûssÜs
+ 
+	gvaccFÜAndroidxV”siÚAcûssÜs
+ = 
+Ãw
+ AndroidxV”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+305 
+´iv©e
+ 
+fš®
+ 
+Compo£V”siÚAcûssÜs
+ 
+	gvaccFÜCompo£V”siÚAcûssÜs
+ = 
+Ãw
+ Compo£V”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+306 
+public
+ 
+V”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+316 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Agp
+(è{  
+g‘V”siÚ
+("agp"); }
+
+326 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Jun™
+(è{  
+g‘V”siÚ
+("junit"); }
+
+336 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘KÙlš
+(è{  
+g‘V”siÚ
+("kotlin"); }
+
+341 
+public
+ 
+AndroidV”siÚAcûssÜs
+ 
+g‘Android
+() {
+
+342  
+	gvaccFÜAndroidV”siÚAcûssÜs
+;
+
+348 
+public
+ 
+AndroidxV”siÚAcûssÜs
+ 
+g‘Androidx
+() {
+
+349  
+	gvaccFÜAndroidxV”siÚAcûssÜs
+;
+
+355 
+public
+ 
+Compo£V”siÚAcûssÜs
+ 
+g‘Compo£
+() {
+
+356  
+	gvaccFÜCompo£V”siÚAcûssÜs
+;
+
+361 
+public
+ şas 
+	cAndroidV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+363 
+public
+ 
+AndroidV”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+373 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘CompeSdk
+(è{  
+g‘V”siÚ
+("android.compileSdk"); }
+
+383 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘MšSdk
+(è{  
+g‘V”siÚ
+("android.minSdk"); }
+
+393 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘T¬g‘Sdk
+(è{  
+g‘V”siÚ
+("android.targetSdk"); }
+
+397 
+public
+ şas 
+	cAndroidxV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+399 
+´iv©e
+ 
+fš®
+ 
+AndroidxCÜeV”siÚAcûssÜs
+ 
+	gvaccFÜAndroidxCÜeV”siÚAcûssÜs
+ = 
+Ãw
+ AndroidxCÜeV”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+400 
+´iv©e
+ 
+fš®
+ 
+AndroidxE¥»ssoV”siÚAcûssÜs
+ 
+	gvaccFÜAndroidxE¥»ssoV”siÚAcûssÜs
+ = 
+Ãw
+ AndroidxE¥»ssoV”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+401 
+´iv©e
+ 
+fš®
+ 
+AndroidxTe¡V”siÚAcûssÜs
+ 
+	gvaccFÜAndroidxTe¡V”siÚAcûssÜs
+ = 
+Ãw
+ AndroidxTe¡V”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+402 
+public
+ 
+AndroidxV”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+412 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Aùiv™yCompo£
+(è{  
+g‘V”siÚ
+("androidx.activityCompose"); }
+
+422 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Aµcom·t
+(è{  
+g‘V”siÚ
+("androidx.appcompat"); }
+
+432 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘CÚ¡¿šayout
+(è{  
+g‘V”siÚ
+("androidx.constraintlayout"); }
+
+442 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Liãcyşe
+(è{  
+g‘V”siÚ
+("androidx.lifecycle"); }
+
+452 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘M©”Ÿl
+(è{  
+g‘V”siÚ
+("androidx.material"); }
+
+457 
+public
+ 
+AndroidxCÜeV”siÚAcûssÜs
+ 
+g‘CÜe
+() {
+
+458  
+	gvaccFÜAndroidxCÜeV”siÚAcûssÜs
+;
+
+464 
+public
+ 
+AndroidxE¥»ssoV”siÚAcûssÜs
+ 
+g‘E¥»sso
+() {
+
+465  
+	gvaccFÜAndroidxE¥»ssoV”siÚAcûssÜs
+;
+
+471 
+public
+ 
+AndroidxTe¡V”siÚAcûssÜs
+ 
+g‘Te¡
+() {
+
+472  
+	gvaccFÜAndroidxTe¡V”siÚAcûssÜs
+;
+
+477 
+public
+ şas 
+	cAndroidxCÜeV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+479 
+public
+ 
+AndroidxCÜeV”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+489 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Ktx
+(è{  
+g‘V”siÚ
+("androidx.core.ktx"); }
+
+493 
+public
+ şas 
+	cAndroidxE¥»ssoV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+495 
+public
+ 
+AndroidxE¥»ssoV”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+505 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘CÜe
+(è{  
+g‘V”siÚ
+("androidx.espresso.core"); }
+
+509 
+public
+ şas 
+	cAndroidxTe¡V”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+511 
+public
+ 
+AndroidxTe¡V”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+521 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Jun™
+(è{  
+g‘V”siÚ
+("androidx.test.junit"); }
+
+525 
+public
+ şas 
+	cCompo£V”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+527 
+public
+ 
+Compo£V”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+537 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘MuÉÏtfÜm
+(è{  
+g‘V”siÚ
+("compose.multiplatform"); }
+
+541 
+public
+ şas 
+	cBundËAcûssÜs
+ 
+ex‹nds
+ 
+	gBundËFaùÜy
+ {
+
+543 
+public
+ 
+BundËAcûssÜs
+(
+ObjeùFaùÜy
+ 
+objeùs
+, 
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+, 
+ImmubËA‰ribu‹sFaùÜy
+ 
+©Œibu‹sFaùÜy
+, 
+C­ab™yNÙ©iÚP¬£r
+ 
+ÿ·b™yNÙ©iÚP¬£r
+è{ 
+su³r
+(objects,…roviders, config,‡ttributesFactory, capabilityNotationParser); }
+
+547 
+public
+ şas 
+	cPlugšAcûssÜs
+ 
+ex‹nds
+ 
+	gPlugšFaùÜy
+ {
+
+549 
+public
+ 
+PlugšAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+557 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘AndroidAµliÿtiÚ
+(è{  
+ü—‹Plugš
+("androidApplication"); }
+
+565 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘AndroidLib¿ry
+(è{  
+ü—‹Plugš
+("androidLibrary"); }
+
+573 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘Compo£Comp”
+(è{  
+ü—‹Plugš
+("composeCompiler"); }
+
+581 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘Compo£MuÉÏtfÜm
+(è{  
+ü—‹Plugš
+("composeMultiplatform"); }
+
+589 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘KÙlšMuÉÏtfÜm
+(è{  
+ü—‹Plugš
+("kotlinMultiplatform"); }
+
+	@.gradle/8.9/dependencies-accessors/b175657e6cd800fb5a121bd3de2b220dacd9f278/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gg¿dË
+.
+	gacûssÜs
+.
+	gdm
+;
+
+3 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gNÚNuÎApi
+;
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gMšim®Ex‹º®ModuËD•’d’cy
+;
+
+5 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g¶ugš
+.
+	gu£
+.
+	gPlugšD•’d’cy
+;
+
+6 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gEx‹º®ModuËD•’d’cyBundË
+;
+
+7 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gMubËV”siÚCÚ¡¿št
+;
+
+8 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g´ovid”
+.
+	gProvid”
+;
+
+9 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gmod–
+.
+	gObjeùFaùÜy
+;
+
+10 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g´ovid”
+.
+	gProvid”FaùÜy
+;
+
+11 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gAb¡¿ùEx‹º®D•’d’cyFaùÜy
+;
+
+12 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gDeçuÉV”siÚC©®og
+;
+
+13 
+impÜt
+ 
+	gjava
+.
+	gut
+.
+	gM­
+;
+
+14 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g©Œibu‹s
+.
+	gImmubËA‰ribu‹sFaùÜy
+;
+
+15 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gd¦
+.
+	gC­ab™yNÙ©iÚP¬£r
+;
+
+16 
+impÜt
+ 
+	gjavax
+.
+	gšjeù
+.
+	gInjeù
+;
+
+21 @
+NÚNuÎApi
+
+
+22 
+public
+ cÏs 
+	cLib¿r›sFÜLibsInPlugšsBlock
+ 
+ex‹nds
+ 
+	mAb¡¿ùEx‹º®D•’d’cyFaùÜy
+ {
+
+24 
+´iv©e
+ 
+fš®
+ 
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+	mowÃr
+ = 
+this
+;
+
+25 
+´iv©e
+ 
+fš®
+ 
+AndroidxLib¿ryAcûssÜs
+ 
+	mÏccFÜAndroidxLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxLib¿ryAcûssÜs(
+owÃr
+);
+
+26 
+´iv©e
+ 
+fš®
+ 
+KÙlšLib¿ryAcûssÜs
+ 
+	mÏccFÜKÙlšLib¿ryAcûssÜs
+ = 
+Ãw
+ KÙlšLib¿ryAcûssÜs(
+owÃr
+);
+
+27 
+´iv©e
+ 
+fš®
+ 
+V”siÚAcûssÜs
+ 
+	mvaccFÜV”siÚAcûssÜs
+ = 
+Ãw
+ V”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+28 
+´iv©e
+ 
+fš®
+ 
+BundËAcûssÜs
+ 
+	mbaccFÜBundËAcûssÜs
+ = 
+Ãw
+ BundËAcûssÜs(
+objeùs
+, 
+´ovid”s
+, 
+cÚfig
+, 
+©Œibu‹sFaùÜy
+, 
+ÿ·b™yNÙ©iÚP¬£r
+);
+
+29 
+´iv©e
+ 
+fš®
+ 
+PlugšAcûssÜs
+ 
+	m·ccFÜPlugšAcûssÜs
+ = 
+Ãw
+ PlugšAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+31 @
+Injeù
+
+
+32 
+public
+ 
+	$Lib¿r›sFÜLibsInPlugšsBlock
+(
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+, 
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+ObjeùFaùÜy
+ 
+objeùs
+, 
+ImmubËA‰ribu‹sFaùÜy
+ 
+©Œibu‹sFaùÜy
+, 
+C­ab™yNÙ©iÚP¬£r
+ 
+ÿ·b™yNÙ©iÚP¬£r
+) {
+
+33 
+	`su³r
+(
+cÚfig
+, 
+´ovid”s
+, 
+objeùs
+, 
+©Œibu‹sFaùÜy
+, 
+ÿ·b™yNÙ©iÚP¬£r
+);
+
+44 @
+D•»ÿ‹d
+
+
+45 
+public
+ 
+Provid”
+<
+Mšim®Ex‹º®ModuËD•’d’cy
+> 
+	$g‘Jun™
+() {
+
+46 
+Üg
+.
+g¿dË
+.
+š‹º®
+.
+d•»ÿtiÚ
+.
+D•»ÿtiÚLogg”
+.
+	`d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+	`w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+	`wlBeRemovedInG¿dË9
+().
+	`w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+	`ÇgU£r
+();
+
+47  
+	`ü—‹
+("junit");
+
+48 
+	}
+}
+
+55 @
+D•»ÿ‹d
+
+
+56 
+public
+ 
+AndroidxLib¿ryAcûssÜs
+ 
+	$g‘Androidx
+() {
+
+57 
+Üg
+.
+g¿dË
+.
+š‹º®
+.
+d•»ÿtiÚ
+.
+D•»ÿtiÚLogg”
+.
+	`d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+	`w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+	`wlBeRemovedInG¿dË9
+().
+	`w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+	`ÇgU£r
+();
+
+58  
+ÏccFÜAndroidxLib¿ryAcûssÜs
+;
+
+59 
+	}
+}
+
+66 @
+D•»ÿ‹d
+
+
+67 
+public
+ 
+KÙlšLib¿ryAcûssÜs
+ 
+	$g‘KÙlš
+() {
+
+68 
+Üg
+.
+g¿dË
+.
+š‹º®
+.
+d•»ÿtiÚ
+.
+D•»ÿtiÚLogg”
+.
+	`d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+	`w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+	`wlBeRemovedInG¿dË9
+().
+	`w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+	`ÇgU£r
+();
+
+69  
+ÏccFÜKÙlšLib¿ryAcûssÜs
+;
+
+70 
+	}
+}
+
+75 
+public
+ 
+V”siÚAcûssÜs
+ 
+	$g‘V”siÚs
+() {
+
+76  
+vaccFÜV”siÚAcûssÜs
+;
+
+77 
+	}
+}
+
+84 @
+D•»ÿ‹d
+
+
+85 
+public
+ 
+BundËAcûssÜs
+ 
+	$g‘BundËs
+() {
+
+86 
+Üg
+.
+g¿dË
+.
+š‹º®
+.
+d•»ÿtiÚ
+.
+D•»ÿtiÚLogg”
+.
+	`d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+	`w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+	`wlBeRemovedInG¿dË9
+().
+	`w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+	`ÇgU£r
+();
+
+87  
+baccFÜBundËAcûssÜs
+;
+
+88 
+	}
+}
+
+93 
+public
+ 
+PlugšAcûssÜs
+ 
+	$g‘Plugšs
+() {
+
+94  
+·ccFÜPlugšAcûssÜs
+;
+
+95 
+	}
+}
+
+100 @
+D•»ÿ‹d
+
+
+101 
+public
+ şas 
+	cAndroidxLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+102 
+´iv©e
+ 
+fš®
+ 
+AndroidxAùiv™yLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxAùiv™yLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxAùiv™yLib¿ryAcûssÜs(
+owÃr
+);
+
+103 
+´iv©e
+ 
+fš®
+ 
+AndroidxCÜeLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxCÜeLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxCÜeLib¿ryAcûssÜs(
+owÃr
+);
+
+104 
+´iv©e
+ 
+fš®
+ 
+AndroidxE¥»ssoLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxE¥»ssoLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxE¥»ssoLib¿ryAcûssÜs(
+owÃr
+);
+
+105 
+´iv©e
+ 
+fš®
+ 
+AndroidxLiãcyşeLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxLiãcyşeLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxLiãcyşeLib¿ryAcûssÜs(
+owÃr
+);
+
+106 
+´iv©e
+ 
+fš®
+ 
+AndroidxTe¡Lib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxTe¡Lib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxTe¡Lib¿ryAcûssÜs(
+owÃr
+);
+
+108 
+public
+ 
+AndroidxLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+118 @
+D•»ÿ‹d
+
+
+119 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Aµcom·t
+() {
+
+120 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+121  
+ü—‹
+("androidx.appcompat");
+
+132 @
+D•»ÿ‹d
+
+
+133 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘CÚ¡¿šayout
+() {
+
+134 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+135  
+ü—‹
+("androidx.constraintlayout");
+
+146 @
+D•»ÿ‹d
+
+
+147 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘M©”Ÿl
+() {
+
+148 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+149  
+ü—‹
+("androidx.material");
+
+157 @
+D•»ÿ‹d
+
+
+158 
+public
+ 
+AndroidxAùiv™yLib¿ryAcûssÜs
+ 
+g‘Aùiv™y
+() {
+
+159 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+160  
+	gÏccFÜAndroidxAùiv™yLib¿ryAcûssÜs
+;
+
+168 @
+D•»ÿ‹d
+
+
+169 
+public
+ 
+AndroidxCÜeLib¿ryAcûssÜs
+ 
+g‘CÜe
+() {
+
+170 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+171  
+	gÏccFÜAndroidxCÜeLib¿ryAcûssÜs
+;
+
+179 @
+D•»ÿ‹d
+
+
+180 
+public
+ 
+AndroidxE¥»ssoLib¿ryAcûssÜs
+ 
+g‘E¥»sso
+() {
+
+181 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+182  
+	gÏccFÜAndroidxE¥»ssoLib¿ryAcûssÜs
+;
+
+190 @
+D•»ÿ‹d
+
+
+191 
+public
+ 
+AndroidxLiãcyşeLib¿ryAcûssÜs
+ 
+g‘Liãcyşe
+() {
+
+192 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+193  
+	gÏccFÜAndroidxLiãcyşeLib¿ryAcûssÜs
+;
+
+201 @
+D•»ÿ‹d
+
+
+202 
+public
+ 
+AndroidxTe¡Lib¿ryAcûssÜs
+ 
+g‘Te¡
+() {
+
+203 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+204  
+	gÏccFÜAndroidxTe¡Lib¿ryAcûssÜs
+;
+
+212 @
+D•»ÿ‹d
+
+
+213 
+public
+ şas 
+	cAndroidxAùiv™yLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+215 
+public
+ 
+AndroidxAùiv™yLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+225 @
+D•»ÿ‹d
+
+
+226 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Compo£
+() {
+
+227 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+228  
+ü—‹
+("androidx.activity.compose");
+
+236 @
+D•»ÿ‹d
+
+
+237 
+public
+ şas 
+	cAndroidxCÜeLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+239 
+public
+ 
+AndroidxCÜeLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+249 @
+D•»ÿ‹d
+
+
+250 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Ktx
+() {
+
+251 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+252  
+ü—‹
+("androidx.core.ktx");
+
+260 @
+D•»ÿ‹d
+
+
+261 
+public
+ şas 
+	cAndroidxE¥»ssoLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+263 
+public
+ 
+AndroidxE¥»ssoLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+273 @
+D•»ÿ‹d
+
+
+274 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘CÜe
+() {
+
+275 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+276  
+ü—‹
+("androidx.espresso.core");
+
+284 @
+D•»ÿ‹d
+
+
+285 
+public
+ şas 
+	cAndroidxLiãcyşeLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+286 
+´iv©e
+ 
+fš®
+ 
+AndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+ 
+	gÏccFÜAndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+ = 
+Ãw
+ AndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs(
+owÃr
+);
+
+288 
+public
+ 
+AndroidxLiãcyşeLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+298 @
+D•»ÿ‹d
+
+
+299 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘V›wmod–
+() {
+
+300 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+301  
+ü—‹
+("androidx.lifecycle.viewmodel");
+
+309 @
+D•»ÿ‹d
+
+
+310 
+public
+ 
+AndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+ 
+g‘RuÁime
+() {
+
+311 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+312  
+	gÏccFÜAndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+;
+
+320 @
+D•»ÿ‹d
+
+
+321 
+public
+ şas 
+	cAndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+323 
+public
+ 
+AndroidxLiãcyşeRuÁimeLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+333 @
+D•»ÿ‹d
+
+
+334 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Compo£
+() {
+
+335 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+336  
+ü—‹
+("androidx.lifecycle.runtime.compose");
+
+344 @
+D•»ÿ‹d
+
+
+345 
+public
+ şas 
+	cAndroidxTe¡Lib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+347 
+public
+ 
+AndroidxTe¡Lib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+357 @
+D•»ÿ‹d
+
+
+358 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Jun™
+() {
+
+359 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+360  
+ü—‹
+("androidx.test.junit");
+
+368 @
+D•»ÿ‹d
+
+
+369 
+public
+ şas 
+	cKÙlšLib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+	gSubD•’d’cyFaùÜy
+ {
+
+370 
+´iv©e
+ 
+fš®
+ 
+KÙlšTe¡Lib¿ryAcûssÜs
+ 
+	gÏccFÜKÙlšTe¡Lib¿ryAcûssÜs
+ = 
+Ãw
+ KÙlšTe¡Lib¿ryAcûssÜs(
+owÃr
+);
+
+372 
+public
+ 
+KÙlšLib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+379 @
+D•»ÿ‹d
+
+
+380 
+public
+ 
+KÙlšTe¡Lib¿ryAcûssÜs
+ 
+g‘Te¡
+() {
+
+381 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+382  
+	gÏccFÜKÙlšTe¡Lib¿ryAcûssÜs
+;
+
+390 @
+D•»ÿ‹d
+
+
+391 
+public
+ şas 
+	cKÙlšTe¡Lib¿ryAcûssÜs
+ 
+ex‹nds
+ 
+SubD•’d’cyFaùÜy
+ 
+im¶em’ts
+ 
+	gD•’d’cyNÙ©iÚSuµl›r
+ {
+
+393 
+public
+ 
+KÙlšTe¡Lib¿ryAcûssÜs
+(
+Ab¡¿ùEx‹º®D•’d’cyFaùÜy
+ 
+owÃr
+è{ 
+su³r
+(owner); }
+
+403 @
+D•»ÿ‹d
+
+
+404 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+asProvid”
+() {
+
+405 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+406  
+ü—‹
+("kotlin.test");
+
+417 @
+D•»ÿ‹d
+
+
+418 
+public
+ 
+	gProvid”
+<
+	gMšim®Ex‹º®ModuËD•’d’cy
+> 
+g‘Jun™
+() {
+
+419 
+	gÜg
+.
+	gg¿dË
+.
+	gš‹º®
+.
+	gd•»ÿtiÚ
+.
+	gD•»ÿtiÚLogg”
+.
+d•»ÿ‹Behaviour
+("Acûssšg†ib¿r› Ü bundË äom v”siÚ c©®og šh¶ugš block.").
+w™hAdviû
+("OÆy u£ v”siÚ Ü…lugš äom c©®og šh¶ugš block.").
+wlBeRemovedInG¿dË9
+().
+w™hUpg¿deGuideSeùiÚ
+(8, "kÙlš_d¦_d•»ÿ‹d_ÿlogs_¶ugšs_block").
+ÇgU£r
+();
+
+420  
+ü—‹
+("kotlin.test.junit");
+
+425 
+public
+ şas 
+	cV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+427 
+´iv©e
+ 
+fš®
+ 
+AndroidV”siÚAcûssÜs
+ 
+	gvaccFÜAndroidV”siÚAcûssÜs
+ = 
+Ãw
+ AndroidV”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+428 
+´iv©e
+ 
+fš®
+ 
+AndroidxV”siÚAcûssÜs
+ 
+	gvaccFÜAndroidxV”siÚAcûssÜs
+ = 
+Ãw
+ AndroidxV”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+429 
+´iv©e
+ 
+fš®
+ 
+Compo£V”siÚAcûssÜs
+ 
+	gvaccFÜCompo£V”siÚAcûssÜs
+ = 
+Ãw
+ Compo£V”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+430 
+public
+ 
+V”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+440 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Agp
+(è{  
+g‘V”siÚ
+("agp"); }
+
+450 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Jun™
+(è{  
+g‘V”siÚ
+("junit"); }
+
+460 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘KÙlš
+(è{  
+g‘V”siÚ
+("kotlin"); }
+
+465 
+public
+ 
+AndroidV”siÚAcûssÜs
+ 
+g‘Android
+() {
+
+466  
+	gvaccFÜAndroidV”siÚAcûssÜs
+;
+
+472 
+public
+ 
+AndroidxV”siÚAcûssÜs
+ 
+g‘Androidx
+() {
+
+473  
+	gvaccFÜAndroidxV”siÚAcûssÜs
+;
+
+479 
+public
+ 
+Compo£V”siÚAcûssÜs
+ 
+g‘Compo£
+() {
+
+480  
+	gvaccFÜCompo£V”siÚAcûssÜs
+;
+
+485 
+public
+ şas 
+	cAndroidV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+487 
+public
+ 
+AndroidV”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+497 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘CompeSdk
+(è{  
+g‘V”siÚ
+("android.compileSdk"); }
+
+507 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘MšSdk
+(è{  
+g‘V”siÚ
+("android.minSdk"); }
+
+517 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘T¬g‘Sdk
+(è{  
+g‘V”siÚ
+("android.targetSdk"); }
+
+521 
+public
+ şas 
+	cAndroidxV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+523 
+´iv©e
+ 
+fš®
+ 
+AndroidxCÜeV”siÚAcûssÜs
+ 
+	gvaccFÜAndroidxCÜeV”siÚAcûssÜs
+ = 
+Ãw
+ AndroidxCÜeV”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+524 
+´iv©e
+ 
+fš®
+ 
+AndroidxE¥»ssoV”siÚAcûssÜs
+ 
+	gvaccFÜAndroidxE¥»ssoV”siÚAcûssÜs
+ = 
+Ãw
+ AndroidxE¥»ssoV”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+525 
+´iv©e
+ 
+fš®
+ 
+AndroidxTe¡V”siÚAcûssÜs
+ 
+	gvaccFÜAndroidxTe¡V”siÚAcûssÜs
+ = 
+Ãw
+ AndroidxTe¡V”siÚAcûssÜs(
+´ovid”s
+, 
+cÚfig
+);
+
+526 
+public
+ 
+AndroidxV”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+536 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Aùiv™yCompo£
+(è{  
+g‘V”siÚ
+("androidx.activityCompose"); }
+
+546 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Aµcom·t
+(è{  
+g‘V”siÚ
+("androidx.appcompat"); }
+
+556 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘CÚ¡¿šayout
+(è{  
+g‘V”siÚ
+("androidx.constraintlayout"); }
+
+566 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Liãcyşe
+(è{  
+g‘V”siÚ
+("androidx.lifecycle"); }
+
+576 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘M©”Ÿl
+(è{  
+g‘V”siÚ
+("androidx.material"); }
+
+581 
+public
+ 
+AndroidxCÜeV”siÚAcûssÜs
+ 
+g‘CÜe
+() {
+
+582  
+	gvaccFÜAndroidxCÜeV”siÚAcûssÜs
+;
+
+588 
+public
+ 
+AndroidxE¥»ssoV”siÚAcûssÜs
+ 
+g‘E¥»sso
+() {
+
+589  
+	gvaccFÜAndroidxE¥»ssoV”siÚAcûssÜs
+;
+
+595 
+public
+ 
+AndroidxTe¡V”siÚAcûssÜs
+ 
+g‘Te¡
+() {
+
+596  
+	gvaccFÜAndroidxTe¡V”siÚAcûssÜs
+;
+
+601 
+public
+ şas 
+	cAndroidxCÜeV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+603 
+public
+ 
+AndroidxCÜeV”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+613 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Ktx
+(è{  
+g‘V”siÚ
+("androidx.core.ktx"); }
+
+617 
+public
+ şas 
+	cAndroidxE¥»ssoV”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+619 
+public
+ 
+AndroidxE¥»ssoV”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+629 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘CÜe
+(è{  
+g‘V”siÚ
+("androidx.espresso.core"); }
+
+633 
+public
+ şas 
+	cAndroidxTe¡V”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+635 
+public
+ 
+AndroidxTe¡V”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+645 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘Jun™
+(è{  
+g‘V”siÚ
+("androidx.test.junit"); }
+
+649 
+public
+ şas 
+	cCompo£V”siÚAcûssÜs
+ 
+ex‹nds
+ 
+	gV”siÚFaùÜy
+ {
+
+651 
+public
+ 
+Compo£V”siÚAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+661 
+public
+ 
+	gProvid”
+<
+	gSŒšg
+> 
+g‘MuÉÏtfÜm
+(è{  
+g‘V”siÚ
+("compose.multiplatform"); }
+
+668 @
+D•»ÿ‹d
+
+
+669 
+public
+ şas 
+	cBundËAcûssÜs
+ 
+ex‹nds
+ 
+	gBundËFaùÜy
+ {
+
+671 
+public
+ 
+BundËAcûssÜs
+(
+ObjeùFaùÜy
+ 
+objeùs
+, 
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+, 
+ImmubËA‰ribu‹sFaùÜy
+ 
+©Œibu‹sFaùÜy
+, 
+C­ab™yNÙ©iÚP¬£r
+ 
+ÿ·b™yNÙ©iÚP¬£r
+è{ 
+su³r
+(objects,…roviders, config,‡ttributesFactory, capabilityNotationParser); }
+
+675 
+public
+ şas 
+	cPlugšAcûssÜs
+ 
+ex‹nds
+ 
+	gPlugšFaùÜy
+ {
+
+677 
+public
+ 
+PlugšAcûssÜs
+(
+Provid”FaùÜy
+ 
+´ovid”s
+, 
+DeçuÉV”siÚC©®og
+ 
+cÚfig
+è{ 
+su³r
+(providers, config); }
+
+685 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘AndroidAµliÿtiÚ
+(è{  
+ü—‹Plugš
+("androidApplication"); }
+
+693 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘AndroidLib¿ry
+(è{  
+ü—‹Plugš
+("androidLibrary"); }
+
+701 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘Compo£Comp”
+(è{  
+ü—‹Plugš
+("composeCompiler"); }
+
+709 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘Compo£MuÉÏtfÜm
+(è{  
+ü—‹Plugš
+("composeMultiplatform"); }
+
+717 
+public
+ 
+	gProvid”
+<
+	gPlugšD•’d’cy
+> 
+g‘KÙlšMuÉÏtfÜm
+(è{  
+ü—‹Plugš
+("kotlinMultiplatform"); }
+
+	@.gradle/8.9/dependencies-accessors/c84c5ef430d3d61082ae85fc4bb04c7405dfdced/sources/org/gradle/accessors/dm/ChessGameProjectDependency.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gg¿dË
+.
+	gacûssÜs
+.
+	gdm
+;
+
+3 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gNÚNuÎApi
+;
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gProjeùD•’d’cy
+;
+
+5 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gd•’d’c›s
+.
+	gProjeùD•’d’cyIÁ”Çl
+;
+
+6 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gDeçuÉProjeùD•’d’cyFaùÜy
+;
+
+7 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gd¦
+.
+	gd•’d’c›s
+.
+	gProjeùFšd”
+;
+
+8 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gD–eg©šgProjeùD•’d’cy
+;
+
+9 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gTy³SaãProjeùD•’d’cyFaùÜy
+;
+
+10 
+impÜt
+ 
+	gjavax
+.
+	gšjeù
+.
+	gInjeù
+;
+
+12 @
+NÚNuÎApi
+
+
+13 
+public
+ cÏs 
+	cChessGameProjeùD•’d’cy
+ 
+ex‹nds
+ 
+	mD–eg©šgProjeùD•’d’cy
+ {
+
+15 @
+Injeù
+
+
+16 
+public
+ 
+	$ChessGameProjeùD•’d’cy
+(
+Ty³SaãProjeùD•’d’cyFaùÜy
+ 
+çùÜy
+, 
+ProjeùD•’d’cyIÁ”Çl
+ 
+d–eg©e
+) {
+
+17 
+	`su³r
+(
+çùÜy
+, 
+d–eg©e
+);
+
+23 
+public
+ 
+Compo£AµProjeùD•’d’cy
+ 
+	$g‘Compo£Aµ
+(è{  
+Ãw
+ 
+	`Compo£AµProjeùD•’d’cy
+(
+	`g‘FaùÜy
+(), 
+	`ü—‹
+(":compo£Aµ")); 
+	}
+}
+
+	@.gradle/8.9/dependencies-accessors/c84c5ef430d3d61082ae85fc4bb04c7405dfdced/sources/org/gradle/accessors/dm/ComposeAppProjectDependency.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gg¿dË
+.
+	gacûssÜs
+.
+	gdm
+;
+
+3 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gNÚNuÎApi
+;
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gProjeùD•’d’cy
+;
+
+5 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gd•’d’c›s
+.
+	gProjeùD•’d’cyIÁ”Çl
+;
+
+6 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gDeçuÉProjeùD•’d’cyFaùÜy
+;
+
+7 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gd¦
+.
+	gd•’d’c›s
+.
+	gProjeùFšd”
+;
+
+8 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gD–eg©šgProjeùD•’d’cy
+;
+
+9 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gTy³SaãProjeùD•’d’cyFaùÜy
+;
+
+10 
+impÜt
+ 
+	gjavax
+.
+	gšjeù
+.
+	gInjeù
+;
+
+12 @
+NÚNuÎApi
+
+
+13 
+public
+ cÏs 
+	cCompo£AµProjeùD•’d’cy
+ 
+ex‹nds
+ 
+	mD–eg©šgProjeùD•’d’cy
+ {
+
+15 @
+Injeù
+
+
+16 
+public
+ 
+	$Compo£AµProjeùD•’d’cy
+(
+Ty³SaãProjeùD•’d’cyFaùÜy
+ 
+çùÜy
+, 
+ProjeùD•’d’cyIÁ”Çl
+ 
+d–eg©e
+) {
+
+17 
+	`su³r
+(
+çùÜy
+, 
+d–eg©e
+);
+
+20 
+	}
+}
+
+	@.gradle/8.9/dependencies-accessors/c84c5ef430d3d61082ae85fc4bb04c7405dfdced/sources/org/gradle/accessors/dm/RootProjectAccessor.java
+
+1 
+·ckage
+ 
+	gÜg
+.
+	gg¿dË
+.
+	gacûssÜs
+.
+	gdm
+;
+
+3 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gNÚNuÎApi
+;
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	g¬tiçùs
+.
+	gProjeùD•’d’cy
+;
+
+5 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gd•’d’c›s
+.
+	gProjeùD•’d’cyIÁ”Çl
+;
+
+6 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gDeçuÉProjeùD•’d’cyFaùÜy
+;
+
+7 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	g¬tiçùs
+.
+	gd¦
+.
+	gd•’d’c›s
+.
+	gProjeùFšd”
+;
+
+8 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gD–eg©šgProjeùD•’d’cy
+;
+
+9 
+impÜt
+ 
+	gÜg
+.
+	gg¿dË
+.
+	g­i
+.
+	gš‹º®
+.
+	gÿlog
+.
+	gTy³SaãProjeùD•’d’cyFaùÜy
+;
+
+10 
+impÜt
+ 
+	gjavax
+.
+	gšjeù
+.
+	gInjeù
+;
+
+12 @
+NÚNuÎApi
+
+
+13 
+public
+ cÏs 
+	cRoÙProjeùAcûssÜ
+ 
+ex‹nds
+ 
+	mTy³SaãProjeùD•’d’cyFaùÜy
+ {
+
+16 @
+Injeù
+
+
+17 
+public
+ 
+	$RoÙProjeùAcûssÜ
+(
+DeçuÉProjeùD•’d’cyFaùÜy
+ 
+çùÜy
+, 
+ProjeùFšd”
+ 
+fšd”
+) {
+
+18 
+	`su³r
+(
+çùÜy
+, 
+fšd”
+);
+
+24 
+public
+ 
+ChessGameProjeùD•’d’cy
+ 
+	$g‘ChessGame
+(è{  
+Ãw
+ 
+	`ChessGameProjeùD•’d’cy
+(
+	`g‘FaùÜy
+(), 
+	`ü—‹
+(":")); 
+	}
+}
+
+29 
+public
+ 
+Compo£AµProjeùD•’d’cy
+ 
+	$g‘Compo£Aµ
+(è{  
+Ãw
+ 
+	`Compo£AµProjeùD•’d’cy
+(
+	`g‘FaùÜy
+(), 
+	`ü—‹
+(":compo£Aµ")); 
+	}
+}
+
+	@build.gradle.kts
+
+1 
+	g¶ugšs
+ {
+
+4 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+ªdroidAµliÿtiÚ
+è
+­¶y
+ 
+çl£
+
+
+5 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+ªdroidLib¿ry
+è
+­¶y
+ 
+çl£
+
+
+6 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+compo£MuÉÏtfÜm
+è
+­¶y
+ 
+çl£
+
+
+7 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+compo£Comp”
+è
+­¶y
+ 
+çl£
+
+
+8 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+kÙlšMuÉÏtfÜm
+è
+­¶y
+ 
+	gçl£
+
+
+	@composeApp/.cxx/Debug/6w155w3n/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c
+
+1 #ifdeà
+__ılu¥lus
+
+
+5 #ià
+defšed
+(
+__18CXX
+)
+
+6 
+	#ID_VOID_MAIN
+
+
+	)
+
+8 #ià
+defšed
+(
+__CLASSIC_C__
+)
+
+10 cÚ¡
+
+	)
+
+11 vŞ©e
+
+	)
+
+14 #ià!
+defšed
+(
+__has_šşude
+)
+
+17 
+	#__has_šşude
+(
+x
+è0
+
+	)
+
+24 #ià
+defšed
+(
+__INTEL_COMPILER
+è|| defšed(
+__ICC
+)
+
+25 
+	#COMPILER_ID
+ "IÁ–"
+
+	)
+
+26 #ià
+defšed
+(
+_MSC_VER
+)
+
+27 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+29 #ià
+defšed
+(
+__GNUC__
+)
+
+30 
+	#SIMULATE_ID
+ "GNU"
+
+	)
+
+34 #ià
+__INTEL_COMPILER
+ < 2021 || __INTEL_COMPILER == 202110 || __INTEL_COMPILER == 202111
+
+35 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+/100)
+
+	)
+
+36 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+/10 % 10)
+
+	)
+
+37 #ià
+defšed
+(
+__INTEL_COMPILER_UPDATE
+)
+
+38 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_COMPILER_UPDATE
+)
+
+	)
+
+40 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_COMPILER
+ % 10)
+
+	)
+
+43 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+)
+
+	)
+
+44 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_COMPILER_UPDATE
+)
+
+	)
+
+47 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(0)
+
+	)
+
+49 #ià
+defšed
+(
+__INTEL_COMPILER_BUILD_DATE
+)
+
+51 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__INTEL_COMPILER_BUILD_DATE
+)
+
+	)
+
+53 #ià
+defšed
+(
+_MSC_VER
+)
+
+55 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+56 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+58 #ià
+defšed
+(
+__GNUC__
+)
+
+59 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+60 #–ià
+defšed
+(
+__GNUG__
+)
+
+61 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUG__
+)
+
+	)
+
+63 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+64 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+66 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+67 
+	#SIMULATE_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+70 #–ià(
+defšed
+(
+__şªg__
+è&& defšed(
+__INTEL_CLANG_COMPILER
+)è|| defšed(
+__INTEL_LLVM_COMPILER
+)
+
+71 
+	#COMPILER_ID
+ "IÁ–LLVM"
+
+	)
+
+72 #ià
+defšed
+(
+_MSC_VER
+)
+
+73 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+75 #ià
+defšed
+(
+__GNUC__
+)
+
+76 
+	#SIMULATE_ID
+ "GNU"
+
+	)
+
+82 #ià
+__INTEL_LLVM_COMPILER
+ < 1000000L
+
+83 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/100)
+
+	)
+
+84 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/10 % 10)
+
+	)
+
+85 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+ % 10)
+
+	)
+
+87 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/10000)
+
+	)
+
+88 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/100 % 100)
+
+	)
+
+89 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+ % 100)
+
+	)
+
+91 #ià
+defšed
+(
+_MSC_VER
+)
+
+93 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+94 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+96 #ià
+defšed
+(
+__GNUC__
+)
+
+97 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+98 #–ià
+defšed
+(
+__GNUG__
+)
+
+99 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUG__
+)
+
+	)
+
+101 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+102 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+104 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+105 
+	#SIMULATE_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+108 #–ià
+defšed
+(
+__PATHCC__
+)
+
+109 
+	#COMPILER_ID
+ "P©hSÿË"
+
+	)
+
+110 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__PATHCC__
+)
+
+	)
+
+111 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__PATHCC_MINOR__
+)
+
+	)
+
+112 #ià
+defšed
+(
+__PATHCC_PATCHLEVEL__
+)
+
+113 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__PATHCC_PATCHLEVEL__
+)
+
+	)
+
+116 #–ià
+defšed
+(
+__BORLANDC__
+è&& defšed(
+__CODEGEARC_VERSION__
+)
+
+117 
+	#COMPILER_ID
+ "Emb¬ÿd”o"
+
+	)
+
+118 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__CODEGEARC_VERSION__
+>>24 & 0x00FF)
+
+	)
+
+119 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__CODEGEARC_VERSION__
+>>16 & 0x00FF)
+
+	)
+
+120 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__CODEGEARC_VERSION__
+ & 0xFFFF)
+
+	)
+
+122 #–ià
+defšed
+(
+__BORLANDC__
+)
+
+123 
+	#COMPILER_ID
+ "BÜÏnd"
+
+	)
+
+125 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__BORLANDC__
+>>8)
+
+	)
+
+126 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__BORLANDC__
+ & 0xFF)
+
+	)
+
+128 #–ià
+defšed
+(
+__WATCOMC__
+) && __WATCOMC__ < 1200
+
+129 
+	#COMPILER_ID
+ "W©com"
+
+	)
+
+131 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__WATCOMC__
+ / 100)
+
+	)
+
+132 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__WATCOMC__
+ / 10è% 10)
+
+	)
+
+133 #ià(
+__WATCOMC__
+ % 10) > 0
+
+134 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__WATCOMC__
+ % 10)
+
+	)
+
+137 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+138 
+	#COMPILER_ID
+ "O³nW©com"
+
+	)
+
+140 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__WATCOMC__
+ - 1100è/ 100)
+
+	)
+
+141 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__WATCOMC__
+ / 10è% 10)
+
+	)
+
+142 #ià(
+__WATCOMC__
+ % 10) > 0
+
+143 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__WATCOMC__
+ % 10)
+
+	)
+
+146 #–ià
+defšed
+(
+__SUNPRO_C
+)
+
+147 
+	#COMPILER_ID
+ "SunPro"
+
+	)
+
+148 #ià
+__SUNPRO_C
+ >= 0x5100
+
+150 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__SUNPRO_C
+>>12)
+
+	)
+
+151 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__SUNPRO_C
+>>4 & 0xFF)
+
+	)
+
+152 
+	#COMPILER_VERSION_PATCH
+ 
+	`HEX
+(
+__SUNPRO_C
+ & 0xF)
+
+	)
+
+155 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__SUNPRO_C
+>>8)
+
+	)
+
+156 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__SUNPRO_C
+>>4 & 0xF)
+
+	)
+
+157 
+	#COMPILER_VERSION_PATCH
+ 
+	`HEX
+(
+__SUNPRO_C
+ & 0xF)
+
+	)
+
+160 #–ià
+defšed
+(
+__HP_cc
+)
+
+161 
+	#COMPILER_ID
+ "HP"
+
+	)
+
+163 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__HP_cc
+/10000)
+
+	)
+
+164 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__HP_cc
+/100 % 100)
+
+	)
+
+165 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__HP_cc
+ % 100)
+
+	)
+
+167 #–ià
+defšed
+(
+__DECC
+)
+
+168 
+	#COMPILER_ID
+ "Com·q"
+
+	)
+
+170 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__DECC_VER
+/10000000)
+
+	)
+
+171 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__DECC_VER
+/100000 % 100)
+
+	)
+
+172 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__DECC_VER
+ % 10000)
+
+	)
+
+174 #–ià
+defšed
+(
+__IBMC__
+è&& defšed(
+__COMPILER_VER__
+)
+
+175 
+	#COMPILER_ID
+ "zOS"
+
+	)
+
+177 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMC__
+/100)
+
+	)
+
+178 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMC__
+/10 % 10)
+
+	)
+
+179 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMC__
+ % 10)
+
+	)
+
+181 #–ià
+defšed
+(
+__ibmxl__
+è&& defšed(
+__şªg__
+)
+
+182 
+	#COMPILER_ID
+ "XLCÏng"
+
+	)
+
+183 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ibmxl_v”siÚ__
+)
+
+	)
+
+184 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ibmxl_»Ëa£__
+)
+
+	)
+
+185 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ibmxl_modifiÿtiÚ__
+)
+
+	)
+
+186 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__ibmxl_±f_fix_Ëv–__
+)
+
+	)
+
+189 #–ià
+defšed
+(
+__IBMC__
+è&& !defšed(
+__COMPILER_VER__
+) && __IBMC__ >= 800
+
+190 
+	#COMPILER_ID
+ "XL"
+
+	)
+
+192 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMC__
+/100)
+
+	)
+
+193 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMC__
+/10 % 10)
+
+	)
+
+194 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMC__
+ % 10)
+
+	)
+
+196 #–ià
+defšed
+(
+__IBMC__
+è&& !defšed(
+__COMPILER_VER__
+) && __IBMC__ < 800
+
+197 
+	#COMPILER_ID
+ "Visu®Age"
+
+	)
+
+199 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMC__
+/100)
+
+	)
+
+200 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMC__
+/10 % 10)
+
+	)
+
+201 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMC__
+ % 10)
+
+	)
+
+203 #–ià
+defšed
+(
+__NVCOMPILER
+)
+
+204 
+	#COMPILER_ID
+ "NVHPC"
+
+	)
+
+205 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__NVCOMPILER_MAJOR__
+)
+
+	)
+
+206 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__NVCOMPILER_MINOR__
+)
+
+	)
+
+207 #ià
+defšed
+(
+__NVCOMPILER_PATCHLEVEL__
+)
+
+208 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__NVCOMPILER_PATCHLEVEL__
+)
+
+	)
+
+211 #–ià
+defšed
+(
+__PGI
+)
+
+212 
+	#COMPILER_ID
+ "PGI"
+
+	)
+
+213 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__PGIC__
+)
+
+	)
+
+214 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__PGIC_MINOR__
+)
+
+	)
+
+215 #ià
+defšed
+(
+__PGIC_PATCHLEVEL__
+)
+
+216 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__PGIC_PATCHLEVEL__
+)
+
+	)
+
+219 #–ià
+defšed
+(
+_CRAYC
+)
+
+220 
+	#COMPILER_ID
+ "C¿y"
+
+	)
+
+221 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+_RELEASE_MAJOR
+)
+
+	)
+
+222 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+_RELEASE_MINOR
+)
+
+	)
+
+224 #–ià
+defšed
+(
+__TI_COMPILER_VERSION__
+)
+
+225 
+	#COMPILER_ID
+ "TI"
+
+	)
+
+227 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+/1000000)
+
+	)
+
+228 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+/1000 % 1000)
+
+	)
+
+229 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+ % 1000)
+
+	)
+
+231 #–ià
+defšed
+(
+__CLANG_FUJITSU
+)
+
+232 
+	#COMPILER_ID
+ "Fuj™suCÏng"
+
+	)
+
+233 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__FCC_majÜ__
+)
+
+	)
+
+234 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__FCC_mšÜ__
+)
+
+	)
+
+235 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__FCC_·tchËv–__
+)
+
+	)
+
+236 
+	#COMPILER_VERSION_INTERNAL_STR
+ 
+__şªg_v”siÚ__
+
+
+	)
+
+239 #–ià
+defšed
+(
+__FUJITSU
+)
+
+240 
+	#COMPILER_ID
+ "Fuj™su"
+
+	)
+
+241 #ià
+defšed
+(
+__FCC_v”siÚ__
+)
+
+242 
+	#COMPILER_VERSION
+ 
+__FCC_v”siÚ__
+
+
+	)
+
+243 #–ià
+defšed
+(
+__FCC_majÜ__
+)
+
+244 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__FCC_majÜ__
+)
+
+	)
+
+245 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__FCC_mšÜ__
+)
+
+	)
+
+246 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__FCC_·tchËv–__
+)
+
+	)
+
+248 #ià
+defšed
+(
+__fcc_v”siÚ
+)
+
+249 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__fcc_v”siÚ
+)
+
+	)
+
+250 #–ià
+defšed
+(
+__FCC_VERSION
+)
+
+251 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__FCC_VERSION
+)
+
+	)
+
+255 #–ià
+defšed
+(
+__ghs__
+)
+
+256 
+	#COMPILER_ID
+ "GHS"
+
+	)
+
+258 #ifdeà
+__GHS_VERSION_NUMBER
+
+
+259 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ / 100)
+
+	)
+
+260 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ / 10 % 10)
+
+	)
+
+261 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ % 10)
+
+	)
+
+264 #–ià
+defšed
+(
+__TINYC__
+)
+
+265 
+	#COMPILER_ID
+ "TšyCC"
+
+	)
+
+267 #–ià
+defšed
+(
+__BCC__
+)
+
+268 
+	#COMPILER_ID
+ "Bruû"
+
+	)
+
+270 #–ià
+defšed
+(
+__SCO_VERSION__
+)
+
+271 
+	#COMPILER_ID
+ "SCO"
+
+	)
+
+273 #–ià
+defšed
+(
+__ARMCC_VERSION
+è&& !defšed(
+__şªg__
+)
+
+274 
+	#COMPILER_ID
+ "ARMCC"
+
+	)
+
+275 #ià
+__ARMCC_VERSION
+ >= 1000000
+
+277 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/1000000)
+
+	)
+
+278 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/10000 % 100)
+
+	)
+
+279 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCC_VERSION
+ % 10000)
+
+	)
+
+282 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/100000)
+
+	)
+
+283 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/10000 % 10)
+
+	)
+
+284 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCC_VERSION
+ % 10000)
+
+	)
+
+288 #–ià
+defšed
+(
+__şªg__
+è&& defšed(
+__­¶e_bud_v”siÚ__
+)
+
+289 
+	#COMPILER_ID
+ "AµËCÏng"
+
+	)
+
+290 #ià
+defšed
+(
+_MSC_VER
+)
+
+291 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+293 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__şªg_majÜ__
+)
+
+	)
+
+294 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__şªg_mšÜ__
+)
+
+	)
+
+295 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__şªg_·tchËv–__
+)
+
+	)
+
+296 #ià
+defšed
+(
+_MSC_VER
+)
+
+298 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+299 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+301 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__­¶e_bud_v”siÚ__
+)
+
+	)
+
+303 #–ià
+defšed
+(
+__şªg__
+è&& defšed(
+__ARMCOMPILER_VERSION
+)
+
+304 
+	#COMPILER_ID
+ "ARMCÏng"
+
+	)
+
+305 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+/1000000)
+
+	)
+
+306 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+/10000 % 100)
+
+	)
+
+307 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+ % 10000)
+
+	)
+
+308 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+)
+
+	)
+
+310 #–ià
+defšed
+(
+__şªg__
+)
+
+311 
+	#COMPILER_ID
+ "CÏng"
+
+	)
+
+312 #ià
+defšed
+(
+_MSC_VER
+)
+
+313 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+315 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__şªg_majÜ__
+)
+
+	)
+
+316 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__şªg_mšÜ__
+)
+
+	)
+
+317 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__şªg_·tchËv–__
+)
+
+	)
+
+318 #ià
+defšed
+(
+_MSC_VER
+)
+
+320 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+321 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+324 #–ià
+defšed
+(
+__GNUC__
+)
+
+325 
+	#COMPILER_ID
+ "GNU"
+
+	)
+
+326 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+327 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+328 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+330 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+331 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+334 #–ià
+defšed
+(
+_MSC_VER
+)
+
+335 
+	#COMPILER_ID
+ "MSVC"
+
+	)
+
+337 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+338 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+339 #ià
+defšed
+(
+_MSC_FULL_VER
+)
+
+340 #ià
+_MSC_VER
+ >= 1400
+
+342 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+_MSC_FULL_VER
+ % 100000)
+
+	)
+
+345 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+_MSC_FULL_VER
+ % 10000)
+
+	)
+
+348 #ià
+defšed
+(
+_MSC_BUILD
+)
+
+349 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+_MSC_BUILD
+)
+
+	)
+
+352 #–ià
+defšed
+(
+__VISUALDSPVERSION__
+è|| defšed(
+__ADSPBLACKFIN__
+è|| defšed(
+__ADSPTS__
+è|| defšed(
+__ADSP21000__
+)
+
+353 
+	#COMPILER_ID
+ "ADSP"
+
+	)
+
+354 #ià
+defšed
+(
+__VISUALDSPVERSION__
+)
+
+356 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__VISUALDSPVERSION__
+>>24)
+
+	)
+
+357 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__VISUALDSPVERSION__
+>>16 & 0xFF)
+
+	)
+
+358 
+	#COMPILER_VERSION_PATCH
+ 
+	`HEX
+(
+__VISUALDSPVERSION__
+>>8 & 0xFF)
+
+	)
+
+361 #–ià
+defšed
+(
+__IAR_SYSTEMS_ICC__
+è|| defšed(
+__IAR_SYSTEMS_ICC
+)
+
+362 
+	#COMPILER_ID
+ "IAR"
+
+	)
+
+363 #ià
+defšed
+(
+__VER__
+è&& defšed(
+__ICCARM__
+)
+
+364 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__VER__
+è/ 1000000)
+
+	)
+
+365 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(((
+__VER__
+è/ 1000è% 1000)
+
+	)
+
+366 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+((
+__VER__
+è% 1000)
+
+	)
+
+367 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__IAR_SYSTEMS_ICC__
+)
+
+	)
+
+368 #–ià
+defšed
+(
+__VER__
+è&& (defšed(
+__ICCAVR__
+è|| defšed(
+__ICCRX__
+è|| defšed(
+__ICCRH850__
+è|| defšed(
+__ICCRL78__
+è|| defšed(
+__ICC430__
+è|| defšed(
+__ICCRISCV__
+è|| defšed(
+__ICCV850__
+è|| defšed(
+__ICC8051__
+è|| defšed(
+__ICCSTM8__
+))
+
+369 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__VER__
+è/ 100)
+
+	)
+
+370 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__VER__
+è- (((__VER__è/ 100)*100))
+
+	)
+
+371 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__SUBVERSION__
+)
+
+	)
+
+372 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__IAR_SYSTEMS_ICC__
+)
+
+	)
+
+375 #–ià
+defšed
+(
+__SDCC_VERSION_MAJOR
+è|| defšed(
+SDCC
+)
+
+376 
+	#COMPILER_ID
+ "SDCC"
+
+	)
+
+377 #ià
+defšed
+(
+__SDCC_VERSION_MAJOR
+)
+
+378 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__SDCC_VERSION_MAJOR
+)
+
+	)
+
+379 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__SDCC_VERSION_MINOR
+)
+
+	)
+
+380 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__SDCC_VERSION_PATCH
+)
+
+	)
+
+383 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+SDCC
+/100)
+
+	)
+
+384 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+SDCC
+/10 % 10)
+
+	)
+
+385 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+SDCC
+ % 10)
+
+	)
+
+392 #–ià
+defšed
+(
+__hpux
+è|| defšed(
+__hpua
+)
+
+393 
+	#COMPILER_ID
+ "HP"
+
+	)
+
+396 
+	#COMPILER_ID
+ ""
+
+	)
+
+403 cÚ¡* 
+	gšfo_comp”
+ = "INFO" ":" "comp”[" 
+COMPILER_ID
+ "]";
+
+404 #ifdeà
+SIMULATE_ID
+
+
+405 cÚ¡* 
+	gšfo_simuÏ‹
+ = "INFO" ":" "simuÏ‹[" 
+SIMULATE_ID
+ "]";
+
+408 #ifdeà
+__QNXNTO__
+
+
+409 cÚ¡* 
+	gqnxÁo
+ = "INFO" ":" "qnxnto[]";
+
+412 #ià
+defšed
+(
+__CRAYXT_COMPUTE_LINUX_TARGET
+)
+
+413 cÚ¡ *
+	gšfo_üay
+ = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+
+416 
+	#STRINGIFY_HELPER
+(
+X
+è#X
+
+	)
+
+417 
+	#STRINGIFY
+(
+X
+è
+	`STRINGIFY_HELPER
+(X)
+
+	)
+
+420 #ià
+defšed
+(
+__lšux
+è|| defšed(
+__lšux__
+è|| defšed(
+lšux
+)
+
+421 
+	#PLATFORM_ID
+ "Lšux"
+
+	)
+
+423 #–ià
+defšed
+(
+__MSYS__
+)
+
+424 
+	#PLATFORM_ID
+ "MSYS"
+
+	)
+
+426 #–ià
+defšed
+(
+__CYGWIN__
+)
+
+427 
+	#PLATFORM_ID
+ "Cygwš"
+
+	)
+
+429 #–ià
+defšed
+(
+__MINGW32__
+)
+
+430 
+	#PLATFORM_ID
+ "MšGW"
+
+	)
+
+432 #–ià
+defšed
+(
+__APPLE__
+)
+
+433 
+	#PLATFORM_ID
+ "D¬wš"
+
+	)
+
+435 #–ià
+defšed
+(
+_WIN32
+è|| defšed(
+__WIN32__
+è|| defšed(
+WIN32
+)
+
+436 
+	#PLATFORM_ID
+ "Wšdows"
+
+	)
+
+438 #–ià
+defšed
+(
+__F»eBSD__
+è|| defšed(
+__F»eBSD
+)
+
+439 
+	#PLATFORM_ID
+ "F»eBSD"
+
+	)
+
+441 #–ià
+defšed
+(
+__N‘BSD__
+è|| defšed(
+__N‘BSD
+)
+
+442 
+	#PLATFORM_ID
+ "N‘BSD"
+
+	)
+
+444 #–ià
+defšed
+(
+__O³nBSD__
+è|| defšed(
+__OPENBSD
+)
+
+445 
+	#PLATFORM_ID
+ "O³nBSD"
+
+	)
+
+447 #–ià
+defšed
+(
+__sun
+è|| defšed(
+sun
+)
+
+448 
+	#PLATFORM_ID
+ "SunOS"
+
+	)
+
+450 #–ià
+defšed
+(
+_AIX
+è|| defšed(
+__AIX
+è|| defšed(
+__AIX__
+è|| defšed(
+__aix
+è|| defšed(
+__aix__
+)
+
+451 
+	#PLATFORM_ID
+ "AIX"
+
+	)
+
+453 #–ià
+defšed
+(
+__hpux
+è|| defšed(
+__hpux__
+)
+
+454 
+	#PLATFORM_ID
+ "HP-UX"
+
+	)
+
+456 #–ià
+defšed
+(
+__HAIKU__
+)
+
+457 
+	#PLATFORM_ID
+ "Haiku"
+
+	)
+
+459 #–ià
+defšed
+(
+__BeOS
+è|| defšed(
+__BEOS__
+è|| defšed(
+_BEOS
+)
+
+460 
+	#PLATFORM_ID
+ "BeOS"
+
+	)
+
+462 #–ià
+defšed
+(
+__QNX__
+è|| defšed(
+__QNXNTO__
+)
+
+463 
+	#PLATFORM_ID
+ "QNX"
+
+	)
+
+465 #–ià
+defšed
+(
+__Œu64
+è|| defšed(
+_Œu64
+è|| defšed(
+__TRU64__
+)
+
+466 
+	#PLATFORM_ID
+ "Tru64"
+
+	)
+
+468 #–ià
+defšed
+(
+__riscos
+è|| defšed(
+__riscos__
+)
+
+469 
+	#PLATFORM_ID
+ "RISCos"
+
+	)
+
+471 #–ià
+defšed
+(
+__sšix
+è|| defšed(
+__sšix__
+è|| defšed(
+__SINIX__
+)
+
+472 
+	#PLATFORM_ID
+ "SINIX"
+
+	)
+
+474 #–ià
+defšed
+(
+__UNIX_SV__
+)
+
+475 
+	#PLATFORM_ID
+ "UNIX_SV"
+
+	)
+
+477 #–ià
+defšed
+(
+__bsdos__
+)
+
+478 
+	#PLATFORM_ID
+ "BSDOS"
+
+	)
+
+480 #–ià
+defšed
+(
+_MPRAS
+è|| defšed(
+MPRAS
+)
+
+481 
+	#PLATFORM_ID
+ "MP-RAS"
+
+	)
+
+483 #–ià
+defšed
+(
+__osf
+è|| defšed(
+__osf__
+)
+
+484 
+	#PLATFORM_ID
+ "OSF1"
+
+	)
+
+486 #–ià
+defšed
+(
+_SCO_SV
+è|| defšed(
+SCO_SV
+è|| defšed(
+sco_sv
+)
+
+487 
+	#PLATFORM_ID
+ "SCO_SV"
+
+	)
+
+489 #–ià
+defšed
+(
+__uÉrix
+è|| defšed(
+__uÉrix__
+è|| defšed(
+_ULTRIX
+)
+
+490 
+	#PLATFORM_ID
+ "ULTRIX"
+
+	)
+
+492 #–ià
+defšed
+(
+__XENIX__
+è|| defšed(
+_XENIX
+è|| defšed(
+XENIX
+)
+
+493 
+	#PLATFORM_ID
+ "X’ix"
+
+	)
+
+495 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+496 #ià
+defšed
+(
+__LINUX__
+)
+
+497 
+	#PLATFORM_ID
+ "Lšux"
+
+	)
+
+499 #–ià
+defšed
+(
+__DOS__
+)
+
+500 
+	#PLATFORM_ID
+ "DOS"
+
+	)
+
+502 #–ià
+defšed
+(
+__OS2__
+)
+
+503 
+	#PLATFORM_ID
+ "OS2"
+
+	)
+
+505 #–ià
+defšed
+(
+__WINDOWS__
+)
+
+506 
+	#PLATFORM_ID
+ "Wšdows3x"
+
+	)
+
+508 #–ià
+defšed
+(
+__VXWORKS__
+)
+
+509 
+	#PLATFORM_ID
+ "VxWÜks"
+
+	)
+
+512 
+	#PLATFORM_ID
+
+
+	)
+
+515 #–ià
+defšed
+(
+__INTEGRITY
+)
+
+516 #ià
+defšed
+(
+INT_178B
+)
+
+517 
+	#PLATFORM_ID
+ "IÁegr™y178"
+
+	)
+
+520 
+	#PLATFORM_ID
+ "IÁegr™y"
+
+	)
+
+524 
+	#PLATFORM_ID
+
+
+	)
+
+533 #ià
+defšed
+(
+_WIN32
+è&& defšed(
+_MSC_VER
+)
+
+534 #ià
+defšed
+(
+_M_IA64
+)
+
+535 
+	#ARCHITECTURE_ID
+ "IA64"
+
+	)
+
+537 #–ià
+defšed
+(
+_M_ARM64EC
+)
+
+538 
+	#ARCHITECTURE_ID
+ "ARM64EC"
+
+	)
+
+540 #–ià
+defšed
+(
+_M_X64
+è|| defšed(
+_M_AMD64
+)
+
+541 
+	#ARCHITECTURE_ID
+ "x64"
+
+	)
+
+543 #–ià
+defšed
+(
+_M_IX86
+)
+
+544 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+546 #–ià
+defšed
+(
+_M_ARM64
+)
+
+547 
+	#ARCHITECTURE_ID
+ "ARM64"
+
+	)
+
+549 #–ià
+defšed
+(
+_M_ARM
+)
+
+550 #ià
+_M_ARM
+ == 4
+
+551 
+	#ARCHITECTURE_ID
+ "ARMV4I"
+
+	)
+
+552 #–ià
+_M_ARM
+ == 5
+
+553 
+	#ARCHITECTURE_ID
+ "ARMV5I"
+
+	)
+
+555 
+	#ARCHITECTURE_ID
+ "ARMV" 
+	`STRINGIFY
+(
+_M_ARM
+)
+
+	)
+
+558 #–ià
+defšed
+(
+_M_MIPS
+)
+
+559 
+	#ARCHITECTURE_ID
+ "MIPS"
+
+	)
+
+561 #–ià
+defšed
+(
+_M_SH
+)
+
+562 
+	#ARCHITECTURE_ID
+ "SHx"
+
+	)
+
+565 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+568 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+569 #ià
+defšed
+(
+_M_I86
+)
+
+570 
+	#ARCHITECTURE_ID
+ "I86"
+
+	)
+
+572 #–ià
+defšed
+(
+_M_IX86
+)
+
+573 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+576 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+579 #–ià
+defšed
+(
+__IAR_SYSTEMS_ICC__
+è|| defšed(
+__IAR_SYSTEMS_ICC
+)
+
+580 #ià
+defšed
+(
+__ICCARM__
+)
+
+581 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+583 #–ià
+defšed
+(
+__ICCRX__
+)
+
+584 
+	#ARCHITECTURE_ID
+ "RX"
+
+	)
+
+586 #–ià
+defšed
+(
+__ICCRH850__
+)
+
+587 
+	#ARCHITECTURE_ID
+ "RH850"
+
+	)
+
+589 #–ià
+defšed
+(
+__ICCRL78__
+)
+
+590 
+	#ARCHITECTURE_ID
+ "RL78"
+
+	)
+
+592 #–ià
+defšed
+(
+__ICCRISCV__
+)
+
+593 
+	#ARCHITECTURE_ID
+ "RISCV"
+
+	)
+
+595 #–ià
+defšed
+(
+__ICCAVR__
+)
+
+596 
+	#ARCHITECTURE_ID
+ "AVR"
+
+	)
+
+598 #–ià
+defšed
+(
+__ICC430__
+)
+
+599 
+	#ARCHITECTURE_ID
+ "MSP430"
+
+	)
+
+601 #–ià
+defšed
+(
+__ICCV850__
+)
+
+602 
+	#ARCHITECTURE_ID
+ "V850"
+
+	)
+
+604 #–ià
+defšed
+(
+__ICC8051__
+)
+
+605 
+	#ARCHITECTURE_ID
+ "8051"
+
+	)
+
+607 #–ià
+defšed
+(
+__ICCSTM8__
+)
+
+608 
+	#ARCHITECTURE_ID
+ "STM8"
+
+	)
+
+611 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+614 #–ià
+defšed
+(
+__ghs__
+)
+
+615 #ià
+defšed
+(
+__PPC64__
+)
+
+616 
+	#ARCHITECTURE_ID
+ "PPC64"
+
+	)
+
+618 #–ià
+defšed
+(
+__µc__
+)
+
+619 
+	#ARCHITECTURE_ID
+ "PPC"
+
+	)
+
+621 #–ià
+defšed
+(
+__ARM__
+)
+
+622 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+624 #–ià
+defšed
+(
+__x86_64__
+)
+
+625 
+	#ARCHITECTURE_ID
+ "x64"
+
+	)
+
+627 #–ià
+defšed
+(
+__i386__
+)
+
+628 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+631 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+634 #–ià
+defšed
+(
+__TI_COMPILER_VERSION__
+)
+
+635 #ià
+defšed
+(
+__TI_ARM__
+)
+
+636 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+638 #–ià
+defšed
+(
+__MSP430__
+)
+
+639 
+	#ARCHITECTURE_ID
+ "MSP430"
+
+	)
+
+641 #–ià
+defšed
+(
+__TMS320C28XX__
+)
+
+642 
+	#ARCHITECTURE_ID
+ "TMS320C28x"
+
+	)
+
+644 #–ià
+defšed
+(
+__TMS320C6X__
+è|| defšed(
+_TMS320C6X
+)
+
+645 
+	#ARCHITECTURE_ID
+ "TMS320C6x"
+
+	)
+
+648 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+652 
+	#ARCHITECTURE_ID
+
+
+	)
+
+656 
+	#DEC
+(
+n
+) \
+
+657 ('0' + (((
+n
+) / 10000000)%10)), \
+
+658 ('0' + (((
+n
+) / 1000000)%10)), \
+
+659 ('0' + (((
+n
+) / 100000)%10)), \
+
+660 ('0' + (((
+n
+) / 10000)%10)), \
+
+661 ('0' + (((
+n
+) / 1000)%10)), \
+
+662 ('0' + (((
+n
+) / 100)%10)), \
+
+663 ('0' + (((
+n
+) / 10)%10)), \
+
+664 ('0' + ((
+n
+è% 10))
+
+	)
+
+667 
+	#HEX
+(
+n
+) \
+
+668 ('0' + ((
+n
+)>>28 & 0xF)), \
+
+669 ('0' + ((
+n
+)>>24 & 0xF)), \
+
+670 ('0' + ((
+n
+)>>20 & 0xF)), \
+
+671 ('0' + ((
+n
+)>>16 & 0xF)), \
+
+672 ('0' + ((
+n
+)>>12 & 0xF)), \
+
+673 ('0' + ((
+n
+)>>8 & 0xF)), \
+
+674 ('0' + ((
+n
+)>>4 & 0xF)), \
+
+675 ('0' + ((
+n
+è& 0xF))
+
+	)
+
+678 #ifdeà
+COMPILER_VERSION
+
+
+679 cÚ¡* 
+	gšfo_v”siÚ
+ = "INFO" ":" "comp”_v”siÚ[" 
+COMPILER_VERSION
+ "]";
+
+682 #–ià
+defšed
+(
+COMPILER_VERSION_MAJOR
+)
+
+683 cÚ¡ 
+	gšfo_v”siÚ
+[] = {
+
+686 
+COMPILER_VERSION_MAJOR
+,
+
+687 #ifdeà
+COMPILER_VERSION_MINOR
+
+
+688 '.', 
+COMPILER_VERSION_MINOR
+,
+
+689 #ifdeà
+COMPILER_VERSION_PATCH
+
+
+690 '.', 
+COMPILER_VERSION_PATCH
+,
+
+691 #ifdeà
+COMPILER_VERSION_TWEAK
+
+
+692 '.', 
+COMPILER_VERSION_TWEAK
+,
+
+700 #ifdeà
+COMPILER_VERSION_INTERNAL
+
+
+701 cÚ¡ 
+	gšfo_v”siÚ_š‹º®
+[] = {
+
+705 
+COMPILER_VERSION_INTERNAL
+,']','\0'};
+
+706 #–ià
+defšed
+(
+COMPILER_VERSION_INTERNAL_STR
+)
+
+707 cÚ¡* 
+	gšfo_v”siÚ_š‹º®
+ = "INFO" ":" "comp”_v”siÚ_š‹º®[" 
+COMPILER_VERSION_INTERNAL_STR
+ "]";
+
+711 #ifdeà
+SIMULATE_VERSION_MAJOR
+
+
+712 cÚ¡ 
+	gšfo_simuÏ‹_v”siÚ
+[] = {
+
+715 
+SIMULATE_VERSION_MAJOR
+,
+
+716 #ifdeà
+SIMULATE_VERSION_MINOR
+
+
+717 '.', 
+SIMULATE_VERSION_MINOR
+,
+
+718 #ifdeà
+SIMULATE_VERSION_PATCH
+
+
+719 '.', 
+SIMULATE_VERSION_PATCH
+,
+
+720 #ifdeà
+SIMULATE_VERSION_TWEAK
+
+
+721 '.', 
+SIMULATE_VERSION_TWEAK
+,
+
+732 cÚ¡* 
+	gšfo_¶©fÜm
+ = "INFO" ":" "¶©fÜm[" 
+PLATFORM_ID
+ "]";
+
+733 cÚ¡* 
+	gšfo_¬ch
+ = "INFO" ":" "¬ch[" 
+ARCHITECTURE_ID
+ "]";
+
+737 #ià!
+defšed
+(
+__STDC__
+è&& !defšed(
+__şªg__
+)
+
+738 #ià
+defšed
+(
+_MSC_VER
+è|| defšed(
+__ibmxl__
+è|| defšed(
+__IBMC__
+)
+
+739 
+	#C_VERSION
+ "90"
+
+	)
+
+741 
+	#C_VERSION
+
+
+	)
+
+743 #–ià
+__STDC_VERSION__
+ > 201710L
+
+744 
+	#C_VERSION
+ "23"
+
+	)
+
+745 #–ià
+__STDC_VERSION__
+ >= 201710L
+
+746 
+	#C_VERSION
+ "17"
+
+	)
+
+747 #–ià
+__STDC_VERSION__
+ >= 201000L
+
+748 
+	#C_VERSION
+ "11"
+
+	)
+
+749 #–ià
+__STDC_VERSION__
+ >= 199901L
+
+750 
+	#C_VERSION
+ "99"
+
+	)
+
+752 
+	#C_VERSION
+ "90"
+
+	)
+
+754 cÚ¡ * 
+	gšfo_Ïnguage_¡ªd¬d_deçuÉ
+ =
+
+755 "INFO" ":" "¡ªd¬d_deçuÉ[" 
+C_VERSION
+ "]";
+
+757 cÚ¡ * 
+	gšfo_Ïnguage_ex‹nsiÚs_deçuÉ
+ = "INFO" ":" "extensions_default["
+
+759 #ià(
+defšed
+(
+__şªg__
+è|| defšed(
+__GNUC__
+) || \
+
+760 
+defšed
+(
+__TI_COMPILER_VERSION__
+)) && \
+
+761 !
+defšed
+(
+__STRICT_ANSI__
+è&& !defšed(
+_MSC_VER
+)
+
+770 #ifdeà
+ID_VOID_MAIN
+
+
+771 
+	$maš
+(è{
+	}
+}
+
+773 #ià
+defšed
+(
+__CLASSIC_C__
+)
+
+774 
+	$maš
+(
+¬gc
+, 
+¬gv
+) argc; *argv[];
+
+776 
+	$maš
+(
+¬gc
+, * 
+¬gv
+[])
+
+779 
+»quœe
+ = 0;
+
+780 
+»quœe
+ +ğ
+šfo_comp”
+[
+¬gc
+];
+
+781 
+»quœe
+ +ğ
+šfo_¶©fÜm
+[
+¬gc
+];
+
+782 
+»quœe
+ +ğ
+šfo_¬ch
+[
+¬gc
+];
+
+783 #ifdeà
+COMPILER_VERSION_MAJOR
+
+
+784 
+»quœe
+ +ğ
+šfo_v”siÚ
+[
+¬gc
+];
+
+786 #ifdeà
+COMPILER_VERSION_INTERNAL
+
+
+787 
+»quœe
+ +ğ
+šfo_v”siÚ_š‹º®
+[
+¬gc
+];
+
+789 #ifdeà
+SIMULATE_ID
+
+
+790 
+»quœe
+ +ğ
+šfo_simuÏ‹
+[
+¬gc
+];
+
+792 #ifdeà
+SIMULATE_VERSION_MAJOR
+
+
+793 
+»quœe
+ +ğ
+šfo_simuÏ‹_v”siÚ
+[
+¬gc
+];
+
+795 #ià
+	`defšed
+(
+__CRAYXT_COMPUTE_LINUX_TARGET
+)
+
+796 
+»quœe
+ +ğ
+šfo_üay
+[
+¬gc
+];
+
+798 
+»quœe
+ +ğ
+šfo_Ïnguage_¡ªd¬d_deçuÉ
+[
+¬gc
+];
+
+799 
+»quœe
+ +ğ
+šfo_Ïnguage_ex‹nsiÚs_deçuÉ
+[
+¬gc
+];
+
+800 ()
+¬gv
+;
+
+801  
+»quœe
+;
+
+802 
+	}
+}
+
+	@composeApp/.cxx/Debug/6w155w3n/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp
+
+4 #iâdeà
+__ılu¥lus
+
+
+8 #ià!
+defšed
+(
+__has_šşude
+)
+
+11 
+	#__has_šşude
+(
+x
+è0
+
+	)
+
+18 #ià
+defšed
+(
+__COMO__
+)
+
+19 
+	#COMPILER_ID
+ "Com—u"
+
+	)
+
+21 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__COMO_VERSION__
+ / 100)
+
+	)
+
+22 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__COMO_VERSION__
+ % 100)
+
+	)
+
+24 #–ià
+defšed
+(
+__INTEL_COMPILER
+è|| defšed(
+__ICC
+)
+
+25 
+	#COMPILER_ID
+ "IÁ–"
+
+	)
+
+26 #ià
+defšed
+(
+_MSC_VER
+)
+
+27 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+29 #ià
+defšed
+(
+__GNUC__
+)
+
+30 
+	#SIMULATE_ID
+ "GNU"
+
+	)
+
+34 #ià
+__INTEL_COMPILER
+ < 2021 || __INTEL_COMPILER == 202110 || __INTEL_COMPILER == 202111
+
+35 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+/100)
+
+	)
+
+36 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+/10 % 10)
+
+	)
+
+37 #ià
+defšed
+(
+__INTEL_COMPILER_UPDATE
+)
+
+38 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_COMPILER_UPDATE
+)
+
+	)
+
+40 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_COMPILER
+ % 10)
+
+	)
+
+43 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_COMPILER
+)
+
+	)
+
+44 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_COMPILER_UPDATE
+)
+
+	)
+
+47 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(0)
+
+	)
+
+49 #ià
+defšed
+(
+__INTEL_COMPILER_BUILD_DATE
+)
+
+51 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__INTEL_COMPILER_BUILD_DATE
+)
+
+	)
+
+53 #ià
+defšed
+(
+_MSC_VER
+)
+
+55 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+56 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+58 #ià
+defšed
+(
+__GNUC__
+)
+
+59 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+60 #–ià
+defšed
+(
+__GNUG__
+)
+
+61 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUG__
+)
+
+	)
+
+63 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+64 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+66 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+67 
+	#SIMULATE_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+70 #–ià(
+defšed
+(
+__şªg__
+è&& defšed(
+__INTEL_CLANG_COMPILER
+)è|| defšed(
+__INTEL_LLVM_COMPILER
+)
+
+71 
+	#COMPILER_ID
+ "IÁ–LLVM"
+
+	)
+
+72 #ià
+defšed
+(
+_MSC_VER
+)
+
+73 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+75 #ià
+defšed
+(
+__GNUC__
+)
+
+76 
+	#SIMULATE_ID
+ "GNU"
+
+	)
+
+82 #ià
+__INTEL_LLVM_COMPILER
+ < 1000000L
+
+83 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/100)
+
+	)
+
+84 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/10 % 10)
+
+	)
+
+85 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+ % 10)
+
+	)
+
+87 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/10000)
+
+	)
+
+88 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+/100 % 100)
+
+	)
+
+89 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__INTEL_LLVM_COMPILER
+ % 100)
+
+	)
+
+91 #ià
+defšed
+(
+_MSC_VER
+)
+
+93 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+94 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+96 #ià
+defšed
+(
+__GNUC__
+)
+
+97 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+98 #–ià
+defšed
+(
+__GNUG__
+)
+
+99 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUG__
+)
+
+	)
+
+101 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+102 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+104 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+105 
+	#SIMULATE_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+108 #–ià
+defšed
+(
+__PATHCC__
+)
+
+109 
+	#COMPILER_ID
+ "P©hSÿË"
+
+	)
+
+110 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__PATHCC__
+)
+
+	)
+
+111 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__PATHCC_MINOR__
+)
+
+	)
+
+112 #ià
+defšed
+(
+__PATHCC_PATCHLEVEL__
+)
+
+113 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__PATHCC_PATCHLEVEL__
+)
+
+	)
+
+116 #–ià
+defšed
+(
+__BORLANDC__
+è&& defšed(
+__CODEGEARC_VERSION__
+)
+
+117 
+	#COMPILER_ID
+ "Emb¬ÿd”o"
+
+	)
+
+118 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__CODEGEARC_VERSION__
+>>24 & 0x00FF)
+
+	)
+
+119 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__CODEGEARC_VERSION__
+>>16 & 0x00FF)
+
+	)
+
+120 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__CODEGEARC_VERSION__
+ & 0xFFFF)
+
+	)
+
+122 #–ià
+defšed
+(
+__BORLANDC__
+)
+
+123 
+	#COMPILER_ID
+ "BÜÏnd"
+
+	)
+
+125 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__BORLANDC__
+>>8)
+
+	)
+
+126 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__BORLANDC__
+ & 0xFF)
+
+	)
+
+128 #–ià
+defšed
+(
+__WATCOMC__
+) && __WATCOMC__ < 1200
+
+129 
+	#COMPILER_ID
+ "W©com"
+
+	)
+
+131 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__WATCOMC__
+ / 100)
+
+	)
+
+132 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__WATCOMC__
+ / 10è% 10)
+
+	)
+
+133 #ià(
+__WATCOMC__
+ % 10) > 0
+
+134 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__WATCOMC__
+ % 10)
+
+	)
+
+137 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+138 
+	#COMPILER_ID
+ "O³nW©com"
+
+	)
+
+140 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__WATCOMC__
+ - 1100è/ 100)
+
+	)
+
+141 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__WATCOMC__
+ / 10è% 10)
+
+	)
+
+142 #ià(
+__WATCOMC__
+ % 10) > 0
+
+143 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__WATCOMC__
+ % 10)
+
+	)
+
+146 #–ià
+defšed
+(
+__SUNPRO_CC
+)
+
+147 
+	#COMPILER_ID
+ "SunPro"
+
+	)
+
+148 #ià
+__SUNPRO_CC
+ >= 0x5100
+
+150 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__SUNPRO_CC
+>>12)
+
+	)
+
+151 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__SUNPRO_CC
+>>4 & 0xFF)
+
+	)
+
+152 
+	#COMPILER_VERSION_PATCH
+ 
+	`HEX
+(
+__SUNPRO_CC
+ & 0xF)
+
+	)
+
+155 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__SUNPRO_CC
+>>8)
+
+	)
+
+156 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__SUNPRO_CC
+>>4 & 0xF)
+
+	)
+
+157 
+	#COMPILER_VERSION_PATCH
+ 
+	`HEX
+(
+__SUNPRO_CC
+ & 0xF)
+
+	)
+
+160 #–ià
+defšed
+(
+__HP_aCC
+)
+
+161 
+	#COMPILER_ID
+ "HP"
+
+	)
+
+163 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__HP_aCC
+/10000)
+
+	)
+
+164 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__HP_aCC
+/100 % 100)
+
+	)
+
+165 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__HP_aCC
+ % 100)
+
+	)
+
+167 #–ià
+defšed
+(
+__DECCXX
+)
+
+168 
+	#COMPILER_ID
+ "Com·q"
+
+	)
+
+170 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__DECCXX_VER
+/10000000)
+
+	)
+
+171 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__DECCXX_VER
+/100000 % 100)
+
+	)
+
+172 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__DECCXX_VER
+ % 10000)
+
+	)
+
+174 #–ià
+defšed
+(
+__IBMCPP__
+è&& defšed(
+__COMPILER_VER__
+)
+
+175 
+	#COMPILER_ID
+ "zOS"
+
+	)
+
+177 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMCPP__
+/100)
+
+	)
+
+178 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMCPP__
+/10 % 10)
+
+	)
+
+179 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMCPP__
+ % 10)
+
+	)
+
+181 #–ià
+defšed
+(
+__ibmxl__
+è&& defšed(
+__şªg__
+)
+
+182 
+	#COMPILER_ID
+ "XLCÏng"
+
+	)
+
+183 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ibmxl_v”siÚ__
+)
+
+	)
+
+184 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ibmxl_»Ëa£__
+)
+
+	)
+
+185 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ibmxl_modifiÿtiÚ__
+)
+
+	)
+
+186 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__ibmxl_±f_fix_Ëv–__
+)
+
+	)
+
+189 #–ià
+defšed
+(
+__IBMCPP__
+è&& !defšed(
+__COMPILER_VER__
+) && __IBMCPP__ >= 800
+
+190 
+	#COMPILER_ID
+ "XL"
+
+	)
+
+192 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMCPP__
+/100)
+
+	)
+
+193 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMCPP__
+/10 % 10)
+
+	)
+
+194 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMCPP__
+ % 10)
+
+	)
+
+196 #–ià
+defšed
+(
+__IBMCPP__
+è&& !defšed(
+__COMPILER_VER__
+) && __IBMCPP__ < 800
+
+197 
+	#COMPILER_ID
+ "Visu®Age"
+
+	)
+
+199 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__IBMCPP__
+/100)
+
+	)
+
+200 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__IBMCPP__
+/10 % 10)
+
+	)
+
+201 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__IBMCPP__
+ % 10)
+
+	)
+
+203 #–ià
+defšed
+(
+__NVCOMPILER
+)
+
+204 
+	#COMPILER_ID
+ "NVHPC"
+
+	)
+
+205 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__NVCOMPILER_MAJOR__
+)
+
+	)
+
+206 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__NVCOMPILER_MINOR__
+)
+
+	)
+
+207 #ià
+defšed
+(
+__NVCOMPILER_PATCHLEVEL__
+)
+
+208 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__NVCOMPILER_PATCHLEVEL__
+)
+
+	)
+
+211 #–ià
+defšed
+(
+__PGI
+)
+
+212 
+	#COMPILER_ID
+ "PGI"
+
+	)
+
+213 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__PGIC__
+)
+
+	)
+
+214 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__PGIC_MINOR__
+)
+
+	)
+
+215 #ià
+defšed
+(
+__PGIC_PATCHLEVEL__
+)
+
+216 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__PGIC_PATCHLEVEL__
+)
+
+	)
+
+219 #–ià
+defšed
+(
+_CRAYC
+)
+
+220 
+	#COMPILER_ID
+ "C¿y"
+
+	)
+
+221 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+_RELEASE_MAJOR
+)
+
+	)
+
+222 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+_RELEASE_MINOR
+)
+
+	)
+
+224 #–ià
+defšed
+(
+__TI_COMPILER_VERSION__
+)
+
+225 
+	#COMPILER_ID
+ "TI"
+
+	)
+
+227 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+/1000000)
+
+	)
+
+228 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+/1000 % 1000)
+
+	)
+
+229 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__TI_COMPILER_VERSION__
+ % 1000)
+
+	)
+
+231 #–ià
+defšed
+(
+__CLANG_FUJITSU
+)
+
+232 
+	#COMPILER_ID
+ "Fuj™suCÏng"
+
+	)
+
+233 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__FCC_majÜ__
+)
+
+	)
+
+234 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__FCC_mšÜ__
+)
+
+	)
+
+235 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__FCC_·tchËv–__
+)
+
+	)
+
+236 
+	#COMPILER_VERSION_INTERNAL_STR
+ 
+__şªg_v”siÚ__
+
+
+	)
+
+239 #–ià
+defšed
+(
+__FUJITSU
+)
+
+240 
+	#COMPILER_ID
+ "Fuj™su"
+
+	)
+
+241 #ià
+defšed
+(
+__FCC_v”siÚ__
+)
+
+242 
+	#COMPILER_VERSION
+ 
+__FCC_v”siÚ__
+
+
+	)
+
+243 #–ià
+defšed
+(
+__FCC_majÜ__
+)
+
+244 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__FCC_majÜ__
+)
+
+	)
+
+245 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__FCC_mšÜ__
+)
+
+	)
+
+246 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__FCC_·tchËv–__
+)
+
+	)
+
+248 #ià
+defšed
+(
+__fcc_v”siÚ
+)
+
+249 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__fcc_v”siÚ
+)
+
+	)
+
+250 #–ià
+defšed
+(
+__FCC_VERSION
+)
+
+251 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__FCC_VERSION
+)
+
+	)
+
+255 #–ià
+defšed
+(
+__ghs__
+)
+
+256 
+	#COMPILER_ID
+ "GHS"
+
+	)
+
+258 #ifdeà
+__GHS_VERSION_NUMBER
+
+
+259 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ / 100)
+
+	)
+
+260 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ / 10 % 10)
+
+	)
+
+261 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__GHS_VERSION_NUMBER
+ % 10)
+
+	)
+
+264 #–ià
+defšed
+(
+__SCO_VERSION__
+)
+
+265 
+	#COMPILER_ID
+ "SCO"
+
+	)
+
+267 #–ià
+defšed
+(
+__ARMCC_VERSION
+è&& !defšed(
+__şªg__
+)
+
+268 
+	#COMPILER_ID
+ "ARMCC"
+
+	)
+
+269 #ià
+__ARMCC_VERSION
+ >= 1000000
+
+271 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/1000000)
+
+	)
+
+272 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/10000 % 100)
+
+	)
+
+273 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCC_VERSION
+ % 10000)
+
+	)
+
+276 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/100000)
+
+	)
+
+277 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCC_VERSION
+/10000 % 10)
+
+	)
+
+278 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCC_VERSION
+ % 10000)
+
+	)
+
+282 #–ià
+defšed
+(
+__şªg__
+è&& defšed(
+__­¶e_bud_v”siÚ__
+)
+
+283 
+	#COMPILER_ID
+ "AµËCÏng"
+
+	)
+
+284 #ià
+defšed
+(
+_MSC_VER
+)
+
+285 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+287 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__şªg_majÜ__
+)
+
+	)
+
+288 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__şªg_mšÜ__
+)
+
+	)
+
+289 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__şªg_·tchËv–__
+)
+
+	)
+
+290 #ià
+defšed
+(
+_MSC_VER
+)
+
+292 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+293 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+295 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+__­¶e_bud_v”siÚ__
+)
+
+	)
+
+297 #–ià
+defšed
+(
+__şªg__
+è&& defšed(
+__ARMCOMPILER_VERSION
+)
+
+298 
+	#COMPILER_ID
+ "ARMCÏng"
+
+	)
+
+299 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+/1000000)
+
+	)
+
+300 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+/10000 % 100)
+
+	)
+
+301 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+ % 10000)
+
+	)
+
+302 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__ARMCOMPILER_VERSION
+)
+
+	)
+
+304 #–ià
+defšed
+(
+__şªg__
+)
+
+305 
+	#COMPILER_ID
+ "CÏng"
+
+	)
+
+306 #ià
+defšed
+(
+_MSC_VER
+)
+
+307 
+	#SIMULATE_ID
+ "MSVC"
+
+	)
+
+309 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__şªg_majÜ__
+)
+
+	)
+
+310 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__şªg_mšÜ__
+)
+
+	)
+
+311 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__şªg_·tchËv–__
+)
+
+	)
+
+312 #ià
+defšed
+(
+_MSC_VER
+)
+
+314 
+	#SIMULATE_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+315 
+	#SIMULATE_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+318 #–ià
+defšed
+(
+__GNUC__
+è|| defšed(
+__GNUG__
+)
+
+319 
+	#COMPILER_ID
+ "GNU"
+
+	)
+
+320 #ià
+defšed
+(
+__GNUC__
+)
+
+321 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUC__
+)
+
+	)
+
+323 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+__GNUG__
+)
+
+	)
+
+325 #ià
+defšed
+(
+__GNUC_MINOR__
+)
+
+326 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+__GNUC_MINOR__
+)
+
+	)
+
+328 #ià
+defšed
+(
+__GNUC_PATCHLEVEL__
+)
+
+329 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__GNUC_PATCHLEVEL__
+)
+
+	)
+
+332 #–ià
+defšed
+(
+_MSC_VER
+)
+
+333 
+	#COMPILER_ID
+ "MSVC"
+
+	)
+
+335 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+(
+_MSC_VER
+ / 100)
+
+	)
+
+336 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(
+_MSC_VER
+ % 100)
+
+	)
+
+337 #ià
+defšed
+(
+_MSC_FULL_VER
+)
+
+338 #ià
+_MSC_VER
+ >= 1400
+
+340 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+_MSC_FULL_VER
+ % 100000)
+
+	)
+
+343 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+_MSC_FULL_VER
+ % 10000)
+
+	)
+
+346 #ià
+defšed
+(
+_MSC_BUILD
+)
+
+347 
+	#COMPILER_VERSION_TWEAK
+ 
+	`DEC
+(
+_MSC_BUILD
+)
+
+	)
+
+350 #–ià
+defšed
+(
+__VISUALDSPVERSION__
+è|| defšed(
+__ADSPBLACKFIN__
+è|| defšed(
+__ADSPTS__
+è|| defšed(
+__ADSP21000__
+)
+
+351 
+	#COMPILER_ID
+ "ADSP"
+
+	)
+
+352 #ià
+defšed
+(
+__VISUALDSPVERSION__
+)
+
+354 
+	#COMPILER_VERSION_MAJOR
+ 
+	`HEX
+(
+__VISUALDSPVERSION__
+>>24)
+
+	)
+
+355 
+	#COMPILER_VERSION_MINOR
+ 
+	`HEX
+(
+__VISUALDSPVERSION__
+>>16 & 0xFF)
+
+	)
+
+356 
+	#COMPILER_VERSION_PATCH
+ 
+	`HEX
+(
+__VISUALDSPVERSION__
+>>8 & 0xFF)
+
+	)
+
+359 #–ià
+defšed
+(
+__IAR_SYSTEMS_ICC__
+è|| defšed(
+__IAR_SYSTEMS_ICC
+)
+
+360 
+	#COMPILER_ID
+ "IAR"
+
+	)
+
+361 #ià
+defšed
+(
+__VER__
+è&& defšed(
+__ICCARM__
+)
+
+362 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__VER__
+è/ 1000000)
+
+	)
+
+363 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+(((
+__VER__
+è/ 1000è% 1000)
+
+	)
+
+364 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+((
+__VER__
+è% 1000)
+
+	)
+
+365 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__IAR_SYSTEMS_ICC__
+)
+
+	)
+
+366 #–ià
+defšed
+(
+__VER__
+è&& (defšed(
+__ICCAVR__
+è|| defšed(
+__ICCRX__
+è|| defšed(
+__ICCRH850__
+è|| defšed(
+__ICCRL78__
+è|| defšed(
+__ICC430__
+è|| defšed(
+__ICCRISCV__
+è|| defšed(
+__ICCV850__
+è|| defšed(
+__ICC8051__
+è|| defšed(
+__ICCSTM8__
+))
+
+367 
+	#COMPILER_VERSION_MAJOR
+ 
+	`DEC
+((
+__VER__
+è/ 100)
+
+	)
+
+368 
+	#COMPILER_VERSION_MINOR
+ 
+	`DEC
+((
+__VER__
+è- (((__VER__è/ 100)*100))
+
+	)
+
+369 
+	#COMPILER_VERSION_PATCH
+ 
+	`DEC
+(
+__SUBVERSION__
+)
+
+	)
+
+370 
+	#COMPILER_VERSION_INTERNAL
+ 
+	`DEC
+(
+__IAR_SYSTEMS_ICC__
+)
+
+	)
+
+377 #–ià
+defšed
+(
+__hpux
+è|| defšed(
+__hpua
+)
+
+378 
+	#COMPILER_ID
+ "HP"
+
+	)
+
+381 
+	#COMPILER_ID
+ ""
+
+	)
+
+388 cÚ¡* 
+	gšfo_comp”
+ = "INFO" ":" "comp”[" 
+COMPILER_ID
+ "]";
+
+389 #ifdeà
+SIMULATE_ID
+
+
+390 cÚ¡* 
+	gšfo_simuÏ‹
+ = "INFO" ":" "simuÏ‹[" 
+SIMULATE_ID
+ "]";
+
+393 #ifdeà
+__QNXNTO__
+
+
+394 cÚ¡* 
+	gqnxÁo
+ = "INFO" ":" "qnxnto[]";
+
+397 #ià
+defšed
+(
+__CRAYXT_COMPUTE_LINUX_TARGET
+)
+
+398 cÚ¡ *
+	gšfo_üay
+ = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
+
+401 
+	#STRINGIFY_HELPER
+(
+X
+è#X
+
+	)
+
+402 
+	#STRINGIFY
+(
+X
+è
+	`STRINGIFY_HELPER
+(X)
+
+	)
+
+405 #ià
+defšed
+(
+__lšux
+è|| defšed(
+__lšux__
+è|| defšed(
+lšux
+)
+
+406 
+	#PLATFORM_ID
+ "Lšux"
+
+	)
+
+408 #–ià
+defšed
+(
+__MSYS__
+)
+
+409 
+	#PLATFORM_ID
+ "MSYS"
+
+	)
+
+411 #–ià
+defšed
+(
+__CYGWIN__
+)
+
+412 
+	#PLATFORM_ID
+ "Cygwš"
+
+	)
+
+414 #–ià
+defšed
+(
+__MINGW32__
+)
+
+415 
+	#PLATFORM_ID
+ "MšGW"
+
+	)
+
+417 #–ià
+defšed
+(
+__APPLE__
+)
+
+418 
+	#PLATFORM_ID
+ "D¬wš"
+
+	)
+
+420 #–ià
+defšed
+(
+_WIN32
+è|| defšed(
+__WIN32__
+è|| defšed(
+WIN32
+)
+
+421 
+	#PLATFORM_ID
+ "Wšdows"
+
+	)
+
+423 #–ià
+defšed
+(
+__F»eBSD__
+è|| defšed(
+__F»eBSD
+)
+
+424 
+	#PLATFORM_ID
+ "F»eBSD"
+
+	)
+
+426 #–ià
+defšed
+(
+__N‘BSD__
+è|| defšed(
+__N‘BSD
+)
+
+427 
+	#PLATFORM_ID
+ "N‘BSD"
+
+	)
+
+429 #–ià
+defšed
+(
+__O³nBSD__
+è|| defšed(
+__OPENBSD
+)
+
+430 
+	#PLATFORM_ID
+ "O³nBSD"
+
+	)
+
+432 #–ià
+defšed
+(
+__sun
+è|| defšed(
+sun
+)
+
+433 
+	#PLATFORM_ID
+ "SunOS"
+
+	)
+
+435 #–ià
+defšed
+(
+_AIX
+è|| defšed(
+__AIX
+è|| defšed(
+__AIX__
+è|| defšed(
+__aix
+è|| defšed(
+__aix__
+)
+
+436 
+	#PLATFORM_ID
+ "AIX"
+
+	)
+
+438 #–ià
+defšed
+(
+__hpux
+è|| defšed(
+__hpux__
+)
+
+439 
+	#PLATFORM_ID
+ "HP-UX"
+
+	)
+
+441 #–ià
+defšed
+(
+__HAIKU__
+)
+
+442 
+	#PLATFORM_ID
+ "Haiku"
+
+	)
+
+444 #–ià
+defšed
+(
+__BeOS
+è|| defšed(
+__BEOS__
+è|| defšed(
+_BEOS
+)
+
+445 
+	#PLATFORM_ID
+ "BeOS"
+
+	)
+
+447 #–ià
+defšed
+(
+__QNX__
+è|| defšed(
+__QNXNTO__
+)
+
+448 
+	#PLATFORM_ID
+ "QNX"
+
+	)
+
+450 #–ià
+defšed
+(
+__Œu64
+è|| defšed(
+_Œu64
+è|| defšed(
+__TRU64__
+)
+
+451 
+	#PLATFORM_ID
+ "Tru64"
+
+	)
+
+453 #–ià
+defšed
+(
+__riscos
+è|| defšed(
+__riscos__
+)
+
+454 
+	#PLATFORM_ID
+ "RISCos"
+
+	)
+
+456 #–ià
+defšed
+(
+__sšix
+è|| defšed(
+__sšix__
+è|| defšed(
+__SINIX__
+)
+
+457 
+	#PLATFORM_ID
+ "SINIX"
+
+	)
+
+459 #–ià
+defšed
+(
+__UNIX_SV__
+)
+
+460 
+	#PLATFORM_ID
+ "UNIX_SV"
+
+	)
+
+462 #–ià
+defšed
+(
+__bsdos__
+)
+
+463 
+	#PLATFORM_ID
+ "BSDOS"
+
+	)
+
+465 #–ià
+defšed
+(
+_MPRAS
+è|| defšed(
+MPRAS
+)
+
+466 
+	#PLATFORM_ID
+ "MP-RAS"
+
+	)
+
+468 #–ià
+defšed
+(
+__osf
+è|| defšed(
+__osf__
+)
+
+469 
+	#PLATFORM_ID
+ "OSF1"
+
+	)
+
+471 #–ià
+defšed
+(
+_SCO_SV
+è|| defšed(
+SCO_SV
+è|| defšed(
+sco_sv
+)
+
+472 
+	#PLATFORM_ID
+ "SCO_SV"
+
+	)
+
+474 #–ià
+defšed
+(
+__uÉrix
+è|| defšed(
+__uÉrix__
+è|| defšed(
+_ULTRIX
+)
+
+475 
+	#PLATFORM_ID
+ "ULTRIX"
+
+	)
+
+477 #–ià
+defšed
+(
+__XENIX__
+è|| defšed(
+_XENIX
+è|| defšed(
+XENIX
+)
+
+478 
+	#PLATFORM_ID
+ "X’ix"
+
+	)
+
+480 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+481 #ià
+defšed
+(
+__LINUX__
+)
+
+482 
+	#PLATFORM_ID
+ "Lšux"
+
+	)
+
+484 #–ià
+defšed
+(
+__DOS__
+)
+
+485 
+	#PLATFORM_ID
+ "DOS"
+
+	)
+
+487 #–ià
+defšed
+(
+__OS2__
+)
+
+488 
+	#PLATFORM_ID
+ "OS2"
+
+	)
+
+490 #–ià
+defšed
+(
+__WINDOWS__
+)
+
+491 
+	#PLATFORM_ID
+ "Wšdows3x"
+
+	)
+
+493 #–ià
+defšed
+(
+__VXWORKS__
+)
+
+494 
+	#PLATFORM_ID
+ "VxWÜks"
+
+	)
+
+497 
+	#PLATFORM_ID
+
+
+	)
+
+500 #–ià
+defšed
+(
+__INTEGRITY
+)
+
+501 #ià
+defšed
+(
+INT_178B
+)
+
+502 
+	#PLATFORM_ID
+ "IÁegr™y178"
+
+	)
+
+505 
+	#PLATFORM_ID
+ "IÁegr™y"
+
+	)
+
+509 
+	#PLATFORM_ID
+
+
+	)
+
+518 #ià
+defšed
+(
+_WIN32
+è&& defšed(
+_MSC_VER
+)
+
+519 #ià
+defšed
+(
+_M_IA64
+)
+
+520 
+	#ARCHITECTURE_ID
+ "IA64"
+
+	)
+
+522 #–ià
+defšed
+(
+_M_ARM64EC
+)
+
+523 
+	#ARCHITECTURE_ID
+ "ARM64EC"
+
+	)
+
+525 #–ià
+defšed
+(
+_M_X64
+è|| defšed(
+_M_AMD64
+)
+
+526 
+	#ARCHITECTURE_ID
+ "x64"
+
+	)
+
+528 #–ià
+defšed
+(
+_M_IX86
+)
+
+529 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+531 #–ià
+defšed
+(
+_M_ARM64
+)
+
+532 
+	#ARCHITECTURE_ID
+ "ARM64"
+
+	)
+
+534 #–ià
+defšed
+(
+_M_ARM
+)
+
+535 #ià
+_M_ARM
+ == 4
+
+536 
+	#ARCHITECTURE_ID
+ "ARMV4I"
+
+	)
+
+537 #–ià
+_M_ARM
+ == 5
+
+538 
+	#ARCHITECTURE_ID
+ "ARMV5I"
+
+	)
+
+540 
+	#ARCHITECTURE_ID
+ "ARMV" 
+	`STRINGIFY
+(
+_M_ARM
+)
+
+	)
+
+543 #–ià
+defšed
+(
+_M_MIPS
+)
+
+544 
+	#ARCHITECTURE_ID
+ "MIPS"
+
+	)
+
+546 #–ià
+defšed
+(
+_M_SH
+)
+
+547 
+	#ARCHITECTURE_ID
+ "SHx"
+
+	)
+
+550 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+553 #–ià
+defšed
+(
+__WATCOMC__
+)
+
+554 #ià
+defšed
+(
+_M_I86
+)
+
+555 
+	#ARCHITECTURE_ID
+ "I86"
+
+	)
+
+557 #–ià
+defšed
+(
+_M_IX86
+)
+
+558 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+561 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+564 #–ià
+defšed
+(
+__IAR_SYSTEMS_ICC__
+è|| defšed(
+__IAR_SYSTEMS_ICC
+)
+
+565 #ià
+defšed
+(
+__ICCARM__
+)
+
+566 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+568 #–ià
+defšed
+(
+__ICCRX__
+)
+
+569 
+	#ARCHITECTURE_ID
+ "RX"
+
+	)
+
+571 #–ià
+defšed
+(
+__ICCRH850__
+)
+
+572 
+	#ARCHITECTURE_ID
+ "RH850"
+
+	)
+
+574 #–ià
+defšed
+(
+__ICCRL78__
+)
+
+575 
+	#ARCHITECTURE_ID
+ "RL78"
+
+	)
+
+577 #–ià
+defšed
+(
+__ICCRISCV__
+)
+
+578 
+	#ARCHITECTURE_ID
+ "RISCV"
+
+	)
+
+580 #–ià
+defšed
+(
+__ICCAVR__
+)
+
+581 
+	#ARCHITECTURE_ID
+ "AVR"
+
+	)
+
+583 #–ià
+defšed
+(
+__ICC430__
+)
+
+584 
+	#ARCHITECTURE_ID
+ "MSP430"
+
+	)
+
+586 #–ià
+defšed
+(
+__ICCV850__
+)
+
+587 
+	#ARCHITECTURE_ID
+ "V850"
+
+	)
+
+589 #–ià
+defšed
+(
+__ICC8051__
+)
+
+590 
+	#ARCHITECTURE_ID
+ "8051"
+
+	)
+
+592 #–ià
+defšed
+(
+__ICCSTM8__
+)
+
+593 
+	#ARCHITECTURE_ID
+ "STM8"
+
+	)
+
+596 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+599 #–ià
+defšed
+(
+__ghs__
+)
+
+600 #ià
+defšed
+(
+__PPC64__
+)
+
+601 
+	#ARCHITECTURE_ID
+ "PPC64"
+
+	)
+
+603 #–ià
+defšed
+(
+__µc__
+)
+
+604 
+	#ARCHITECTURE_ID
+ "PPC"
+
+	)
+
+606 #–ià
+defšed
+(
+__ARM__
+)
+
+607 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+609 #–ià
+defšed
+(
+__x86_64__
+)
+
+610 
+	#ARCHITECTURE_ID
+ "x64"
+
+	)
+
+612 #–ià
+defšed
+(
+__i386__
+)
+
+613 
+	#ARCHITECTURE_ID
+ "X86"
+
+	)
+
+616 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+619 #–ià
+defšed
+(
+__TI_COMPILER_VERSION__
+)
+
+620 #ià
+defšed
+(
+__TI_ARM__
+)
+
+621 
+	#ARCHITECTURE_ID
+ "ARM"
+
+	)
+
+623 #–ià
+defšed
+(
+__MSP430__
+)
+
+624 
+	#ARCHITECTURE_ID
+ "MSP430"
+
+	)
+
+626 #–ià
+defšed
+(
+__TMS320C28XX__
+)
+
+627 
+	#ARCHITECTURE_ID
+ "TMS320C28x"
+
+	)
+
+629 #–ià
+defšed
+(
+__TMS320C6X__
+è|| defšed(
+_TMS320C6X
+)
+
+630 
+	#ARCHITECTURE_ID
+ "TMS320C6x"
+
+	)
+
+633 
+	#ARCHITECTURE_ID
+ ""
+
+	)
+
+637 
+	#ARCHITECTURE_ID
+
+
+	)
+
+641 
+	#DEC
+(
+n
+) \
+
+642 ('0' + (((
+n
+) / 10000000)%10)), \
+
+643 ('0' + (((
+n
+) / 1000000)%10)), \
+
+644 ('0' + (((
+n
+) / 100000)%10)), \
+
+645 ('0' + (((
+n
+) / 10000)%10)), \
+
+646 ('0' + (((
+n
+) / 1000)%10)), \
+
+647 ('0' + (((
+n
+) / 100)%10)), \
+
+648 ('0' + (((
+n
+) / 10)%10)), \
+
+649 ('0' + ((
+n
+è% 10))
+
+	)
+
+652 
+	#HEX
+(
+n
+) \
+
+653 ('0' + ((
+n
+)>>28 & 0xF)), \
+
+654 ('0' + ((
+n
+)>>24 & 0xF)), \
+
+655 ('0' + ((
+n
+)>>20 & 0xF)), \
+
+656 ('0' + ((
+n
+)>>16 & 0xF)), \
+
+657 ('0' + ((
+n
+)>>12 & 0xF)), \
+
+658 ('0' + ((
+n
+)>>8 & 0xF)), \
+
+659 ('0' + ((
+n
+)>>4 & 0xF)), \
+
+660 ('0' + ((
+n
+è& 0xF))
+
+	)
+
+663 #ifdeà
+COMPILER_VERSION
+
+
+664 cÚ¡* 
+	gšfo_v”siÚ
+ = "INFO" ":" "comp”_v”siÚ[" 
+COMPILER_VERSION
+ "]";
+
+667 #–ià
+defšed
+(
+COMPILER_VERSION_MAJOR
+)
+
+668 cÚ¡ 
+	gšfo_v”siÚ
+[] = {
+
+671 
+COMPILER_VERSION_MAJOR
+,
+
+672 #ifdeà
+COMPILER_VERSION_MINOR
+
+
+673 '.', 
+COMPILER_VERSION_MINOR
+,
+
+674 #ifdeà
+COMPILER_VERSION_PATCH
+
+
+675 '.', 
+COMPILER_VERSION_PATCH
+,
+
+676 #ifdeà
+COMPILER_VERSION_TWEAK
+
+
+677 '.', 
+COMPILER_VERSION_TWEAK
+,
+
+685 #ifdeà
+COMPILER_VERSION_INTERNAL
+
+
+686 cÚ¡ 
+	gšfo_v”siÚ_š‹º®
+[] = {
+
+690 
+COMPILER_VERSION_INTERNAL
+,']','\0'};
+
+691 #–ià
+defšed
+(
+COMPILER_VERSION_INTERNAL_STR
+)
+
+692 cÚ¡* 
+	gšfo_v”siÚ_š‹º®
+ = "INFO" ":" "comp”_v”siÚ_š‹º®[" 
+COMPILER_VERSION_INTERNAL_STR
+ "]";
+
+696 #ifdeà
+SIMULATE_VERSION_MAJOR
+
+
+697 cÚ¡ 
+	gšfo_simuÏ‹_v”siÚ
+[] = {
+
+700 
+SIMULATE_VERSION_MAJOR
+,
+
+701 #ifdeà
+SIMULATE_VERSION_MINOR
+
+
+702 '.', 
+SIMULATE_VERSION_MINOR
+,
+
+703 #ifdeà
+SIMULATE_VERSION_PATCH
+
+
+704 '.', 
+SIMULATE_VERSION_PATCH
+,
+
+705 #ifdeà
+SIMULATE_VERSION_TWEAK
+
+
+706 '.', 
+SIMULATE_VERSION_TWEAK
+,
+
+717 cÚ¡* 
+	gšfo_¶©fÜm
+ = "INFO" ":" "¶©fÜm[" 
+PLATFORM_ID
+ "]";
+
+718 cÚ¡* 
+	gšfo_¬ch
+ = "INFO" ":" "¬ch[" 
+ARCHITECTURE_ID
+ "]";
+
+722 #ià
+defšed
+(
+__INTEL_COMPILER
+è&& defšed(
+_MSVC_LANG
+) && _MSVC_LANG < 201403L
+
+723 #ià
+defšed
+(
+__INTEL_CXX11_MODE__
+)
+
+724 #ià
+defšed
+(
+__ıp_agg»g©e_nsdmi
+)
+
+725 
+	#CXX_STD
+ 201402L
+
+	)
+
+727 
+	#CXX_STD
+ 201103L
+
+	)
+
+730 
+	#CXX_STD
+ 199711L
+
+	)
+
+732 #–ià
+defšed
+(
+_MSC_VER
+è&& defšed(
+_MSVC_LANG
+)
+
+733 
+	#CXX_STD
+ 
+_MSVC_LANG
+
+
+	)
+
+735 
+	#CXX_STD
+ 
+__ılu¥lus
+
+
+	)
+
+738 cÚ¡ * 
+	gšfo_Ïnguage_¡ªd¬d_deçuÉ
+ = "INFO" ":" "standard_default["
+
+739 #ià
+CXX_STD
+ > 202002L
+
+741 #–ià
+CXX_STD
+ > 201703L
+
+743 #–ià
+CXX_STD
+ >= 201703L
+
+745 #–ià
+CXX_STD
+ >= 201402L
+
+747 #–ià
+CXX_STD
+ >= 201103L
+
+754 cÚ¡ * 
+	gšfo_Ïnguage_ex‹nsiÚs_deçuÉ
+ = "INFO" ":" "extensions_default["
+
+756 #ià(
+defšed
+(
+__şªg__
+è|| defšed(
+__GNUC__
+) || \
+
+757 
+defšed
+(
+__TI_COMPILER_VERSION__
+)) && \
+
+758 !
+defšed
+(
+__STRICT_ANSI__
+è&& !defšed(
+_MSC_VER
+)
+
+767 
+	$maš
+(
+¬gc
+, * 
+¬gv
+[])
+
+769 
+»quœe
+ = 0;
+
+770 
+»quœe
+ +ğ
+šfo_comp”
+[
+¬gc
+];
+
+771 
+»quœe
+ +ğ
+šfo_¶©fÜm
+[
+¬gc
+];
+
+772 #ifdeà
+COMPILER_VERSION_MAJOR
+
+
+773 
+»quœe
+ +ğ
+šfo_v”siÚ
+[
+¬gc
+];
+
+775 #ifdeà
+COMPILER_VERSION_INTERNAL
+
+
+776 
+»quœe
+ +ğ
+šfo_v”siÚ_š‹º®
+[
+¬gc
+];
+
+778 #ifdeà
+SIMULATE_ID
+
+
+779 
+»quœe
+ +ğ
+šfo_simuÏ‹
+[
+¬gc
+];
+
+781 #ifdeà
+SIMULATE_VERSION_MAJOR
+
+
+782 
+»quœe
+ +ğ
+šfo_simuÏ‹_v”siÚ
+[
+¬gc
+];
+
+784 #ià
+	`defšed
+(
+__CRAYXT_COMPUTE_LINUX_TARGET
+)
+
+785 
+»quœe
+ +ğ
+šfo_üay
+[
+¬gc
+];
+
+787 
+»quœe
+ +ğ
+šfo_Ïnguage_¡ªd¬d_deçuÉ
+[
+¬gc
+];
+
+788 
+»quœe
+ +ğ
+šfo_Ïnguage_ex‹nsiÚs_deçuÉ
+[
+¬gc
+];
+
+789 ()
+¬gv
+;
+
+790  
+»quœe
+;
+
+791 
+	}
+}
+
+	@composeApp/build.gradle.kts
+
+1 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	gdesktİ
+.
+	g­¶iÿtiÚ
+.
+	gd¦
+.
+T¬g‘FÜm©
+
+
+2 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gkÙlš
+.
+	gg¿dË
+.
+Ex³rim’lKÙlšG¿dËPlugšApi
+
+
+3 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gkÙlš
+.
+	gg¿dË
+.
+	gd¦
+.
+JvmT¬g‘
+
+
+5 
+	g¶ugšs
+ {
+
+6 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+kÙlšMuÉÏtfÜm
+)
+
+7 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+ªdroidAµliÿtiÚ
+)
+
+8 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+compo£MuÉÏtfÜm
+)
+
+9 
+®Ÿs
+(
+libs
+.
+¶ugšs
+.
+compo£Comp”
+)
+
+12 
+	gkÙlš
+ {
+
+13 
+	gªdroidT¬g‘
+ {
+
+14 @
+O±In
+(
+Ex³rim’lKÙlšG¿dËPlugšApi
+::
+şass
+)
+
+15 
+comp”O±iÚs
+ {
+
+16 
+jvmT¬g‘
+.
+£t
+(
+JvmT¬g‘
+.
+JVM_11
+)
+
+20 
+li¡Of
+(
+
+21 
+iosX64
+(),
+
+22 
+iosArm64
+(),
+
+23 
+iosSimuÏtÜArm64
+()
+
+24 ).
+	gfÜEach
+ { 
+	giosT¬g‘
+ ->
+
+25 
+	giosT¬g‘
+.
+	gbš¬›s
+.
+	gäamewÜk
+ {
+
+26 
+	gba£Name
+ = "ComposeApp"
+
+27 
+isStic
+ = 
+Œue
+
+
+31 
+	gsourûS‘s
+ {
+
+33 
+	gªdroidMaš
+.
+	gd•’d’c›s
+ {
+
+34 
+im¶em’tiÚ
+(
+compo£
+.
+´ev›w
+)
+
+35 
+im¶em’tiÚ
+(
+libs
+.
+ªdroidx
+.
+aùiv™y
+.
+compo£
+)
+
+37 
+	gcommÚMaš
+.
+	gd•’d’c›s
+ {
+
+38 
+im¶em’tiÚ
+(
+compo£
+.
+ruÁime
+)
+
+39 
+im¶em’tiÚ
+(
+compo£
+.
+found©iÚ
+)
+
+40 
+im¶em’tiÚ
+(
+compo£
+.
+m©”Ÿl
+)
+
+41 
+im¶em’tiÚ
+(
+compo£
+.
+ui
+)
+
+42 
+im¶em’tiÚ
+(
+compo£
+.
+compÚ’ts
+.
+»sourûs
+)
+
+43 
+im¶em’tiÚ
+(
+compo£
+.
+compÚ’ts
+.
+uiToŞšgP»v›w
+)
+
+44 
+im¶em’tiÚ
+(
+libs
+.
+ªdroidx
+.
+liãcyşe
+.
+v›wmod–
+)
+
+45 
+im¶em’tiÚ
+(
+libs
+.
+ªdroidx
+.
+liãcyşe
+.
+ruÁime
+.
+compo£
+)
+
+50 
+	gªdroid
+ {
+
+51 
+	gÇme¥aû
+ = "com.chess.game"
+
+52 
+compeSdk
+ = 
+libs
+.
+v”siÚs
+.
+ªdroid
+.compeSdk.
+g‘
+().
+toIÁ
+()
+
+54 
+deçuÉCÚfig
+ {
+
+55 
+­¶iÿtiÚId
+ = "com.chess.game"
+
+56 
+mšSdk
+ = 
+libs
+.
+v”siÚs
+.
+ªdroid
+.mšSdk.
+g‘
+().
+toIÁ
+()
+
+57 
+rg‘Sdk
+ = 
+libs
+.
+v”siÚs
+.
+ªdroid
+.rg‘Sdk.
+g‘
+().
+toIÁ
+()
+
+58 
+v”siÚCode
+ = 1
+
+59 
+v”siÚName
+ = "1.0"
+
+61 
+	g·ckagšg
+ {
+
+62 
+	g»sourûs
+ {
+
+63 
+	gexşudes
+ += "/META-INF/{AL2.0,LGPL2.1}"
+
+66 
+	gbudTy³s
+ {
+
+67 
+g‘ByName
+("release") {
+
+68 
+	gisMšifyEÇbËd
+ = 
+çl£
+
+
+71 
+	gcompeO±iÚs
+ {
+
+72 
+	gsourûCom·tib™y
+ = 
+JavaV”siÚ
+.
+VERSION_11
+
+
+73 
+rg‘Com·tib™y
+ = 
+JavaV”siÚ
+.
+VERSION_11
+
+
+77 
+	gd•’d’c›s
+ {
+
+78 
+debugIm¶em’tiÚ
+(
+compo£
+.
+uiToŞšg
+)
+
+	@composeApp/build/generated/compose/resourceGenerator/kotlin/androidMainResourceCollectors/chessgame/composeapp/generated/resources/ActualResourceCollectors.kt
+
+1 @
+	gfe
+:
+	$O±In
+(
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+IÁ”ÇlResourûApi
+::
+şass
+)
+
+3 
+·ckage
+ 
+chessgame
+.
+compo£­p
+.
+g’”©ed
+.
+»sourûs
+
+
+5 
+impÜt
+ 
+kÙlš
+.
+O±In
+
+
+6 
+impÜt
+ 
+kÙlš
+.
+SŒšg
+
+
+7 
+impÜt
+ 
+kÙlš
+.
+cŞËùiÚs
+.
+M­
+
+
+8 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+D¿wabËResourû
+
+
+9 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Ex³rim’lResourûApi
+
+
+10 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+FÚtResourû
+
+
+11 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Plu¿lSŒšgResourû
+
+
+12 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+SŒšgA¼ayResourû
+
+
+13 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+SŒšgResourû
+
+
+15 @
+Ex³rim’lResourûApi
+
+
+16 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+Res
+.
+®lD¿wabËResourûs
+: 
+M­
+<
+SŒšg
+, 
+D¿wabËResourû
+> 
+by
+ 
+Ïzy
+ {
+
+17 
+v®
+ 
+m­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+D¿wabËResourû
+>()
+
+18 
+	`_cŞËùCommÚMašD¿wabË0Resourûs
+(
+m­
+)
+
+19 @
+Ïzy
+ 
+m­
+
+
+20 
+	}
+}
+
+23 @
+Ex³rim’lResourûApi
+
+
+24 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+25 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gSŒšgResourû
+>()
+
+26 @
+Ïzy
+ 
+	gm­
+
+
+30 @
+Ex³rim’lResourûApi
+
+
+31 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgA¼ayResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+32 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+>()
+
+33 @
+Ïzy
+ 
+	gm­
+
+
+37 @
+Ex³rim’lResourûApi
+
+
+38 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lPlu¿lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+39 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+>()
+
+40 @
+Ïzy
+ 
+	gm­
+
+
+44 @
+Ex³rim’lResourûApi
+
+
+45 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lFÚtResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gFÚtResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+46 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gFÚtResourû
+>()
+
+47 @
+Ïzy
+ 
+	gm­
+
+
+	@composeApp/build/generated/compose/resourceGenerator/kotlin/commonMainResourceAccessors/chessgame/composeapp/generated/resources/Drawable0.commonMain.kt
+
+1 @
+	gfe
+:
+	$O±In
+(
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+IÁ”ÇlResourûApi
+::
+şass
+)
+
+3 
+·ckage
+ 
+chessgame
+.
+compo£­p
+.
+g’”©ed
+.
+»sourûs
+
+
+5 
+impÜt
+ 
+kÙlš
+.
+O±In
+
+
+6 
+impÜt
+ 
+kÙlš
+.
+SŒšg
+
+
+7 
+impÜt
+ 
+kÙlš
+.
+cŞËùiÚs
+.
+MubËM­
+
+
+8 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+D¿wabËResourû
+
+
+9 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+IÁ”ÇlResourûApi
+
+
+11 
+´iv©e
+ 
+objeù
+ 
+CommÚMašD¿wabË0
+ {
+
+12 
+public
+ 
+v®
+ 
+b_bishİ
+: 
+D¿wabËResourû
+ 
+by
+
+
+13 
+Ïzy
+ { 
+	`š™_b_bishİ
+() }
+
+15 
+public
+ 
+v®
+ 
+b_bishİ_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+16 
+Ïzy
+ { 
+	`š™_b_bishİ_1x
+() }
+
+18 
+public
+ 
+v®
+ 
+b_kšg
+: 
+D¿wabËResourû
+ 
+by
+
+
+19 
+Ïzy
+ { 
+	`š™_b_kšg
+() }
+
+21 
+public
+ 
+v®
+ 
+b_kšg_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+22 
+Ïzy
+ { 
+	`š™_b_kšg_1x
+() }
+
+24 
+public
+ 
+v®
+ 
+b_knight
+: 
+D¿wabËResourû
+ 
+by
+
+
+25 
+Ïzy
+ { 
+	`š™_b_knight
+() }
+
+27 
+public
+ 
+v®
+ 
+b_knight_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+28 
+Ïzy
+ { 
+	`š™_b_knight_1x
+() }
+
+30 
+public
+ 
+v®
+ 
+b_·wn
+: 
+D¿wabËResourû
+ 
+by
+
+
+31 
+Ïzy
+ { 
+	`š™_b_·wn
+() }
+
+33 
+public
+ 
+v®
+ 
+b_·wn_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+34 
+Ïzy
+ { 
+	`š™_b_·wn_1x
+() }
+
+36 
+public
+ 
+v®
+ 
+b_qu“n
+: 
+D¿wabËResourû
+ 
+by
+
+
+37 
+Ïzy
+ { 
+	`š™_b_qu“n
+() }
+
+39 
+public
+ 
+v®
+ 
+b_qu“n_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+40 
+Ïzy
+ { 
+	`š™_b_qu“n_1x
+() }
+
+42 
+public
+ 
+v®
+ 
+b_rook
+: 
+D¿wabËResourû
+ 
+by
+
+
+43 
+Ïzy
+ { 
+	`š™_b_rook
+() }
+
+45 
+public
+ 
+v®
+ 
+b_rook_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+46 
+Ïzy
+ { 
+	`š™_b_rook_1x
+() }
+
+48 
+public
+ 
+v®
+ 
+squ¬e_brown_d¬k
+: 
+D¿wabËResourû
+ 
+by
+
+
+49 
+Ïzy
+ { 
+	`š™_squ¬e_brown_d¬k
+() }
+
+51 
+public
+ 
+v®
+ 
+squ¬e_brown_light
+: 
+D¿wabËResourû
+ 
+by
+
+
+52 
+Ïzy
+ { 
+	`š™_squ¬e_brown_light
+() }
+
+54 
+public
+ 
+v®
+ 
+squ¬e_g¿y_d¬k
+: 
+D¿wabËResourû
+ 
+by
+
+
+55 
+Ïzy
+ { 
+	`š™_squ¬e_g¿y_d¬k
+() }
+
+57 
+public
+ 
+v®
+ 
+squ¬e_g¿y_light
+: 
+D¿wabËResourû
+ 
+by
+
+
+58 
+Ïzy
+ { 
+	`š™_squ¬e_g¿y_light
+() }
+
+60 
+public
+ 
+v®
+ 
+w_bishİ
+: 
+D¿wabËResourû
+ 
+by
+
+
+61 
+Ïzy
+ { 
+	`š™_w_bishİ
+() }
+
+63 
+public
+ 
+v®
+ 
+w_bishİ_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+64 
+Ïzy
+ { 
+	`š™_w_bishİ_1x
+() }
+
+66 
+public
+ 
+v®
+ 
+w_kšg
+: 
+D¿wabËResourû
+ 
+by
+
+
+67 
+Ïzy
+ { 
+	`š™_w_kšg
+() }
+
+69 
+public
+ 
+v®
+ 
+w_kšg_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+70 
+Ïzy
+ { 
+	`š™_w_kšg_1x
+() }
+
+72 
+public
+ 
+v®
+ 
+w_knight
+: 
+D¿wabËResourû
+ 
+by
+
+
+73 
+Ïzy
+ { 
+	`š™_w_knight
+() }
+
+75 
+public
+ 
+v®
+ 
+w_knight_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+76 
+Ïzy
+ { 
+	`š™_w_knight_1x
+() }
+
+78 
+public
+ 
+v®
+ 
+w_·wn
+: 
+D¿wabËResourû
+ 
+by
+
+
+79 
+Ïzy
+ { 
+	`š™_w_·wn
+() }
+
+81 
+public
+ 
+v®
+ 
+w_·wn_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+82 
+Ïzy
+ { 
+	`š™_w_·wn_1x
+() }
+
+84 
+public
+ 
+v®
+ 
+w_qu“n
+: 
+D¿wabËResourû
+ 
+by
+
+
+85 
+Ïzy
+ { 
+	`š™_w_qu“n
+() }
+
+87 
+public
+ 
+v®
+ 
+w_qu“n_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+88 
+Ïzy
+ { 
+	`š™_w_qu“n_1x
+() }
+
+90 
+public
+ 
+v®
+ 
+w_rook
+: 
+D¿wabËResourû
+ 
+by
+
+
+91 
+Ïzy
+ { 
+	`š™_w_rook
+() }
+
+93 
+public
+ 
+v®
+ 
+w_rook_1x
+: 
+D¿wabËResourû
+ 
+by
+
+
+94 
+Ïzy
+ { 
+	`š™_w_rook_1x
+() }
+
+95 
+	}
+}
+
+97 @
+IÁ”ÇlResourûApi
+
+
+98 
+š‹º®
+ 
+fun
+ 
+_cŞËùCommÚMašD¿wabË0Resourûs
+(
+m­
+: 
+MubËM­
+<
+SŒšg
+, 
+D¿wabËResourû
+>) {
+
+99 
+	gm­
+.
+put
+("b_bishİ", 
+CommÚMašD¿wabË0
+.
+b_bishİ
+)
+
+100 
+	gm­
+.
+put
+("b_bishİ_1x", 
+CommÚMašD¿wabË0
+.
+b_bishİ_1x
+)
+
+101 
+	gm­
+.
+put
+("b_kšg", 
+CommÚMašD¿wabË0
+.
+b_kšg
+)
+
+102 
+	gm­
+.
+put
+("b_kšg_1x", 
+CommÚMašD¿wabË0
+.
+b_kšg_1x
+)
+
+103 
+	gm­
+.
+put
+("b_knight", 
+CommÚMašD¿wabË0
+.
+b_knight
+)
+
+104 
+	gm­
+.
+put
+("b_knight_1x", 
+CommÚMašD¿wabË0
+.
+b_knight_1x
+)
+
+105 
+	gm­
+.
+put
+("b_·wn", 
+CommÚMašD¿wabË0
+.
+b_·wn
+)
+
+106 
+	gm­
+.
+put
+("b_·wn_1x", 
+CommÚMašD¿wabË0
+.
+b_·wn_1x
+)
+
+107 
+	gm­
+.
+put
+("b_qu“n", 
+CommÚMašD¿wabË0
+.
+b_qu“n
+)
+
+108 
+	gm­
+.
+put
+("b_qu“n_1x", 
+CommÚMašD¿wabË0
+.
+b_qu“n_1x
+)
+
+109 
+	gm­
+.
+put
+("b_rook", 
+CommÚMašD¿wabË0
+.
+b_rook
+)
+
+110 
+	gm­
+.
+put
+("b_rook_1x", 
+CommÚMašD¿wabË0
+.
+b_rook_1x
+)
+
+111 
+	gm­
+.
+put
+("squ¬e_brown_d¬k", 
+CommÚMašD¿wabË0
+.
+squ¬e_brown_d¬k
+)
+
+112 
+	gm­
+.
+put
+("squ¬e_brown_light", 
+CommÚMašD¿wabË0
+.
+squ¬e_brown_light
+)
+
+113 
+	gm­
+.
+put
+("squ¬e_g¿y_d¬k", 
+CommÚMašD¿wabË0
+.
+squ¬e_g¿y_d¬k
+)
+
+114 
+	gm­
+.
+put
+("squ¬e_g¿y_light", 
+CommÚMašD¿wabË0
+.
+squ¬e_g¿y_light
+)
+
+115 
+	gm­
+.
+put
+("w_bishİ", 
+CommÚMašD¿wabË0
+.
+w_bishİ
+)
+
+116 
+	gm­
+.
+put
+("w_bishİ_1x", 
+CommÚMašD¿wabË0
+.
+w_bishİ_1x
+)
+
+117 
+	gm­
+.
+put
+("w_kšg", 
+CommÚMašD¿wabË0
+.
+w_kšg
+)
+
+118 
+	gm­
+.
+put
+("w_kšg_1x", 
+CommÚMašD¿wabË0
+.
+w_kšg_1x
+)
+
+119 
+	gm­
+.
+put
+("w_knight", 
+CommÚMašD¿wabË0
+.
+w_knight
+)
+
+120 
+	gm­
+.
+put
+("w_knight_1x", 
+CommÚMašD¿wabË0
+.
+w_knight_1x
+)
+
+121 
+	gm­
+.
+put
+("w_·wn", 
+CommÚMašD¿wabË0
+.
+w_·wn
+)
+
+122 
+	gm­
+.
+put
+("w_·wn_1x", 
+CommÚMašD¿wabË0
+.
+w_·wn_1x
+)
+
+123 
+	gm­
+.
+put
+("w_qu“n", 
+CommÚMašD¿wabË0
+.
+w_qu“n
+)
+
+124 
+	gm­
+.
+put
+("w_qu“n_1x", 
+CommÚMašD¿wabË0
+.
+w_qu“n_1x
+)
+
+125 
+	gm­
+.
+put
+("w_rook", 
+CommÚMašD¿wabË0
+.
+w_rook
+)
+
+126 
+	gm­
+.
+put
+("w_rook_1x", 
+CommÚMašD¿wabË0
+.
+w_rook_1x
+)
+
+129 
+š‹º®
+ 
+v®
+ 
+	gRes
+.
+	gd¿wabË
+.
+	gb_bishİ
+: 
+D¿wabËResourû
+
+
+130 
+g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_bishİ
+
+
+132 
+´iv©e
+ 
+fun
+ 
+	$š™_b_bishİ
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+134 
+	`£tOf
+(
+
+136 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+142 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_bishİ_1x
+: 
+D¿wabËResourû
+
+
+143 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_bishİ_1x
+
+
+145 
+´iv©e
+ 
+fun
+ 
+	$š™_b_bishİ_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+147 
+	`£tOf
+(
+
+149 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+155 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_kšg
+: 
+D¿wabËResourû
+
+
+156 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_kšg
+
+
+158 
+´iv©e
+ 
+fun
+ 
+	$š™_b_kšg
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+160 
+	`£tOf
+(
+
+162 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+168 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_kšg_1x
+: 
+D¿wabËResourû
+
+
+169 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_kšg_1x
+
+
+171 
+´iv©e
+ 
+fun
+ 
+	$š™_b_kšg_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+173 
+	`£tOf
+(
+
+175 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+181 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_knight
+: 
+D¿wabËResourû
+
+
+182 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_knight
+
+
+184 
+´iv©e
+ 
+fun
+ 
+	$š™_b_knight
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+186 
+	`£tOf
+(
+
+188 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+194 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_knight_1x
+: 
+D¿wabËResourû
+
+
+195 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_knight_1x
+
+
+197 
+´iv©e
+ 
+fun
+ 
+	$š™_b_knight_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+199 
+	`£tOf
+(
+
+201 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+207 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_·wn
+: 
+D¿wabËResourû
+
+
+208 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_·wn
+
+
+210 
+´iv©e
+ 
+fun
+ 
+	$š™_b_·wn
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+212 
+	`£tOf
+(
+
+214 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+220 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_·wn_1x
+: 
+D¿wabËResourû
+
+
+221 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_·wn_1x
+
+
+223 
+´iv©e
+ 
+fun
+ 
+	$š™_b_·wn_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+225 
+	`£tOf
+(
+
+227 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+233 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_qu“n
+: 
+D¿wabËResourû
+
+
+234 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_qu“n
+
+
+236 
+´iv©e
+ 
+fun
+ 
+	$š™_b_qu“n
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+238 
+	`£tOf
+(
+
+240 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+246 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_qu“n_1x
+: 
+D¿wabËResourû
+
+
+247 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_qu“n_1x
+
+
+249 
+´iv©e
+ 
+fun
+ 
+	$š™_b_qu“n_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+251 
+	`£tOf
+(
+
+253 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+259 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_rook
+: 
+D¿wabËResourû
+
+
+260 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_rook
+
+
+262 
+´iv©e
+ 
+fun
+ 
+	$š™_b_rook
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+264 
+	`£tOf
+(
+
+266 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+272 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+b_rook_1x
+: 
+D¿wabËResourû
+
+
+273 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+b_rook_1x
+
+
+275 
+´iv©e
+ 
+fun
+ 
+	$š™_b_rook_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+277 
+	`£tOf
+(
+
+279 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+285 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+squ¬e_brown_d¬k
+: 
+D¿wabËResourû
+
+
+286 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+squ¬e_brown_d¬k
+
+
+288 
+´iv©e
+ 
+fun
+ 
+	$š™_squ¬e_brown_d¬k
+(): 
+D¿wabËResourû
+ =
+
+289 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+291 
+	`£tOf
+(
+
+293 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+299 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+squ¬e_brown_light
+: 
+D¿wabËResourû
+
+
+300 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+squ¬e_brown_light
+
+
+302 
+´iv©e
+ 
+fun
+ 
+	$š™_squ¬e_brown_light
+(): 
+D¿wabËResourû
+ =
+
+303 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+305 
+	`£tOf
+(
+
+307 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+313 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+squ¬e_g¿y_d¬k
+: 
+D¿wabËResourû
+
+
+314 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+squ¬e_g¿y_d¬k
+
+
+316 
+´iv©e
+ 
+fun
+ 
+	$š™_squ¬e_g¿y_d¬k
+(): 
+D¿wabËResourû
+ =
+
+317 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+319 
+	`£tOf
+(
+
+321 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+327 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+squ¬e_g¿y_light
+: 
+D¿wabËResourû
+
+
+328 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+squ¬e_g¿y_light
+
+
+330 
+´iv©e
+ 
+fun
+ 
+	$š™_squ¬e_g¿y_light
+(): 
+D¿wabËResourû
+ =
+
+331 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+333 
+	`£tOf
+(
+
+335 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+341 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_bishİ
+: 
+D¿wabËResourû
+
+
+342 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_bishİ
+
+
+344 
+´iv©e
+ 
+fun
+ 
+	$š™_w_bishİ
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+346 
+	`£tOf
+(
+
+348 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+354 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_bishİ_1x
+: 
+D¿wabËResourû
+
+
+355 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_bishİ_1x
+
+
+357 
+´iv©e
+ 
+fun
+ 
+	$š™_w_bishİ_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+359 
+	`£tOf
+(
+
+361 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+367 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_kšg
+: 
+D¿wabËResourû
+
+
+368 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_kšg
+
+
+370 
+´iv©e
+ 
+fun
+ 
+	$š™_w_kšg
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+372 
+	`£tOf
+(
+
+374 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+380 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_kšg_1x
+: 
+D¿wabËResourû
+
+
+381 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_kšg_1x
+
+
+383 
+´iv©e
+ 
+fun
+ 
+	$š™_w_kšg_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+385 
+	`£tOf
+(
+
+387 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+393 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_knight
+: 
+D¿wabËResourû
+
+
+394 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_knight
+
+
+396 
+´iv©e
+ 
+fun
+ 
+	$š™_w_knight
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+398 
+	`£tOf
+(
+
+400 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+406 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_knight_1x
+: 
+D¿wabËResourû
+
+
+407 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_knight_1x
+
+
+409 
+´iv©e
+ 
+fun
+ 
+	$š™_w_knight_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+411 
+	`£tOf
+(
+
+413 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+419 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_·wn
+: 
+D¿wabËResourû
+
+
+420 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_·wn
+
+
+422 
+´iv©e
+ 
+fun
+ 
+	$š™_w_·wn
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+424 
+	`£tOf
+(
+
+426 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+432 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_·wn_1x
+: 
+D¿wabËResourû
+
+
+433 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_·wn_1x
+
+
+435 
+´iv©e
+ 
+fun
+ 
+	$š™_w_·wn_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+437 
+	`£tOf
+(
+
+439 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+445 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_qu“n
+: 
+D¿wabËResourû
+
+
+446 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_qu“n
+
+
+448 
+´iv©e
+ 
+fun
+ 
+	$š™_w_qu“n
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+450 
+	`£tOf
+(
+
+452 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+458 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_qu“n_1x
+: 
+D¿wabËResourû
+
+
+459 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_qu“n_1x
+
+
+461 
+´iv©e
+ 
+fun
+ 
+	$š™_w_qu“n_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+463 
+	`£tOf
+(
+
+465 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+471 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_rook
+: 
+D¿wabËResourû
+
+
+472 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_rook
+
+
+474 
+´iv©e
+ 
+fun
+ 
+	$š™_w_rook
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+476 
+	`£tOf
+(
+
+478 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+484 
+š‹º®
+ 
+v®
+ 
+Res
+.
+d¿wabË
+.
+w_rook_1x
+: 
+D¿wabËResourû
+
+
+485 
+	`g‘
+(èğ
+CommÚMašD¿wabË0
+.
+w_rook_1x
+
+
+487 
+´iv©e
+ 
+fun
+ 
+	$š™_w_rook_1x
+(): 
+D¿wabËResourû
+ = 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`D¿wabËResourû
+(
+
+489 
+	`£tOf
+(
+
+491 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+	`ResourûI‹m
+(
+	`£tOf
+(Üg.j‘b¿šs.compo£.»sourûs.
+D’s™yQu®if›r
+.
+XHDPI
+,
+
+	@composeApp/build/generated/compose/resourceGenerator/kotlin/commonMainResourceCollectors/chessgame/composeapp/generated/resources/ExpectResourceCollectors.kt
+
+1 
+·ckage
+ 
+	gchessgame
+.
+	gcompo£­p
+.
+	gg’”©ed
+.
+»sourûs
+
+
+3 
+impÜt
+ 
+	gkÙlš
+.
+SŒšg
+
+
+4 
+impÜt
+ 
+	gkÙlš
+.
+	gcŞËùiÚs
+.
+M­
+
+
+5 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	g»sourûs
+.
+D¿wabËResourû
+
+
+6 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	g»sourûs
+.
+Ex³rim’lResourûApi
+
+
+7 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	g»sourûs
+.
+FÚtResourû
+
+
+8 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	g»sourûs
+.
+Plu¿lSŒšgResourû
+
+
+9 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	g»sourûs
+.
+SŒšgA¼ayResourû
+
+
+10 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	g»sourûs
+.
+	gSŒšgResourû
+
+
+12 @
+Ex³rim’lResourûApi
+
+
+13 
+š‹º®
+ 
+ex³ù
+ 
+v®
+ 
+	gRes
+.
+	g®lD¿wabËResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gD¿wabËResourû
+>
+
+15 @
+Ex³rim’lResourûApi
+
+
+16 
+š‹º®
+ 
+ex³ù
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgResourû
+>
+
+18 @
+Ex³rim’lResourûApi
+
+
+19 
+š‹º®
+ 
+ex³ù
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgA¼ayResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+>
+
+21 @
+Ex³rim’lResourûApi
+
+
+22 
+š‹º®
+ 
+ex³ù
+ 
+v®
+ 
+	gRes
+.
+	g®lPlu¿lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+>
+
+24 @
+Ex³rim’lResourûApi
+
+
+25 
+š‹º®
+ 
+ex³ù
+ 
+v®
+ 
+	gRes
+.
+	g®lFÚtResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gFÚtResourû
+>
+
+	@composeApp/build/generated/compose/resourceGenerator/kotlin/commonResClass/chessgame/composeapp/generated/resources/Res.kt
+
+1 @
+	gfe
+:
+	$O±In
+(
+
+2 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+IÁ”ÇlResourûApi
+::
+şass
+,
+
+3 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Ex³rim’lResourûApi
+::
+şass
+,
+
+6 
+·ckage
+ 
+chessgame
+.
+compo£­p
+.
+g’”©ed
+.
+»sourûs
+
+
+8 
+impÜt
+ 
+kÙlš
+.
+By‹A¼ay
+
+
+9 
+impÜt
+ 
+kÙlš
+.
+O±In
+
+
+10 
+impÜt
+ 
+kÙlš
+.
+SŒšg
+
+
+11 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Ex³rim’lResourûApi
+
+
+12 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+g‘ResourûUri
+
+
+13 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+»adResourûBy‹s
+
+
+15 
+š‹º®
+ 
+objeù
+ 
+Res
+ {
+
+24 @
+Ex³rim’lResourûApi
+
+
+25 
+public
+ 
+su¥’d
+ 
+fun
+ 
+	`»adBy‹s
+(
+·th
+: 
+SŒšg
+): 
+By‹A¼ay
+ =
+
+26 
+	`»adResourûBy‹s
+("compo£Resourûs/chessgame.compo£­p.g’”©ed.»sourûs/" + 
+·th
+)
+
+36 @
+Ex³rim’lResourûApi
+
+
+37 
+public
+ 
+fun
+ 
+	`g‘Uri
+(
+·th
+: 
+SŒšg
+): String =
+
+38 
+	`g‘ResourûUri
+("compo£Resourûs/chessgame.compo£­p.g’”©ed.»sourûs/" + 
+·th
+)
+
+40 
+public
+ 
+objeù
+ 
+d¿wabË
+
+
+42 
+public
+ 
+objeù
+ 
+¡ršg
+
+
+44 
+public
+ 
+objeù
+ 
+¬¿y
+
+
+46 
+public
+ 
+objeù
+ 
+¶u¿ls
+
+
+48 
+public
+ 
+objeù
+ 
+fÚt
+
+
+49 
+	}
+}
+
+	@composeApp/build/generated/compose/resourceGenerator/kotlin/iosArm64MainResourceCollectors/chessgame/composeapp/generated/resources/ActualResourceCollectors.kt
+
+1 @
+	gfe
+:
+	$O±In
+(
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+IÁ”ÇlResourûApi
+::
+şass
+)
+
+3 
+·ckage
+ 
+chessgame
+.
+compo£­p
+.
+g’”©ed
+.
+»sourûs
+
+
+5 
+impÜt
+ 
+kÙlš
+.
+O±In
+
+
+6 
+impÜt
+ 
+kÙlš
+.
+SŒšg
+
+
+7 
+impÜt
+ 
+kÙlš
+.
+cŞËùiÚs
+.
+M­
+
+
+8 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+D¿wabËResourû
+
+
+9 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Ex³rim’lResourûApi
+
+
+10 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+FÚtResourû
+
+
+11 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Plu¿lSŒšgResourû
+
+
+12 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+SŒšgA¼ayResourû
+
+
+13 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+SŒšgResourû
+
+
+15 @
+Ex³rim’lResourûApi
+
+
+16 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+Res
+.
+®lD¿wabËResourûs
+: 
+M­
+<
+SŒšg
+, 
+D¿wabËResourû
+> 
+by
+ 
+Ïzy
+ {
+
+17 
+v®
+ 
+m­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+D¿wabËResourû
+>()
+
+18 
+	`_cŞËùCommÚMašD¿wabË0Resourûs
+(
+m­
+)
+
+19 @
+Ïzy
+ 
+m­
+
+
+20 
+	}
+}
+
+23 @
+Ex³rim’lResourûApi
+
+
+24 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+25 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gSŒšgResourû
+>()
+
+26 @
+Ïzy
+ 
+	gm­
+
+
+30 @
+Ex³rim’lResourûApi
+
+
+31 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgA¼ayResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+32 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+>()
+
+33 @
+Ïzy
+ 
+	gm­
+
+
+37 @
+Ex³rim’lResourûApi
+
+
+38 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lPlu¿lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+39 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+>()
+
+40 @
+Ïzy
+ 
+	gm­
+
+
+44 @
+Ex³rim’lResourûApi
+
+
+45 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lFÚtResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gFÚtResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+46 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gFÚtResourû
+>()
+
+47 @
+Ïzy
+ 
+	gm­
+
+
+	@composeApp/build/generated/compose/resourceGenerator/kotlin/iosSimulatorArm64MainResourceCollectors/chessgame/composeapp/generated/resources/ActualResourceCollectors.kt
+
+1 @
+	gfe
+:
+	$O±In
+(
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+IÁ”ÇlResourûApi
+::
+şass
+)
+
+3 
+·ckage
+ 
+chessgame
+.
+compo£­p
+.
+g’”©ed
+.
+»sourûs
+
+
+5 
+impÜt
+ 
+kÙlš
+.
+O±In
+
+
+6 
+impÜt
+ 
+kÙlš
+.
+SŒšg
+
+
+7 
+impÜt
+ 
+kÙlš
+.
+cŞËùiÚs
+.
+M­
+
+
+8 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+D¿wabËResourû
+
+
+9 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Ex³rim’lResourûApi
+
+
+10 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+FÚtResourû
+
+
+11 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Plu¿lSŒšgResourû
+
+
+12 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+SŒšgA¼ayResourû
+
+
+13 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+SŒšgResourû
+
+
+15 @
+Ex³rim’lResourûApi
+
+
+16 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+Res
+.
+®lD¿wabËResourûs
+: 
+M­
+<
+SŒšg
+, 
+D¿wabËResourû
+> 
+by
+ 
+Ïzy
+ {
+
+17 
+v®
+ 
+m­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+D¿wabËResourû
+>()
+
+18 
+	`_cŞËùCommÚMašD¿wabË0Resourûs
+(
+m­
+)
+
+19 @
+Ïzy
+ 
+m­
+
+
+20 
+	}
+}
+
+23 @
+Ex³rim’lResourûApi
+
+
+24 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+25 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gSŒšgResourû
+>()
+
+26 @
+Ïzy
+ 
+	gm­
+
+
+30 @
+Ex³rim’lResourûApi
+
+
+31 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgA¼ayResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+32 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+>()
+
+33 @
+Ïzy
+ 
+	gm­
+
+
+37 @
+Ex³rim’lResourûApi
+
+
+38 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lPlu¿lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+39 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+>()
+
+40 @
+Ïzy
+ 
+	gm­
+
+
+44 @
+Ex³rim’lResourûApi
+
+
+45 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lFÚtResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gFÚtResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+46 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gFÚtResourû
+>()
+
+47 @
+Ïzy
+ 
+	gm­
+
+
+	@composeApp/build/generated/compose/resourceGenerator/kotlin/iosX64MainResourceCollectors/chessgame/composeapp/generated/resources/ActualResourceCollectors.kt
+
+1 @
+	gfe
+:
+	$O±In
+(
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+IÁ”ÇlResourûApi
+::
+şass
+)
+
+3 
+·ckage
+ 
+chessgame
+.
+compo£­p
+.
+g’”©ed
+.
+»sourûs
+
+
+5 
+impÜt
+ 
+kÙlš
+.
+O±In
+
+
+6 
+impÜt
+ 
+kÙlš
+.
+SŒšg
+
+
+7 
+impÜt
+ 
+kÙlš
+.
+cŞËùiÚs
+.
+M­
+
+
+8 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+D¿wabËResourû
+
+
+9 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Ex³rim’lResourûApi
+
+
+10 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+FÚtResourû
+
+
+11 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+Plu¿lSŒšgResourû
+
+
+12 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+SŒšgA¼ayResourû
+
+
+13 
+impÜt
+ 
+Üg
+.
+j‘b¿šs
+.
+compo£
+.
+»sourûs
+.
+SŒšgResourû
+
+
+15 @
+Ex³rim’lResourûApi
+
+
+16 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+Res
+.
+®lD¿wabËResourûs
+: 
+M­
+<
+SŒšg
+, 
+D¿wabËResourû
+> 
+by
+ 
+Ïzy
+ {
+
+17 
+v®
+ 
+m­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+D¿wabËResourû
+>()
+
+18 
+	`_cŞËùCommÚMašD¿wabË0Resourûs
+(
+m­
+)
+
+19 @
+Ïzy
+ 
+m­
+
+
+20 
+	}
+}
+
+23 @
+Ex³rim’lResourûApi
+
+
+24 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+25 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gSŒšgResourû
+>()
+
+26 @
+Ïzy
+ 
+	gm­
+
+
+30 @
+Ex³rim’lResourûApi
+
+
+31 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lSŒšgA¼ayResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+32 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gSŒšgA¼ayResourû
+>()
+
+33 @
+Ïzy
+ 
+	gm­
+
+
+37 @
+Ex³rim’lResourûApi
+
+
+38 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lPlu¿lSŒšgResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+39 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gPlu¿lSŒšgResourû
+>()
+
+40 @
+Ïzy
+ 
+	gm­
+
+
+44 @
+Ex³rim’lResourûApi
+
+
+45 
+š‹º®
+ 
+aùu®
+ 
+v®
+ 
+	gRes
+.
+	g®lFÚtResourûs
+: 
+M­
+<
+SŒšg
+, 
+	gFÚtResourû
+> 
+by
+ 
+	gÏzy
+ {
+
+46 
+v®
+ 
+	gm­
+ = 
+mubËM­Of
+<
+SŒšg
+, 
+	gFÚtResourû
+>()
+
+47 @
+Ïzy
+ 
+	gm­
+
+
+	@composeApp/src/androidMain/kotlin/com/chess/game/MainActivity.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+game
+
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+BundË
+
+
+4 
+impÜt
+ 
+	gªdroidx
+.
+	gaùiv™y
+.
+CompÚ’tAùiv™y
+
+
+5 
+impÜt
+ 
+	gªdroidx
+.
+	gaùiv™y
+.
+	gcompo£
+.
+£tCÚ‹Á
+
+
+6 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+Compo§bË
+
+
+7 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gtoŞšg
+.
+	g´ev›w
+.
+P»v›w
+
+
+9 şas 
+	cMašAùiv™y
+ : 
+	$CompÚ’tAùiv™y
+() {
+
+10 
+ov”ride
+ 
+fun
+ 
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+: 
+BundË
+?) {
+
+11 
+su³r
+.
+	`ÚC»©e
+(
+§vedIn¡ªûS‹
+)
+
+13 
+£tCÚ‹Á
+ {
+
+14 
+	`Aµ
+()
+
+17 
+	}
+}
+
+19 @
+P»v›w
+
+
+20 @
+Compo§bË
+
+
+21 
+fun
+ 
+	$AµAndroidP»v›w
+() {
+
+22 
+	`Aµ
+()
+
+23 
+	}
+}
+
+	@composeApp/src/androidMain/kotlin/com/chess/game/Platform.android.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+game
+
+
+3 
+impÜt
+ 
+	gªdroid
+.
+	gos
+.
+Bud
+
+
+5 şas 
+	cAndroidPÏtfÜm
+ : 
+PÏtfÜm
+ {
+
+6 
+ov”ride
+ 
+v®
+ 
+Çme
+: 
+SŒšg
+ = "Android ${Build.VERSION.SDK_INT}"
+
+9 
+aùu®
+ 
+fun
+ 
+	$g‘PÏtfÜm
+(): 
+PÏtfÜm
+ = 
+	`AndroidPÏtfÜm
+()
+
+	@composeApp/src/commonMain/kotlin/com/chess/game/App.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+game
+
+
+3 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.*
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	gui
+.
+	gtoŞšg
+.
+	g´ev›w
+.
+P»v›w
+
+
+5 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+	gGame
+
+
+7 @
+	gCompo§bË
+
+
+8 @
+P»v›w
+
+
+9 
+fun
+ 
+	$Aµ
+() {
+
+10 
+	`Game
+()
+
+11 
+	}
+}
+
+	@composeApp/src/commonMain/kotlin/com/chess/game/Greeting.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+game
+
+
+3 şas 
+	cG»‘šg
+ {
+
+4 
+´iv©e
+ 
+v®
+ 
+	m¶©fÜm
+ = 
+	$g‘PÏtfÜm
+()
+
+6 
+fun
+ 
+	$g»‘
+(): 
+SŒšg
+ {
+
+9 
+	}
+}
+
+	@composeApp/src/commonMain/kotlin/com/chess/game/Platform.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+game
+
+
+3 
+š‹rçû
+ 
+	gPÏtfÜm
+ {
+
+4 
+v®
+ 
+	gÇme
+: 
+SŒšg
+
+
+7 
+ex³ù
+ 
+fun
+ 
+	$g‘PÏtfÜm
+(): Platform
+
+	@composeApp/src/commonMain/kotlin/com/chess/game/ViewModel/MoveViewModel.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+V›wMod–
+
+
+3 şas 
+	cMoveV›wMod–
+ {
+
+	@composeApp/src/commonMain/kotlin/com/chess/game/logic/Game.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+logic
+
+
+3 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+CŞumn
+
+
+4 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gm©”Ÿl
+.
+Divid”
+
+
+5 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+Compo§bË
+
+
+6 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+g‘V®ue
+
+
+7 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+mubËS‹Of
+
+
+8 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+»memb”
+
+
+9 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+£tV®ue
+
+
+10 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	gui
+.
+BßrdV›w
+
+
+11 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	gui
+.
+	gMovesV›w
+
+
+13 @
+Compo§bË
+
+
+14 
+fun
+ 
+	$Game
+() {
+
+15 
+v¬
+ 
+moves
+ 
+by
+ 
+»memb”
+ { 
+	`mubËS‹Of
+("") }
+
+17 
+CŞumn
+ {
+
+18 
+	`BßrdV›w
+(
+
+19 
+moves
+,
+
+20 è{ 
+ÃwMove
+ -> 
+moves
+ =‚ewMove }
+
+21 
+	`Divid”
+()
+
+22 
+	`MovesV›w
+(
+moves
+)
+
+24 
+	}
+}
+
+	@composeApp/src/commonMain/kotlin/com/chess/game/logic/Piece.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+logic
+
+
+3 
+impÜt
+ 
+	gchessgame
+.
+	gcompo£­p
+.
+	gg’”©ed
+.
+	g»sourûs
+.*
+
+4 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	g»sourûs
+.
+D¿wabËResourû
+
+
+5 
+impÜt
+ 
+	gkÙlš
+.
+	gm©h
+.
+abs
+
+
+8 
+d©a
+ 
+şass
+ 
+	$P›û
+(
+
+9 
+v¬
+ 
+p_id
+: 
+SŒšg
+,
+
+10 
+v¬
+ 
+p_ty³
+: 
+P›ûTy³
+,
+
+11 
+v¬
+ 
+p_cŞÜ
+: 
+P›ûCŞÜ
+,
+
+16 
+com·niÚ
+ 
+objeù
+ {
+
+17 
+fun
+ 
+	`p_ty³FromId
+(
+p_id
+: 
+SŒšg
+?): 
+P›û
+? {
+
+18 ià(
+p_id
+ =ğ
+nuÎ
+) ‚ull
+
+20 
+v®
+ 
+p›û
+ = 
+	`p_äomId
+(
+p_id
+)
+
+21  
+	`P›û
+(
+p_id
+, 
+p›û
+.
+fœ¡
+,…›û.
+£cÚd
+)
+
+25 
+fun
+ 
+	`p_image
+(
+p_ty³
+: 
+P›ûTy³
+?, 
+p_cŞÜ
+: 
+P›ûCŞÜ
+): 
+D¿wabËResourû
+ {
+
+26  
+	`wh’
+ (
+p_ty³
+) {
+
+27 
+P›ûTy³
+.
+PAWN
+ -> ià(
+p_cŞÜ
+ 
+is
+ 
+P›ûCŞÜ
+.
+WHITE
+è
+Res
+.
+d¿wabË
+.
+w_·wn_1x
+ Res.d¿wabË.
+b_·wn_1x
+
+
+28 
+P›ûTy³
+.
+KNIGHT
+ -> ià(
+p_cŞÜ
+ 
+is
+ 
+P›ûCŞÜ
+.
+WHITE
+è
+Res
+.
+d¿wabË
+.
+w_knight_1x
+ Res.d¿wabË.
+b_knight_1x
+
+
+29 
+P›ûTy³
+.
+BISHOP
+ -> ià(
+p_cŞÜ
+ 
+is
+ 
+P›ûCŞÜ
+.
+WHITE
+è
+Res
+.
+d¿wabË
+.
+w_bishİ_1x
+ Res.d¿wabË.
+b_bishİ_1x
+
+
+30 
+P›ûTy³
+.
+ROOK
+ -> ià(
+p_cŞÜ
+ 
+is
+ 
+P›ûCŞÜ
+.
+WHITE
+è
+Res
+.
+d¿wabË
+.
+w_rook_1x
+ Res.d¿wabË.
+b_rook_1x
+
+
+31 
+P›ûTy³
+.
+QUEEN
+ -> ià(
+p_cŞÜ
+ 
+is
+ 
+P›ûCŞÜ
+.
+WHITE
+è
+Res
+.
+d¿wabË
+.
+w_qu“n_1x
+ Res.d¿wabË.
+b_qu“n_1x
+
+
+32 
+P›ûTy³
+.
+KING
+ -> ià(
+p_cŞÜ
+ 
+is
+ 
+P›ûCŞÜ
+.
+WHITE
+è
+Res
+.
+d¿wabË
+.
+w_kšg_1x
+ Res.d¿wabË.
+b_kšg_1x
+
+
+33 
+nuÎ
+ -> 
+throw
+ 
+	`IÎeg®S‹Exû±iÚ
+("The Piece Type‚ot valid")
+
+38 
+	}
+}
+
+40 
+£®ed
+ cÏs 
+	cP›ûTy³
+(
+v®
+ 
+v®ue
+: 
+IÁ
+) {
+
+41 
+objeù
+ 
+PAWN
+ : 
+	$P›ûTy³
+(1)
+
+42 
+objeù
+ 
+KNIGHT
+ : 
+	$P›ûTy³
+(3)
+
+43 
+objeù
+ 
+BISHOP
+ : 
+	$P›ûTy³
+(3)
+
+44 
+objeù
+ 
+ROOK
+ : 
+	$P›ûTy³
+(5)
+
+45 
+objeù
+ 
+QUEEN
+ : 
+	$P›ûTy³
+(9)
+
+46 
+objeù
+ 
+KING
+ : 
+	`P›ûTy³
+(0)
+
+49 
+£®ed
+ cÏs 
+	cP›ûCŞÜ
+ {
+
+50 
+objeù
+ 
+WHITE
+ : 
+	$P›ûCŞÜ
+()
+
+51 
+objeù
+ 
+BLACK
+ : 
+	`P›ûCŞÜ
+()
+
+54 
+´iv©e
+ 
+fun
+ 
+	$p_äomId
+(
+p_id
+: 
+SŒšg
+): 
+Paœ
+<
+P›ûTy³
+, 
+P›ûCŞÜ
+> {
+
+55 
+v®
+ 
+p_id
+ =…_id.
+	`toCh¬A¼ay
+()
+
+57 ià(
+p_id
+.
+size
+ !ğ3è
+throw
+ 
+	`IÎeg®S‹Exû±iÚ
+("ID Should have 3 character")
+
+59 
+v®
+ 
+p_cŞÜ
+ = ià(
+p_id
+[0] =ğ'W'è
+P›ûCŞÜ
+.
+WHITE
+ P›ûCŞÜ.
+BLACK
+
+
+60 
+v®
+ 
+p_ty³
+ = 
+	`wh’
+ (
+p_id
+[1]) {
+
+61 'P' -> 
+P›ûTy³
+.
+PAWN
+
+
+62 'N' -> 
+P›ûTy³
+.
+KNIGHT
+
+
+63 'B' -> 
+P›ûTy³
+.
+BISHOP
+
+
+64 'R' -> 
+P›ûTy³
+.
+ROOK
+
+
+65 'Q' -> 
+P›ûTy³
+.
+QUEEN
+
+
+66 'K' -> 
+P›ûTy³
+.
+KING
+
+
+68 
+throw
+ 
+	`IÎeg®S‹Exû±iÚ
+("This Type‚ot Found")
+
+72  
+p_ty³
+ 
+to
+ 
+p_cŞÜ
+
+
+73 
+	}
+}
+
+75 
+v¬
+ 
+	gWHITE_INITIAL_POSITION
+ = 
+mubËLi¡Of
+(
+
+76 
+mubËLi¡Of
+("BR1", "BN2", "BB3", "BQ4", "BK5", "BB6", "BN7", "BR8").
+m­
+ { 
+P›û
+.
+p_ty³FromId
+(
+™
+è}.
+toMubËLi¡
+(),
+
+77 
+mubËLi¡Of
+("BP1", "BP2", "BP3", "BP4", "BP5", "BP6", "BP7", "BP8").
+m­
+ { 
+P›û
+.
+p_ty³FromId
+(
+™
+è}.
+toMubËLi¡
+(),
+
+78 
+mubËLi¡Of
+(
+nuÎ
+,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ).
+m­
+ { 
+P›û
+.
+p_ty³FromId
+(
+™
+è}.
+toMubËLi¡
+(),
+
+79 
+mubËLi¡Of
+(
+nuÎ
+,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ).
+m­
+ { 
+P›û
+.
+p_ty³FromId
+(
+™
+è}.
+toMubËLi¡
+(),
+
+80 
+mubËLi¡Of
+(
+nuÎ
+,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ).
+m­
+ { 
+P›û
+.
+p_ty³FromId
+(
+™
+è}.
+toMubËLi¡
+(),
+
+81 
+mubËLi¡Of
+(
+nuÎ
+,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ,‚uÎ).
+m­
+ { 
+P›û
+.
+p_ty³FromId
+(
+™
+è}.
+toMubËLi¡
+(),
+
+82 
+mubËLi¡Of
+("WP1", "WP2", "WP3", "WP4", "WP5", "WP6", "WP7", "WP8").
+m­
+ { 
+P›û
+.
+p_ty³FromId
+(
+™
+è}.
+toMubËLi¡
+(),
+
+83 
+mubËLi¡Of
+("WR1", "WN2", "WB3", "WQ4", "WK5", "WB6", "WN7", "WR8").
+m­
+ { 
+P›û
+.
+p_ty³FromId
+(
+™
+è}.
+	$toMubËLi¡
+()
+
+86 
+d©a
+ 
+şass
+ 
+	$Pos™iÚ
+(
+v®
+ 
+y
+: 
+IÁ
+, v® 
+x
+: Int)
+
+88 
+fun
+ 
+	`p_movem’t
+(
+cu¼’t_p
+: 
+P›û
+, 
+cu¼’tPos™iÚ
+: 
+Pos™iÚ
+, 
+bßrd
+: 
+MubËLi¡
+<MubËLi¡<P›û?>> , 
+Ï¡Move
+ : 
+Move1
+?): 
+Li¡
+<Move1> {
+
+89 
+v¬
+ 
+li¡OfPos™iÚs
+: 
+Li¡
+<
+Move1
+> = 
+	`A¼ayLi¡
+()
+
+90 
+v®
+ 
+pCh¬
+ = 
+cu¼’t_p
+.
+p_id
+.
+	`toCh¬A¼ay
+()
+
+92 
+li¡OfPos™iÚs
+ =
+
+93 
+	`wh’
+ (
+pCh¬
+[1]) {
+
+94 'P' -> 
+	`·wnMove2
+(
+cu¼’t_p
+, 
+cu¼’tPos™iÚ
+, 
+bßrd
+ , 
+Ï¡Move
+)
+
+100 
+nuÎ
+ -> 
+throw
+ 
+	`IÎeg®S‹Exû±iÚ
+("The Piece Type‚ot valid")
+
+103  
+	`A¼ayLi¡
+()
+
+106  
+li¡OfPos™iÚs
+
+
+107 
+	}
+}
+
+109 
+´iv©e
+ 
+fun
+ 
+·wnMove
+(
+
+110 
+·wn
+: 
+P›û
+,
+
+111 
+cu¼’tP
+: 
+Pos™iÚ
+,
+
+112 
+bßrd
+: 
+MubËLi¡
+<MubËLi¡<
+P›û
+?>>,
+
+113 
+Ï¡Move
+: 
+Move
+?,
+
+114 ): 
+A¼ayLi¡
+<
+Paœ
+<
+Pos™iÚ
+ , 
+	gBoŞ—n
+>> {
+
+116 
+v¬
+ 
+	gli¡OfPos™iÚs
+: 
+A¼ayLi¡
+<
+Paœ
+<
+Pos™iÚ
+ , 
+	gBoŞ—n
+>> = ArrayList()
+
+118 
+v®
+ 
+dœeùiÚ
+ = if(
+·wn
+.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+) -1 +1
+
+119 
+v®
+ 
+¡¬tRaw
+ = ià(
+·wn
+.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+) 6 1
+
+122 if(
+bßrd
+[
+cu¼’tP
+.
+y
+ + 
+dœeùiÚ
+][cu¼’tP.
+x
+] =ğ
+nuÎ
+){
+
+123 if(
+cu¼’tP
+.
+y
+ =ğ
+¡¬tRaw
+ && 
+bßrd
+[cu¼’tP.y + (
+dœeùiÚ
+*2)][cu¼’tP.
+x
+] =ğ
+nuÎ
+){
+
+124 
+li¡OfPos™iÚs
+.
+add
+(
+Paœ
+(
+Pos™iÚ
+(
+cu¼’tP
+.
+y
++
+dœeùiÚ
+ , cu¼’tP.
+x
+è, 
+çl£
+))
+
+125 
+li¡OfPos™iÚs
+.
+add
+(
+Paœ
+(
+Pos™iÚ
+(
+cu¼’tP
+.
+y
++(
+dœeùiÚ
+*2è, cu¼’tP.
+x
+è, 
+çl£
+))
+
+127 
+li¡OfPos™iÚs
+.
+add
+(
+Paœ
+(
+Pos™iÚ
+(
+cu¼’tP
+.
+y
++
+dœeùiÚ
+ , cu¼’tP.
+x
+è, 
+çl£
+))
+
+134 if(
+	gcu¼’tP
+.
+x
+ 
+	gš
+ 1..6){
+
+135 
+v®
+ 
+	grightB
+ = 
+bßrd
+[
+cu¼’tP
+.
+y
++
+dœeùiÚ
+][cu¼’tP.
+x
+ + 1]
+
+136 
+v®
+ 
+ËáB
+ = 
+bßrd
+[
+cu¼’tP
+.
+y
++
+dœeùiÚ
+][cu¼’tP.
+x
+ - 1]
+
+138 if(
+rightB
+ !ğ
+nuÎ
+ &&„ightB.
+p_cŞÜ
+ !ğ
+·wn
+.p_color){
+
+139 
+li¡OfPos™iÚs
+.
+add
+(
+Paœ
+(
+Pos™iÚ
+(
+cu¼’tP
+.
+y
++
+dœeùiÚ
+ , cu¼’tP.
+x
+ + 1è, 
+Œue
+))
+
+141 if(
+ËáB
+ !ğ
+nuÎ
+ &&†eáB.
+p_cŞÜ
+ !ğ
+·wn
+.p_color){
+
+142 
+li¡OfPos™iÚs
+.
+add
+(
+Paœ
+(
+Pos™iÚ
+(
+cu¼’tP
+.
+y
++
+dœeùiÚ
+ , cu¼’tP.
+x
+ - 1è, 
+Œue
+))
+
+145 if(
+Ï¡Move
+ !ğ
+nuÎ
+){
+
+146 if(
+Ï¡Move
+.
+to
+.
+y
+ =ğ
+cu¼’tP
+.y &&†a¡Move.to.
+x
+ == currentP.x+1){
+
+147 if(
+Ï¡Move
+.
+p›û
+.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+BLACK
+){
+
+148 if(
+Ï¡Move
+.
+to
+.
+y
+ -†a¡Move.
+äom
+.y == 2) {
+
+149 
+li¡OfPos™iÚs
+.
+add
+(
+Paœ
+(
+Pos™iÚ
+(
+cu¼’tP
+.
+y
+-1,cu¼’tP.
+x
++1è, 
+Œue
+))
+
+150 
+bßrd
+[
+Ï¡Move
+.
+to
+.
+y
+][Ï¡Move.to.
+x
+] = 
+nuÎ
+
+
+157 }if(
+	gcu¼’tP
+.
+	gx
+ == 0){
+
+158 
+v®
+ 
+rightB
+ = 
+bßrd
+[
+cu¼’tP
+.
+y
++
+dœeùiÚ
+][cu¼’tP.
+x
+ + 1]
+
+159 if(
+rightB
+ !ğ
+nuÎ
+ &&„ightB.
+p_cŞÜ
+ !ğ
+·wn
+.p_color) {
+
+160 
+li¡OfPos™iÚs
+.
+add
+(
+Paœ
+(
+Pos™iÚ
+(
+cu¼’tP
+.
+y
+ + 
+dœeùiÚ
+, cu¼’tP.
+x
+ + 1), 
+Œue
+))
+
+162 }ià(
+	gcu¼’tP
+.
+	gx
+ == 7){
+
+163 
+v®
+ 
+ËáB
+ = 
+bßrd
+[
+cu¼’tP
+.
+y
++
+dœeùiÚ
+][cu¼’tP.
+x
+ - 1]
+
+164 ifĞ
+ËáB
+ !ğ
+nuÎ
+ &&†eáB.
+p_cŞÜ
+ !ğ
+·wn
+.p_color){
+
+165 
+li¡OfPos™iÚs
+.
+add
+(
+Paœ
+(
+Pos™iÚ
+(
+cu¼’tP
+.
+y
++
+dœeùiÚ
+ , cu¼’tP.
+x
+ - 1è, 
+Œue
+))
+
+168  
+	gli¡OfPos™iÚs
+
+
+171 
+´iv©e
+ 
+fun
+ 
+·wnMove2
+(
+·wn
+: 
+P›û
+, 
+cu¼’tP
+: 
+Pos™iÚ
+, 
+bßrd
+: 
+Li¡
+<Li¡<P›û?>>, 
+Ï¡Move
+: 
+Move1
+?): List<Move1> {
+
+172 
+v®
+ 
+moves
+ = 
+mubËLi¡Of
+<
+Move1
+>()
+
+173 
+v®
+ 
+dœ
+ = ià(
+·wn
+.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+) -1 +1
+
+174 
+v®
+ 
+¡¬t
+ = ià(
+·wn
+.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+) 6 1
+
+177 ià(
+bßrd
+[
+cu¼’tP
+.
+y
+ + 
+dœ
+][cu¼’tP.
+x
+] =ğ
+nuÎ
+) {
+
+178 
+moves
+ +ğ
+Move1
+(
+·wn
+, 
+cu¼’tP
+, 
+Pos™iÚ
+(cu¼’tP.
+y
+ + 
+dœ
+, cu¼’tP.
+x
+), 
+isC­tu»
+ = 
+çl£
+)
+
+179 ià(
+cu¼’tP
+.
+y
+ =ğ
+¡¬t
+
+
+180 && 
+bßrd
+[
+cu¼’tP
+.
+y
+ + 
+dœ
+*2][cu¼’tP.
+x
+] =ğ
+nuÎ
+) {
+
+181 
+moves
+ +ğ
+Move1
+(
+·wn
+, 
+cu¼’tP
+, 
+Pos™iÚ
+(cu¼’tP.
+y
+ + 
+dœ
+*2, cu¼’tP.
+x
+), 
+isC­tu»
+ = 
+çl£
+)
+
+186 
+dx
+ 
+š
+ 
+li¡Of
+(-1, +1)) {
+
+187 
+v®
+ 
+	gy1
+ = 
+cu¼’tP
+.
+y
+ + 
+dœ
+
+
+188 
+v®
+ 
+x1
+ = 
+cu¼’tP
+.
+x
+ + 
+dx
+
+
+190 ià(
+x1
+ 
+š
+ 0..7) {
+
+191 
+v®
+ 
+rg‘P›û
+ = 
+bßrd
+[
+y1
+][
+x1
+]
+
+193 ià(
+rg‘P›û
+ !ğ
+nuÎ
+ &&¬g‘P›û.
+p_cŞÜ
+ !ğ
+·wn
+.p_color) {
+
+194 
+moves
+ +ğ
+Move1
+(
+·wn
+, 
+cu¼’tP
+, 
+Pos™iÚ
+(
+y1
+, 
+x1
+), 
+isC­tu»
+ = 
+Œue
+, 
+ÿ±u»Squ¬e
+ = Position(y1, x1))
+
+197 ià(
+	gÏ¡Move
+ !ğ
+nuÎ
+
+
+198 && 
+Ï¡Move
+.
+p›û
+.
+p_ty³
+ =ğ
+P›ûTy³
+.
+PAWN
+
+
+199 && 
+Ï¡Move
+.
+p›û
+.
+p_cŞÜ
+ !ğ
+·wn
+.p_color
+
+200 && 
+Ï¡Move
+.
+äom
+.
+y
+ =ğ(ià(
+·wn
+.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+) 1 6)
+
+201 && 
+Ï¡Move
+.
+to
+.
+y
+ =ğ
+cu¼’tP
+.y
+
+202 && 
+Ï¡Move
+.
+to
+.
+x
+ =ğ
+x1
+
+
+203 && 
+abs
+(
+Ï¡Move
+.
+äom
+.
+y
+ -†a¡Move.
+to
+.y) == 2) {
+
+204 
+moves
+ +ğ
+Move1
+(
+·wn
+, 
+cu¼’tP
+, 
+Pos™iÚ
+(
+y1
+, 
+x1
+), 
+isC­tu»
+ = 
+Œue
+, 
+ÿ±u»Squ¬e
+ = Pos™iÚ(cu¼’tP.
+y
+, x1))
+
+210  
+	gmoves
+
+
+212 
+´iv©e
+ 
+fun
+ 
+kšgMove
+(
+kšg
+: 
+P›û
+, 
+cu¼’tPos™iÚ
+: 
+Pos™iÚ
+, 
+bßrd
+: 
+MubËLi¡
+<MubËLi¡<P›û?>>): 
+A¼ayLi¡
+<
+Paœ
+<Pos™iÚ , 
+	gBoŞ—n
+>> {
+
+214 
+v¬
+ 
+	gli¡OfPos™iÚs
+: 
+A¼ayLi¡
+<
+Paœ
+<
+Pos™iÚ
+, 
+	gBoŞ—n
+>> = ArrayList()
+
+216  
+li¡OfPos™iÚs
+
+
+219 
+d©a
+ 
+şass
+ 
+	$Move
+(
+
+220 
+v®
+ 
+p›û
+: 
+P›û
+,
+
+221 
+v®
+ 
+äom
+: 
+Pos™iÚ
+,
+
+222 
+v®
+ 
+to
+: 
+Pos™iÚ
+,
+
+223 
+v¬
+ 
+isT»©ed
+: 
+BoŞ—n
+ = 
+çl£
+
+
+225 
+d©a
+ 
+şass
+ 
+	`Move1
+(
+
+226 
+v®
+ 
+p›û
+ : 
+P›û
+,
+
+227 
+v®
+ 
+äom
+: 
+Pos™iÚ
+,
+
+228 
+v®
+ 
+to
+: 
+Pos™iÚ
+,
+
+229 
+v®
+ 
+isC­tu»
+: 
+BoŞ—n
+,
+
+230 
+v®
+ 
+ÿ±u»Squ¬e
+: 
+Pos™iÚ
+? = 
+nuÎ
+
+
+233 
+fun
+ 
+	$g‘MoveName
+(
+p›û
+ : 
+P›û
+ , 
+y
+ : 
+IÁ
+ , 
+x
+ : 
+Ch¬
+, 
+´eX
+ : Ch¬ , 
+isTh»©
+ : 
+BoŞ—n
+ , 
+út
+ : IÁè: 
+SŒšg
+{
+
+234 
+v¬
+ 
+isWh™e
+ = 
+p›û
+.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+
+
+235 
+v¬
+ 
+moveCÁ
+ = if(
+isWh™e
+) " $cnt - " ""
+
+236  
+	`wh’
+ (
+p›û
+.
+p_ty³
+) {
+
+237 
+P›ûTy³
+.
+PAWN
+ -> 
+moveCÁ
+ + ià(!
+isTh»©
+) "$x$y" "${preX}x$x$y"
+
+238 
+P›ûTy³
+.
+KNIGHT
+ -> 
+moveCÁ
+ + "N$x$y"
+
+239 
+P›ûTy³
+.
+BISHOP
+ -> 
+moveCÁ
+ + "B$x$y"
+
+240 
+P›ûTy³
+.
+ROOK
+ -> 
+moveCÁ
+ + "R$x$y"
+
+241 
+P›ûTy³
+.
+QUEEN
+ -> 
+moveCÁ
+ + "Q$x$y"
+
+242 
+P›ûTy³
+.
+KING
+ -> 
+moveCÁ
+ + "K$x$y"
+
+243 
+nuÎ
+ -> 
+throw
+ 
+	`IÎeg®S‹Exû±iÚ
+("The Piece Type‚ot valid")
+
+245 
+	}
+}
+
+	@composeApp/src/commonMain/kotlin/com/chess/game/ui/BoardView.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+ui
+
+
+3 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+Image
+
+
+4 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+background
+
+
+5 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+şickabË
+
+
+6 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+A¼ªgem’t
+
+
+7 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+Box
+
+
+8 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+CŞumn
+
+
+9 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+Row
+
+
+10 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+a¥eùR©io
+
+
+11 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+flMaxWidth
+
+
+12 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+·ddšg
+
+
+13 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gÏyout
+.
+size
+
+
+14 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gfound©iÚ
+.
+	gsh­e
+.
+CœşeSh­e
+
+
+15 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gm©”Ÿl
+.
+Bu‰Ú
+
+
+16 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gm©”Ÿl
+.
+Bu‰ÚDeçuÉs
+
+
+17 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gm©”Ÿl
+.
+Text
+
+
+18 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+Compo§bË
+
+
+19 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+LaunchedEfãù
+
+
+20 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+g‘V®ue
+
+
+21 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+mubËS‹Of
+
+
+22 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+»memb”
+
+
+23 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gruÁime
+.
+£tV®ue
+
+
+24 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+Alignm’t
+
+
+25 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+Modif›r
+
+
+26 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gd¿w
+.
+ş
+
+
+27 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gd¿w
+.
+·št
+
+
+28 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gg¿phics
+.
+CŞÜ
+
+
+29 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gÏyout
+.
+CÚ‹ÁSÿË
+
+
+30 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gun™
+.
+dp
+
+
+31 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gun™
+.
+¥
+
+
+32 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+Move
+
+
+33 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+Move1
+
+
+34 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+P›û
+
+
+35 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+P›ûCŞÜ
+
+
+36 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+P›ûTy³
+
+
+37 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+Pos™iÚ
+
+
+38 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+WHITE_INITIAL_POSITION
+
+
+39 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+g‘MoveName
+
+
+40 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	glogic
+.
+p_movem’t
+
+
+41 
+impÜt
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+	gv®ues
+.
+BßrdCŞÜs
+
+
+42 
+impÜt
+ 
+	gÜg
+.
+	gj‘b¿šs
+.
+	gcompo£
+.
+	g»sourûs
+.
+	g·š‹rResourû
+
+
+45 @
+Compo§bË
+
+
+46 
+fun
+ 
+BßrdV›w
+(
+
+47 
+moves
+: 
+SŒšg
+,
+
+48 
+ÚMoveChªge
+: (
+SŒšg
+è-> 
+Un™
+,
+
+51 
+v¬
+ 
+bßrd
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(
+WHITE_INITIAL_POSITION
+) }
+
+53 
+v¬
+ 
+£ËùedP›û
+ 
+by
+ 
+	g»memb”
+ { 
+	gmubËS‹Of
+<
+	gP›û
+?>(
+	gnuÎ
+) }
+
+54 
+v¬
+ 
+Ï¡P›ûClick
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(
+Pos™iÚ
+(-1, -1)) }
+
+55 
+v¬
+ 
+´eviousPos™iÚ
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(
+Pos™iÚ
+(-1, -1)) }
+
+56 
+v¬
+ 
+cu¼’tPos™iÚ
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(
+Pos™iÚ
+(-1, -1)) }
+
+58 
+v¬
+ 
+cu¼’tMoves
+ 
+by
+ 
+	g»memb”
+ { 
+	gmubËS‹Of
+<
+	gLi¡
+<
+	gMove1
+>>(
+em±yLi¡
+()) }
+
+59 
+v¬
+ 
+moveCÁ
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(0) }
+
+60 
+v¬
+ 
+cu¼’tMoveIndex
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(0) }
+
+61 
+v¬
+ 
+li¡OfMoves
+ 
+by
+ 
+	g»memb”
+ { 
+	gmubËS‹Of
+<
+	gA¼ayLi¡
+<
+	gMove1
+>>(
+¬¿yLi¡Of
+()) }
+
+64 
+v¬
+ 
+cu¼’tP›ûTuº
+ 
+by
+ 
+	g»memb”
+ { 
+	gmubËS‹Of
+<
+	gP›û
+?>(
+	gnuÎ
+) }
+
+65 
+v¬
+ 
+tuºCŞÜ
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(
+BßrdCŞÜs
+.
+lightSqu¬e
+) }
+
+67 
+v¬
+ 
+squ¬eStusCŞÜ
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(
+BßrdCŞÜs
+.
+lightSqu¬e
+) }
+
+69 
+v¬
+ 
+yS‹
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(0) }
+
+70 
+v¬
+ 
+xS‹
+ 
+by
+ 
+	g»memb”
+ { 
+mubËS‹Of
+(0) }
+
+72 
+v¬
+ 
+´eP›û
+ 
+by
+ 
+	g»memb”
+ { 
+	gmubËS‹Of
+<
+	gP›û
+?>(
+	gnuÎ
+) }
+
+73 
+v¬
+ 
+ÃxtP›û
+ 
+by
+ 
+	g»memb”
+ { 
+	gmubËS‹Of
+<
+	gP›û
+?>(
+	gnuÎ
+) }
+
+75 
+	gCŞumn
+ {
+
+76 
+y
+ 
+	gš
+ 0 
+	guÁ
+ 8) {
+
+77 
+	gRow
+ {
+
+78 
+x
+ 
+	gš
+ 0 
+	guÁ
+ 8) {
+
+79 
+v®
+ 
+	gbÏckCŞÜ
+ = 
+y
+ % 2 =ğ
+x
+ % 2
+
+80 
+v¬
+ 
+cŞÜ
+ = ià(
+bÏckCŞÜ
+) {
+
+81 
+BßrdCŞÜs
+.
+brownD¬kSqu¬e
+
+
+83 
+BßrdCŞÜs
+.
+brownLightSqu¬e
+
+
+87 
+v®
+ 
+chessBßrdY
+ = 8 - 
+y
+
+
+88 
+v®
+ 
+chessBßrdX
+ = 'a'
+
+90 
+yS‹
+ = 
+y
+
+
+91 
+xS‹
+ = 
+x
+
+
+93 
+v®
+ 
+cu¼’tP›û
+ = 
+bßrd
+[
+yS‹
+][
+xS‹
+]
+
+94 ià(
+cu¼’tP›ûTuº
+ =ğ
+nuÎ
+ècu¼’tP›ûTuº = 
+P›û
+("", 
+P›ûTy³
+.
+KING
+, 
+P›ûCŞÜ
+.
+WHITE
+)
+
+96 ià((
+	g£ËùedP›û
+ !ğ
+nuÎ
+è&& (
+Ï¡P›ûClick
+.
+y
+ =ğ
+yS‹
+ &&†a¡P›ûClick.
+x
+ =ğ
+xS‹
+)) {
+
+97 
+squ¬eStusCŞÜ
+ = 
+BßrdCŞÜs
+.
+hštMoveCŞÜ
+
+
+98 } ià(
+	g´eviousPos™iÚ
+.
+	gy
+ =ğ
+yS‹
+ && 
+´eviousPos™iÚ
+.
+x
+ =ğ
+xS‹
+) {
+
+99 
+squ¬eStusCŞÜ
+ = 
+BßrdCŞÜs
+.
+moveT¿ûCŞÜ
+
+
+100 } ià(
+	gcu¼’tPos™iÚ
+.
+	gy
+ =ğ
+yS‹
+ && 
+cu¼’tPos™iÚ
+.
+x
+ =ğ
+xS‹
+) {
+
+101 
+squ¬eStusCŞÜ
+ = 
+BßrdCŞÜs
+.
+moveT¿ûCŞÜ
+
+
+103 
+	gsqu¬eStusCŞÜ
+ = 
+cŞÜ
+
+
+107 
+Box
+(
+
+108 
+modif›r
+ = 
+Modif›r
+
+
+109 .
+weight
+(1.0f)
+
+110 .
+background
+(
+squ¬eStusCŞÜ
+)
+
+117 .
+a¥eùR©io
+(1.0f)
+
+119 ià(
+x
+ =ğ0è
+Text
+(
+
+121 
+modif›r
+ = 
+Modif›r
+.
+·ddšg
+(3.d
+p
+),
+
+122 
+cŞÜ
+ = 
+CŞÜ
+.
+Wh™e
+,
+
+123 
+fÚtSize
+ = 10.
+¥
+
+
+125 ià(
+y
+ =ğ7è
+Text
+(
+
+127 
+modif›r
+ = 
+Modif›r
+
+
+128 .
+®ign
+(
+Alignm’t
+.
+BÙtomEnd
+)
+
+129 .
+·ddšg
+(3.d
+p
+),
+
+130 
+cŞÜ
+ = 
+CŞÜ
+.
+Wh™e
+,
+
+131 
+fÚtSize
+ = 10.
+¥
+
+
+134 
+cu¼’tP›û
+?.
+Ët
+ { 
+p›û
+ ->
+
+135 
+Image
+(
+
+136 
+·š‹rResourû
+(
+P›û
+.
+p_image
+(
+p›û
+.
+p_ty³
+,…›û.
+p_cŞÜ
+)),
+
+137 
+cÚ‹ÁDesütiÚ
+ = "",
+
+138 
+modif›r
+ = 
+Modif›r
+
+
+139 .
+size
+(40.d
+p
+)
+
+140 .
+®ign
+(
+Alignm’t
+.
+C’‹r
+)
+
+141 .
+şickabË
+ {
+
+143 
+Ï¡P›ûClick
+ = 
+Pos™iÚ
+(
+y
+, 
+x
+)
+
+144 
+cu¼’tMoves
+ = 
+em±yLi¡
+()
+
+145 
+£ËùedP›û
+ = 
+p›û
+
+
+146 ià(
+cu¼’tP›ûTuº
+!!.
+p_cŞÜ
+ =ğ
+p›û
+.p_color) {
+
+147 if(
+li¡OfMoves
+.
+isEm±y
+()){
+
+148 
+cu¼’tMoves
+ = 
+p_movem’t
+(
+p›û
+, 
+Pos™iÚ
+(
+y
+, 
+x
+), 
+bßrd
+ , 
+nuÎ
+)
+
+150 
+cu¼’tMoves
+ = 
+p_movem’t
+(
+p›û
+, 
+Pos™iÚ
+(
+y
+, 
+x
+), 
+bßrd
+ , 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+ - 1])
+
+157 ià(
+	gcu¼’tMoves
+.
+isNÙEm±y
+()) {
+
+158 
+	gcu¼’tMoves
+.
+	gfÜEach
+ { 
+	gmove
+ ->
+
+159 
+Box
+(
+
+160 
+modif›r
+ = 
+Modif›r
+
+
+161 .
+size
+(20.d
+p
+)
+
+162 .
+ş
+(
+CœşeSh­e
+)
+
+163 .
+background
+(
+BßrdCŞÜs
+.
+hštMoveCŞÜ
+)
+
+164 .
+®ign
+(
+Alignm’t
+.
+C’‹r
+)
+
+165 .
+şickabË
+ {
+
+167 
+´eviousPos™iÚ
+ = 
+Pos™iÚ
+Ğ
+Ï¡P›ûClick
+.
+y
+ ,†a¡P›ûClick.
+x
+)
+
+168 
+cu¼’tPos™iÚ
+ = 
+Pos™iÚ
+(
+move
+.
+to
+.
+y
+, move.to.
+x
+)
+
+170 ià(
+cu¼’tP›ûTuº
+!!.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+) {
+
+171 
+cu¼’tP›ûTuº
+ = 
+P›û
+("", 
+P›ûTy³
+.
+KING
+, 
+P›ûCŞÜ
+.
+BLACK
+)
+
+172 
+tuºCŞÜ
+ = 
+CŞÜ
+.
+BÏck
+
+
+174 
+cu¼’tP›ûTuº
+ = 
+P›û
+("", 
+P›ûTy³
+.
+KING
+, 
+P›ûCŞÜ
+.
+WHITE
+)
+
+175 
+tuºCŞÜ
+ = 
+BßrdCŞÜs
+.
+lightSqu¬e
+
+
+179 
+bßrd
+[
+Ï¡P›ûClick
+.
+y
+][Ï¡P›ûClick.
+x
+] = 
+nuÎ
+
+
+180 if(
+move
+.
+ÿ±u»Squ¬e
+ !ğ
+nuÎ
+){
+
+181 
+bßrd
+[
+move
+.
+ÿ±u»Squ¬e
+.
+y
+][move.ÿ±u»Squ¬e.
+x
+] = 
+nuÎ
+
+
+183 
+bßrd
+[
+move
+.
+to
+.
+y
+][move.to.
+x
+] = 
+£ËùedP›û
+
+
+186 
+li¡OfMoves
+.
+add
+(
+
+187 
+cu¼’tMoveIndex
+,
+
+188 
+Move1
+Ğ
+£ËùedP›û
+!!, 
+Pos™iÚ
+(
+Ï¡P›ûClick
+.
+y
+,†a¡P›ûClick.
+x
+), Pos™iÚ(
+move
+.
+to
+.y, move.to.x), move.
+isC­tu»
+ , move.
+ÿ±u»Squ¬e
+ )
+
+191 ++
+cu¼’tMoveIndex
+
+
+192 ià(
+£ËùedP›û
+!!.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+){
+
+193 ++
+moveCÁ
+
+
+196 
+v®
+ 
+ÃwMove
+ = "$moves ${getMoveName(selectedPiece!!, chessBoardY, chessBoardX + x, chessBoardX +†astPieceClick.x, move.isCapture, moveCnt)}"
+
+197 
+ÚMoveChªge
+("$currentMoveIndex")
+
+201 
+£ËùedP›û
+ = 
+nuÎ
+
+
+202 
+cu¼’tMoves
+ = 
+em±yLi¡
+()
+
+205 ià(
+	gmove
+.
+	gto
+.
+	gy
+ =ğ
+y
+ && 
+move
+.
+to
+.
+x
+ == x) {
+
+215 
+Box
+(
+
+216 
+modif›r
+ = 
+Modif›r
+.
+·ddšg
+(10.d
+p
+)
+
+218 
+Box
+(
+
+219 
+modif›r
+ = 
+Modif›r
+
+
+220 .
+size
+(40.d
+p
+)
+
+221 .
+background
+(
+tuºCŞÜ
+)
+
+222 .
+®ign
+(
+Alignm’t
+.
+TİEnd
+)
+
+223 .
+·ddšg
+(16.d
+p
+)
+
+226 
+Row
+(
+
+227 
+modif›r
+ = 
+Modif›r
+
+
+228 .
+flMaxWidth
+()
+
+229 .
+®ign
+(
+Alignm’t
+.
+C’‹r
+),
+
+230 
+hÜizÚlA¼ªgem’t
+ = 
+A¼ªgem’t
+.
+C’‹r
+
+
+232 
+Bu‰Ú
+(
+
+233 
+modif›r
+ = 
+Modif›r
+.
+·ddšg
+(10.d
+p
+, 0.dp),
+
+234 
+ÚClick
+ = {
+
+235 if(
+cu¼’tMoveIndex
+ >= 1){
+
+236 --
+cu¼’tMoveIndex
+
+
+238 
+´eP›û
+ = 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+].
+p›û
+
+
+240 
+cu¼’tPos™iÚ
+ = 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+].
+äom
+
+
+241 
+´eviousPos™iÚ
+ = 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+].
+to
+
+
+243 
+v®
+ 
+isT»©ed
+ = 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+].
+isC­tu»
+
+
+245 
+bßrd
+[
+cu¼’tPos™iÚ
+.
+y
+][cu¼’tPos™iÚ.
+x
+] = 
+´eP›û
+
+
+246 
+bßrd
+[
+´eviousPos™iÚ
+.
+y
+][´eviousPos™iÚ.
+x
+] = 
+nuÎ
+
+
+248 if(
+isT»©ed
+){
+
+249 
+v®
+ 
+Ï¡T»©edP›ûIndex
+ = 
+cu¼’tMoveIndex
+ - 1
+
+251 
+´eP›û
+ = 
+li¡OfMoves
+[
+Ï¡T»©edP›ûIndex
+].
+p›û
+
+
+253 
+cu¼’tPos™iÚ
+ = 
+li¡OfMoves
+[
+Ï¡T»©edP›ûIndex
+].
+äom
+
+
+254 
+´eviousPos™iÚ
+ = 
+li¡OfMoves
+[
+Ï¡T»©edP›ûIndex
+].
+to
+
+
+256 
+bßrd
+[
+cu¼’tPos™iÚ
+.
+y
+][cu¼’tPos™iÚ.
+x
+] = 
+nuÎ
+
+
+257 
+bßrd
+[
+´eviousPos™iÚ
+.
+y
+][´eviousPos™iÚ.
+x
+] = 
+´eP›û
+
+
+261 
+cu¼’tP›ûTuº
+ = 
+´eP›û
+
+
+262 
+cu¼’tMoves
+ = 
+em±yLi¡
+()
+
+264 
+tuºCŞÜ
+ = ià(
+´eP›û
+!!.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+) {
+
+265 
+BßrdCŞÜs
+.
+lightSqu¬e
+
+
+267 
+CŞÜ
+.
+BÏck
+
+
+273 
+cŞÜs
+ = 
+Bu‰ÚDeçuÉs
+.
+bu‰ÚCŞÜs
+(
+
+274 
+backgroundCŞÜ
+ = 
+CŞÜ
+.
+G¿y
+,
+
+275 
+cÚ‹ÁCŞÜ
+ = 
+CŞÜ
+.
+Wh™e
+
+
+278 
+Text
+("Back")
+
+281 
+Bu‰Ú
+(
+
+282 
+modif›r
+ = 
+Modif›r
+.
+·ddšg
+(10.d
+p
+, 0.dp),
+
+283 
+ÚClick
+ = {
+
+284 if(
+cu¼’tMoveIndex
+ < 
+li¡OfMoves
+.
+size
+){
+
+285 ++
+cu¼’tMoveIndex
+
+
+287 
+ÃxtP›û
+ = 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+].
+p›û
+
+
+289 
+cu¼’tPos™iÚ
+ = 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+].
+to
+
+
+290 
+´eviousPos™iÚ
+ = 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+].
+äom
+
+
+292 
+v®
+ 
+isT»©ed
+ = 
+li¡OfMoves
+[
+cu¼’tMoveIndex
+].
+isC­tu»
+
+
+294 
+bßrd
+[
+cu¼’tPos™iÚ
+.
+y
+][cu¼’tPos™iÚ.
+x
+] = 
+ÃxtP›û
+
+
+295 
+bßrd
+[
+´eviousPos™iÚ
+.
+y
+][´eviousPos™iÚ.
+x
+] = 
+nuÎ
+
+
+297 if(
+isT»©ed
+){
+
+298 
+v®
+ 
+Ï¡T»©edP›ûIndex
+ = 
+cu¼’tMoveIndex
+ + 1
+
+300 
+ÃxtP›û
+ = 
+li¡OfMoves
+[
+Ï¡T»©edP›ûIndex
+].
+p›û
+
+
+302 
+´eviousPos™iÚ
+ = 
+li¡OfMoves
+[
+Ï¡T»©edP›ûIndex
+].
+äom
+
+
+303 
+cu¼’tPos™iÚ
+ = 
+li¡OfMoves
+[
+Ï¡T»©edP›ûIndex
+].
+to
+
+
+305 
+bßrd
+[
+cu¼’tPos™iÚ
+.
+y
+][cu¼’tPos™iÚ.
+x
+] = 
+ÃxtP›û
+
+
+306 
+bßrd
+[
+´eviousPos™iÚ
+.
+y
+][´eviousPos™iÚ.
+x
+] = 
+nuÎ
+
+
+310 
+cu¼’tP›ûTuº
+ = 
+ÃxtP›û
+
+
+311 
+cu¼’tMoves
+ = 
+em±yLi¡
+()
+
+313 
+tuºCŞÜ
+ = ià(
+´eP›û
+!!.
+p_cŞÜ
+ =ğ
+P›ûCŞÜ
+.
+WHITE
+) {
+
+314 
+BßrdCŞÜs
+.
+lightSqu¬e
+
+
+316 
+CŞÜ
+.
+BÏck
+
+
+320 
+cŞÜs
+ = 
+Bu‰ÚDeçuÉs
+.
+bu‰ÚCŞÜs
+(
+
+321 
+backgroundCŞÜ
+ = 
+CŞÜ
+.
+G¿y
+,
+
+322 
+cÚ‹ÁCŞÜ
+ = 
+CŞÜ
+.
+Wh™e
+
+
+325 
+Text
+("Next")
+
+331 @
+Compo§bË
+
+
+332 
+fun
+ 
+	$MovesV›w
+(
+move
+: 
+SŒšg
+) {
+
+333 
+	`Text
+(
+
+334 
+move
+,
+
+335 
+modif›r
+ = 
+Modif›r
+
+
+336 .
+	`·ddšg
+(10.d
+p
+)
+
+338 
+	}
+}
+
+	@composeApp/src/commonMain/kotlin/com/chess/game/values/colors.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+	ggame
+.
+v®ues
+
+
+3 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gg¿phics
+.
+CŞÜ
+
+
+5 
+objeù
+ 
+	gBßrdCŞÜs
+{
+
+6 
+v®
+ 
+	glightSqu¬e
+ = 
+CŞÜ
+(0xFFc9c9ca)
+
+7 
+v®
+ 
+d¬kSqu¬e
+ = 
+CŞÜ
+(0xFFa3a3a4)
+
+8 
+v®
+ 
+brownLightSqu¬e
+ = 
+CŞÜ
+(0xFF7C4C3E)
+
+9 
+v®
+ 
+brownD¬kSqu¬e
+ = 
+CŞÜ
+(0xFF512A2A)
+
+10 
+v®
+ 
+hštMoveCŞÜ
+ = 
+CŞÜ
+(0xFF3f8171)
+
+11 
+v®
+ 
+moveT¿ûCŞÜ
+ = 
+CŞÜ
+(0xFFb7c978)
+
+	@composeApp/src/iosMain/kotlin/com/chess/game/MainViewController.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+game
+
+
+3 
+impÜt
+ 
+	gªdroidx
+.
+	gcompo£
+.
+	gui
+.
+	gwšdow
+.
+Compo£UIV›wCÚŒŞËr
+
+
+5 
+fun
+ 
+MašV›wCÚŒŞËr
+(èğ
+Compo£UIV›wCÚŒŞËr
+ { 
+Aµ
+() }
+
+	@composeApp/src/iosMain/kotlin/com/chess/game/Platform.ios.kt
+
+1 
+·ckage
+ 
+	gcom
+.
+	gchess
+.
+game
+
+
+3 
+impÜt
+ 
+	g¶©fÜm
+.
+	gUIK™
+.
+UIDeviû
+
+
+5 şas 
+	cIOSPÏtfÜm
+: 
+PÏtfÜm
+ {
+
+6 
+ov”ride
+ 
+v®
+ 
+Çme
+: 
+SŒšg
+ = 
+UIDeviû
+.
+cu¼’tDeviû
+.
+sy¡emName
+(è+ " " + UIDeviû.cu¼’tDeviû.
+sy¡emV”siÚ
+
+
+9 
+aùu®
+ 
+fun
+ 
+	$g‘PÏtfÜm
+(): 
+PÏtfÜm
+ = 
+	`IOSPÏtfÜm
+()
+
+	@settings.gradle.kts
+
+1 
+	groÙProjeù
+.
+	gÇme
+ = "ChessGame"
+
+2 
+’abËF—tu»P»v›w
+("TYPESAFE_PROJECT_ACCESSORS")
+
+4 
+¶ugšMªagem’t
+ {
+
+5 
+»pos™Ü›s
+ {
+
+6 
+googË
+ {
+
+7 
+mav’CÚ‹Á
+ {
+
+8 
+šşudeGroupAndSubgroups
+("androidx")
+
+9 
+šşudeGroupAndSubgroups
+("com.android")
+
+10 
+šşudeGroupAndSubgroups
+("com.google")
+
+13 
+mav’C’Œ®
+()
+
+14 
+g¿dËPlugšPÜl
+()
+
+18 
+d•’d’cyResŞutiÚMªagem’t
+ {
+
+19 
+»pos™Ü›s
+ {
+
+20 
+googË
+ {
+
+21 
+mav’CÚ‹Á
+ {
+
+22 
+šşudeGroupAndSubgroups
+("androidx")
+
+23 
+šşudeGroupAndSubgroups
+("com.android")
+
+24 
+šşudeGroupAndSubgroups
+("com.google")
+
+27 
+mav’C’Œ®
+()
+
+31 
+šşude
+(":composeApp")
+
+	@
+1
+.
+0
+29
+2791
+.gradle/8.9/dependencies-accessors/b175657e6cd800fb5a121bd3de2b220dacd9f278/sources/org/gradle/accessors/dm/LibrariesForLibs.java
+.gradle/8.9/dependencies-accessors/b175657e6cd800fb5a121bd3de2b220dacd9f278/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java
+.gradle/8.9/dependencies-accessors/c84c5ef430d3d61082ae85fc4bb04c7405dfdced/sources/org/gradle/accessors/dm/ChessGameProjectDependency.java
+.gradle/8.9/dependencies-accessors/c84c5ef430d3d61082ae85fc4bb04c7405dfdced/sources/org/gradle/accessors/dm/ComposeAppProjectDependency.java
+.gradle/8.9/dependencies-accessors/c84c5ef430d3d61082ae85fc4bb04c7405dfdced/sources/org/gradle/accessors/dm/RootProjectAccessor.java
+build.gradle.kts
+composeApp/.cxx/Debug/6w155w3n/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdC/CMakeCCompilerId.c
+composeApp/.cxx/Debug/6w155w3n/x86/CMakeFiles/3.22.1-g37088a8/CompilerIdCXX/CMakeCXXCompilerId.cpp
+composeApp/build.gradle.kts
+composeApp/build/generated/compose/resourceGenerator/kotlin/androidMainResourceCollectors/chessgame/composeapp/generated/resources/ActualResourceCollectors.kt
+composeApp/build/generated/compose/resourceGenerator/kotlin/commonMainResourceAccessors/chessgame/composeapp/generated/resources/Drawable0.commonMain.kt
+composeApp/build/generated/compose/resourceGenerator/kotlin/commonMainResourceCollectors/chessgame/composeapp/generated/resources/ExpectResourceCollectors.kt
+composeApp/build/generated/compose/resourceGenerator/kotlin/commonResClass/chessgame/composeapp/generated/resources/Res.kt
+composeApp/build/generated/compose/resourceGenerator/kotlin/iosArm64MainResourceCollectors/chessgame/composeapp/generated/resources/ActualResourceCollectors.kt
+composeApp/build/generated/compose/resourceGenerator/kotlin/iosSimulatorArm64MainResourceCollectors/chessgame/composeapp/generated/resources/ActualResourceCollectors.kt
+composeApp/build/generated/compose/resourceGenerator/kotlin/iosX64MainResourceCollectors/chessgame/composeapp/generated/resources/ActualResourceCollectors.kt
+composeApp/src/androidMain/kotlin/com/chess/game/MainActivity.kt
+composeApp/src/androidMain/kotlin/com/chess/game/Platform.android.kt
+composeApp/src/commonMain/kotlin/com/chess/game/App.kt
+composeApp/src/commonMain/kotlin/com/chess/game/Greeting.kt
+composeApp/src/commonMain/kotlin/com/chess/game/Platform.kt
+composeApp/src/commonMain/kotlin/com/chess/game/ViewModel/MoveViewModel.kt
+composeApp/src/commonMain/kotlin/com/chess/game/logic/Game.kt
+composeApp/src/commonMain/kotlin/com/chess/game/logic/Piece.kt
+composeApp/src/commonMain/kotlin/com/chess/game/ui/BoardView.kt
+composeApp/src/commonMain/kotlin/com/chess/game/values/colors.kt
+composeApp/src/iosMain/kotlin/com/chess/game/MainViewController.kt
+composeApp/src/iosMain/kotlin/com/chess/game/Platform.ios.kt
+settings.gradle.kts

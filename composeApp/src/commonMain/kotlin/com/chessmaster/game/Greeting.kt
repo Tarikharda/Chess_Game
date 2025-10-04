@@ -1,4 +1,4 @@
-package com.chess.game
+package com.chessmaster.game
 
 class Greeting {
     private val platform = getPlatform()

@@ -1,4 +1,4 @@
-package com.chess.game
+package com.chessmaster.game
 
 import platform.UIKit.UIDevice
 

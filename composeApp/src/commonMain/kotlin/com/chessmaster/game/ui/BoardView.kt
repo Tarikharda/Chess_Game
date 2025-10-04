@@ -1,4 +1,4 @@
-package com.chess.game.ui
+package com.chessmaster.game.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -14,10 +14,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
-import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -25,24 +23,20 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import chessgame.composeapp.generated.resources.Res
 import chessgame.composeapp.generated.resources.reset
 import co.touchlab.kermit.Logger
-import com.chess.game.logic.Move
-import com.chess.game.logic.Move1
-import com.chess.game.logic.Piece
-import com.chess.game.logic.PieceColor
-import com.chess.game.logic.PieceType
-import com.chess.game.logic.Position
-import com.chess.game.logic.WHITE_INITIAL_POSITION
-import com.chess.game.logic.getMoveName
-import com.chess.game.logic.p_movement
-import com.chess.game.values.BoardColors
+import com.chessmaster.game.logic.Move1
+import com.chessmaster.game.logic.Piece
+import com.chessmaster.game.logic.PieceColor
+import com.chessmaster.game.logic.Position
+import com.chessmaster.game.logic.WHITE_INITIAL_POSITION
+import com.chessmaster.game.logic.getMoveName
+import com.chessmaster.game.logic.p_movement
+import com.chessmaster.game.values.BoardColors
 import org.jetbrains.compose.resources.painterResource
 
 @Composable

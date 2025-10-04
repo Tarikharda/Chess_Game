@@ -1,4 +1,4 @@
-package com.chess.game.values
+package com.chessmaster.game.values
 
 import androidx.compose.ui.graphics.Color
 

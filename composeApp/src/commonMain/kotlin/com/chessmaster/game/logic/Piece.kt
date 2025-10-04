@@ -1,8 +1,7 @@
-package com.chess.game.logic
+package com.chessmaster.game.logic
 
 import chessgame.composeapp.generated.resources.*
 import org.jetbrains.compose.resources.DrawableResource
-import kotlin.math.abs
 
 data class Piece(
     var p_id: String,

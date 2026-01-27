@@ -89,11 +89,11 @@ fun p_movement(current_p: Piece, currentPosition: Position, board: MutableList<M
     listOfPositions =
         when (pChar[1]) {
         'P' -> pawnMove(current_p, currentPosition, board , lastMove)
-//        'K'-> kingMove(current_p, currentPosition, board)
-//        'Q'-> queenMove(current_p, currentPosition, board)
-//        'R'-> rookMove(current_p, currentPosition, board)
-//        'N'-> knightMove(current_p, currentPosition, board)
-//        'B'-> bishopMove(current_p, currentPosition, board)
+        'K'-> kingMove(current_p, currentPosition, board)
+        'Q'-> queenMove(current_p, currentPosition, board)
+        'R'-> rookMove(current_p, currentPosition, board)
+        'N'-> knightMove(current_p, currentPosition, board)
+        'B'-> bishopMove(current_p, currentPosition, board)
         null -> throw IllegalStateException("The Piece Type not valid")
 
         else -> {
@@ -163,11 +163,139 @@ private fun pawnMove( pawn: Piece, currentP: Position, board: List<List<Piece?>>
 }
 
 
-private fun kingMove(king: Piece, currentPosition: Position, board: MutableList<MutableList<Piece?>>): ArrayList<Pair<Position , Boolean>> {
+private fun kingMove(king: Piece, currentPosition: Position, board: List<List<Piece?>>): List<Move1> {
+    val moves = mutableListOf<Move1>()
+    
+    // King can move one square in any direction
+    val directions = listOf(
+        Pair(-1, -1), Pair(-1, 0), Pair(-1, 1),
+        Pair(0, -1),               Pair(0, 1),
+        Pair(1, -1),  Pair(1, 0),  Pair(1, 1)
+    )
+    
+    for ((dy, dx) in directions) {
+        val newY = currentPosition.y + dy
+        val newX = currentPosition.x + dx
+        
+        if (newY in 0..7 && newX in 0..7) {
+            val targetPiece = board[newY][newX]
+            if (targetPiece == null) {
+                moves.add(Move1(king, currentPosition, Position(newY, newX), false))
+            } else if (targetPiece.p_color != king.p_color) {
+                moves.add(Move1(king, currentPosition, Position(newY, newX), true))
+            }
+        }
+    }
+    
+    return moves
+}
 
-    var listOfPositions: ArrayList<Pair<Position, Boolean>> = ArrayList()
+private fun queenMove(queen: Piece, currentPosition: Position, board: List<List<Piece?>>): List<Move1> {
+    val moves = mutableListOf<Move1>()
+    
+    // Queen moves like rook + bishop
+    moves.addAll(rookMove(queen, currentPosition, board))
+    moves.addAll(bishopMove(queen, currentPosition, board))
+    
+    return moves
+}
 
-    return listOfPositions
+private fun rookMove(rook: Piece, currentPosition: Position, board: List<List<Piece?>>): List<Move1> {
+    val moves = mutableListOf<Move1>()
+    
+    // Rook moves horizontally and vertically
+    val directions = listOf(
+        Pair(-1, 0),  // Up
+        Pair(1, 0),   // Down
+        Pair(0, -1),  // Left
+        Pair(0, 1)    // Right
+    )
+    
+    for ((dy, dx) in directions) {
+        var distance = 1
+        while (true) {
+            val newY = currentPosition.y + (dy * distance)
+            val newX = currentPosition.x + (dx * distance)
+            
+            if (newY !in 0..7 || newX !in 0..7) break
+            
+            val targetPiece = board[newY][newX]
+            if (targetPiece == null) {
+                moves.add(Move1(rook, currentPosition, Position(newY, newX), false))
+                distance++
+            } else {
+                if (targetPiece.p_color != rook.p_color) {
+                    moves.add(Move1(rook, currentPosition, Position(newY, newX), true))
+                }
+                break
+            }
+        }
+    }
+    
+    return moves
+}
+
+private fun bishopMove(bishop: Piece, currentPosition: Position, board: List<List<Piece?>>): List<Move1> {
+    val moves = mutableListOf<Move1>()
+    
+    // Bishop moves diagonally
+    val directions = listOf(
+        Pair(-1, -1),  // Up-Left
+        Pair(-1, 1),   // Up-Right
+        Pair(1, -1),   // Down-Left
+        Pair(1, 1)     // Down-Right
+    )
+    
+    for ((dy, dx) in directions) {
+        var distance = 1
+        while (true) {
+            val newY = currentPosition.y + (dy * distance)
+            val newX = currentPosition.x + (dx * distance)
+            
+            if (newY !in 0..7 || newX !in 0..7) break
+            
+            val targetPiece = board[newY][newX]
+            if (targetPiece == null) {
+                moves.add(Move1(bishop, currentPosition, Position(newY, newX), false))
+                distance++
+            } else {
+                if (targetPiece.p_color != bishop.p_color) {
+                    moves.add(Move1(bishop, currentPosition, Position(newY, newX), true))
+                }
+                break
+            }
+        }
+    }
+    
+    return moves
+}
+
+private fun knightMove(knight: Piece, currentPosition: Position, board: List<List<Piece?>>): List<Move1> {
+    val moves = mutableListOf<Move1>()
+    
+    // Knight moves in L-shape: 2 squares in one direction, 1 square perpendicular
+    val knightMoves = listOf(
+        Pair(-2, -1), Pair(-2, 1),
+        Pair(-1, -2), Pair(-1, 2),
+        Pair(1, -2),  Pair(1, 2),
+        Pair(2, -1),  Pair(2, 1)
+    )
+    
+    for ((dy, dx) in knightMoves) {
+        val newY = currentPosition.y + dy
+        val newX = currentPosition.x + dx
+        
+        if (newY in 0..7 && newX in 0..7) {
+            val targetPiece = board[newY][newX]
+            if (targetPiece == null) {
+                moves.add(Move1(knight, currentPosition, Position(newY, newX), false))
+            } else if (targetPiece.p_color != knight.p_color) {
+                moves.add(Move1(knight, currentPosition, Position(newY, newX), true))
+            }
+        }
+    }
+    
+    return moves
 }
 
 data class Move(

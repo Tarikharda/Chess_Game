@@ -64,7 +64,19 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    signingConfigs {
+        create("release") {
+            storeFile = file("/home/itsmetarikov/dev/mobile/keystore/chess-key.jks")
+            storePassword = "itsmetarikov@3002"
+            keyAlias = "chess-key"
+            keyPassword = "itsmetarikov@3002"
+        }
+    }
     buildTypes {
+        release {
+            signingConfig = signingConfigs.getByName("release")
+        }
+
         getByName("release") {
             isMinifyEnabled = false
         }

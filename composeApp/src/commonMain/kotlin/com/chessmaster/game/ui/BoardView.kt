@@ -43,9 +43,22 @@ import org.jetbrains.compose.resources.painterResource
 fun BoardView(
     moves: String,
     onMoveChange: (String) -> Unit,
+    theme: com.chessmaster.game.theme.ChessTheme,
+    onSaveGame: (
+        board: MutableList<MutableList<Piece?>>,
+        moves: ArrayList<Move1>,
+        moveIndex: Int,
+        turn: PieceColor
+    ) -> Unit,
+    onShowHistory: () -> Unit,
+    onToggleTheme: () -> Unit,
+    loadedBoard: MutableList<MutableList<Piece?>>? = null,
+    loadedMoves: ArrayList<Move1>? = null,
+    loadedMoveIndex: Int? = null,
+    loadedTurn: PieceColor? = null
 ) {
 
-    var board by remember { mutableStateOf(WHITE_INITIAL_POSITION) }
+    var board by remember { mutableStateOf(loadedBoard ?: WHITE_INITIAL_POSITION) }
 
     var selectedPiece by remember { mutableStateOf<Piece?>(null) }
     var lastPieceClick by remember { mutableStateOf(Position(-1, -1)) }
@@ -55,16 +68,16 @@ fun BoardView(
     var currentMoves by remember { mutableStateOf<List<Move1>>(emptyList()) }
     var moveCnt by remember { mutableStateOf(0) }
 
-    var currentMoveIndex by remember { mutableStateOf(0) }
-    var currentBackNextIndex by remember { mutableStateOf(0) }
+    var currentMoveIndex by remember { mutableStateOf(loadedMoveIndex ?: 0) }
+    var currentBackNextIndex by remember { mutableStateOf(loadedMoveIndex ?: 0) }
 
-    var listOfMoves by remember { mutableStateOf<ArrayList<Move1>>(arrayListOf()) }
+    var listOfMoves by remember { mutableStateOf(loadedMoves ?: arrayListOf()) }
 
 
-    var turnColor by remember { mutableStateOf(BoardColors.lightSquare) }
-    var pieceTurnColor by remember { mutableStateOf<PieceColor>(PieceColor.WHITE) }
+    var turnColor by remember { mutableStateOf(if (loadedTurn == PieceColor.BLACK) Color.Black else theme.turnIndicatorWhite) }
+    var pieceTurnColor by remember { mutableStateOf(loadedTurn ?: PieceColor.WHITE) }
 
-    var squareStatusColor by remember { mutableStateOf(BoardColors.lightSquare) }
+    var squareStatusColor by remember { mutableStateOf(theme.lightSquare) }
 
     var yState by remember { mutableStateOf(0) }
     var xState by remember { mutableStateOf(0) }
@@ -76,9 +89,9 @@ fun BoardView(
                 for (x in 0 until 8) {
                     val blackColor = y % 2 == x % 2
                     var color = if (blackColor) {
-                        BoardColors.brownDarkSquare
+                        theme.darkSquare
                     } else {
-                        BoardColors.brownLightSquare
+                        theme.lightSquare
                     }
 
                     //numbers
@@ -93,11 +106,11 @@ fun BoardView(
 
                     if ((selectedPiece != null) &&
                             (lastPieceClick.y == yState && lastPieceClick.x == xState)) {
-                        squareStatusColor = BoardColors.hintMoveColor
+                        squareStatusColor = theme.hintMoveColor
                     } else if (previousPosition.y == yState && previousPosition.x == xState) {
-                        squareStatusColor = BoardColors.moveTraceColor
+                        squareStatusColor = theme.moveTraceColor
                     } else if (currentPosition.y == yState && currentPosition.x == xState) {
-                        squareStatusColor = BoardColors.moveTraceColor
+                        squareStatusColor = theme.moveTraceColor
                     } else {
                         squareStatusColor = color
                     }
@@ -161,7 +174,7 @@ fun BoardView(
                                         modifier = Modifier
                                             .size(20.dp)
                                             .clip(CircleShape)
-                                            .background(BoardColors.hintMoveColor)
+                                            .background(theme.hintMoveColor)
                                             .align(Alignment.Center)
                                             .clickable {
 
@@ -171,10 +184,10 @@ fun BoardView(
 
                                                 if(selectedPiece != null){
                                                    if (selectedPiece!!.p_color == PieceColor.WHITE) {
-                                                        turnColor =  Color.Black
+                                                        turnColor = theme.turnIndicatorBlack
                                                         pieceTurnColor = PieceColor.BLACK
                                                     } else {
-                                                        turnColor = BoardColors.lightSquare
+                                                        turnColor = theme.turnIndicatorWhite
                                                         pieceTurnColor = PieceColor.WHITE
                                                     }
                                                 }
@@ -277,9 +290,9 @@ fun BoardView(
 
                         pieceTurnColor = prePiece.p_color
                         turnColor = if (prePiece.p_color == PieceColor.WHITE) {
-                            BoardColors.lightSquare
+                            theme.turnIndicatorWhite
                         } else {
-                            Color.Black
+                            theme.turnIndicatorBlack
                         }
 
                         currentMoves = emptyList()
@@ -287,7 +300,7 @@ fun BoardView(
                 },
 
                 colors = ButtonDefaults.buttonColors(
-                    backgroundColor = /*if !(currentMoveIndex > 0) Color.LightGray else */Color.Gray,
+                    backgroundColor = theme.buttonColor,
                     contentColor = Color.White
                 )
             ) {
@@ -313,10 +326,10 @@ fun BoardView(
 
 
                          if (nextPiece.p_color == PieceColor.WHITE) {
-                            turnColor = Color.Black
+                            turnColor = theme.turnIndicatorBlack
                             pieceTurnColor = PieceColor.BLACK
                         } else {
-                            turnColor = BoardColors.lightSquare
+                            turnColor = theme.turnIndicatorWhite
                              pieceTurnColor = PieceColor.WHITE
                         }
 
@@ -329,7 +342,7 @@ fun BoardView(
                    }
                 },
                 colors = ButtonDefaults.buttonColors(
-                    backgroundColor = /*if !(currentMoveIndex < listOfMoves.size - 1) Color.LightGray else */Color.Gray,
+                    backgroundColor = theme.buttonColor,
                     contentColor = Color.White
                 )
             ) {
@@ -370,10 +383,10 @@ fun BoardView(
                     listOfMoves = arrayListOf()
 
 
-                    turnColor =  BoardColors.lightSquare
+                    turnColor = theme.turnIndicatorWhite
                     pieceTurnColor = PieceColor.WHITE
 
-                    squareStatusColor = BoardColors.lightSquare
+                    squareStatusColor = theme.lightSquare
 
                     yState = 0
                     xState = 0
@@ -382,16 +395,62 @@ fun BoardView(
                 }
         )
     }
+    
+    // Additional control buttons
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(10.dp),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+        Button(
+            onClick = { 
+                onSaveGame(board, listOfMoves, currentMoveIndex, pieceTurnColor)
+            },
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = Color(0xFF4CAF50),
+                contentColor = Color.White
+            )
+        ) {
+            Text("💾 Save")
+        }
+        
+        Button(
+            onClick = onShowHistory,
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = Color(0xFF2196F3),
+                contentColor = Color.White
+            )
+        ) {
+            Text("📜 History")
+        }
+        
+        Button(
+            onClick = onToggleTheme,
+            colors = ButtonDefaults.buttonColors(
+                backgroundColor = Color(0xFFFF9800),
+                contentColor = Color.White
+            )
+        ) {
+            Text("🌓 Theme")
+        }
+    }
 
 }
 
 @Composable
-fun MovesView(move: String) {
-    Text(
-        move,
+fun MovesView(move: String, theme: com.chessmaster.game.theme.ChessTheme) {
+    Box(
         modifier = Modifier
+            .fillMaxWidth()
+            .background(theme.backgroundColor)
             .padding(10.dp)
-    )
+    ) {
+        Text(
+            move,
+            color = theme.textColor
+        )
+    }
 }
 
 
